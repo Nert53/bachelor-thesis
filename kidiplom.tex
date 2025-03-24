@@ -1,8 +1,6 @@
-%%%  Ukázkový text a dokumentace stylu pro text závěrečné (bakalářské a
-%%%  diplomové) práce na KI PřF UP v Olomouci
+%%%  Šablona práce od:
 %%%  Copyright (C) 2012 Martin Rotter, <rotter.martinos@gmail.com>
 %%%  Copyright (C) 2014 Jan Outrata, <jan.outrata@upol.cz>
-
 
 %%  Pro získání PDF souboru dokumentu je třeba tento zdrojový text v
 %%  LaTeXu přeložit (dvakrát) programem pdfLaTeX.
@@ -80,11 +78,6 @@
 \title{Multiplatformní aplikace pro správu osobních financí}
 \title[english]{Cross-platform application for personal finance management}
 
-%% Volitelný podnázev práce, česky a anglicky. Měl by se vysázet na
-%% jeden řádek. Výchozí je prázdný.
-%% \subtitle{Ukázkový text a dokumentace stylu v \LaTeX{}u}
-%% \subtitle[english]{Sample text and documentation of the \LaTeX{} style}
-
 %% Jméno autora práce. Makro nemá nepovinný parametr pro uvedení
 %% jazyka.
 \author{Vojtěch Netrh}
@@ -111,7 +104,7 @@
   \LaTeX{} is recommended to be used as a template for real student's
   thesis text.}
 
-%% Klíčová slova práce, včetně anglických. Oddělená (obvykle) středníkem.
+%% Klíčová slova práce, včetně anglických. Oddělená středníkem.
 \keywords{Flutter; Dart; multiplatformní; osobní finance}
 \keywords[english]{Flutter; Dart; cross-platform; personal finance}
 
@@ -151,38 +144,34 @@
 
 \newcommand{\BibLaTeX}{\textsc{Bib}\LaTeX}
 
-% \noindent\textcolor{red}{\LARGE Upozornění: Následující text
-%   dokumentace stylu, vyjma přílohy~\ref{sec:ObsahData}, je rozpracovaná
-%   a (značně) neúplná verze!!!}
-
-% ----- tady začíná  MŮJ TEXT
+% ----- tady začíná MNOU PSANÝ TEXT
 
 \section{Úvod}
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v našich životech podstatnou roli. Z hlediska osobního pohledu jednoho člověka je užitečné mít ve svých financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat.
 
-\subsection{Požadavky na tvorbu}
-Požadované funkcionality na tuto aplikaci se současně odvíjely ode mě i mého vedoucího pane Konečného. Oba jsme si představovali mít jednoduchou aplikaci pro správu našich finančních prostředků.  
+\subsection{Motivace a požadavky}
+Požadované funkcionality na tuto aplikaci se současně odvíjely ode mě i mého vedoucího pane Konečného. Oba jsme si představovali mít jednoduchou aplikaci pro správu našich finančních prostředků. 
 
+\section{Přehled existujících řešení}
 
+\subsection{Wallet}
+
+\subsection{1Money}
+
+\subsection{GnuCash}
+
+\subsection{Homebank}	
+
+\section{Programátorská příručka}
+
+Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou rozšíření. Část práce specifická pro platformu Android jsem realizoval v prostředí Android Studio, především se jednalo o úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle.
+
+\section{Uživatelská příručka}
+
+\section{Možná rozšíření aplikace}
 
 
 % ----- tady začíná to co v práci bylo dáno
-
-\section{Styly pro psaní bakalářských a diplomových prací}
-Toto jsou styly pro psaní bakalářských a diplomových prací přes typografický systém \LaTeX{}, tedy \textbf{kistyles}.
-
-\subsection{Požadavky a podprovaná prostředí}
-Sada balíku \textbf{kistyles} podporuje následující distribuce systému \LaTeX{}:
-\begin{itemize}
-\item \TeX{} Live.
-\end{itemize}
-
-Jsou podporovány všechny výstupní ovladače, tedy jak \textbf{dvi}, tak \textbf{pdf} i \textbf{ps}. Funkčnost zmiňovaných distribucí byla ověřena na několika operačních systémech, mezi které patří:
-\begin{enumerate}
-\item Windows $8.1$,
-\item Archlinux,
-\item Debian GNU/Linux.
-\end{enumerate}
 
 Důrazně se doporučuje používat aktuální verzi dané distribuce systému \LaTeX{}.
 
@@ -285,52 +274,6 @@ program & \vtop{\hbox{\strut infpvs}\hbox{\strut ainfvs}} & Specifikuje studijn�
 \end{center}
 %\end{table}
 
-\subsection{Geometrie stránky}
-Tento styl používá list velikosti $A4$. Pro sazbu prací je třeba použít jednostrannou sazbu. Levý okraj je rozšířen s ohledem na vazbu výsledné knižní podoby práce.
-
-\section{Sazba částí dokumentu}
-\subsection{Sazba úvodní strany či obsahu}
-Vysázení všech podstatných částí úvodu práce obstará makro \kiinlinecode{TeX}{!}{\\maketitle}. Pro správné vysázení všech částí a meta-informací je potřeba použí makra \kiinlinecode{TeX}{!}{\\title}, \mbox{\kiinlinecode{TeX}{!}{\\author}} a další. Jejich přehled lze najít ve zdrojovém souboru tohoto dokumentu. V případě použítí \textbf{pdf} výstupu se generuje i dodatečná hlavička souboru s meta-informacemi jako je autor dokumentu, název práce či dalšími.
-
-\subsection{Závěry}
-Závěr práce by se měl poskytnout jak v původním jazyce práce, tak v jazyce anglickém. Pro sazbu závěru jsou k dispozici příslušná makra. Berte na vědomí, že v anglickém závěru se aktivuje plně anglická sazba se všemi konvencemi. Tedy je třeba používat anglické uvozovky a další správné typografické prvky.
-
-\begin{kicode}{TeX}{}{Sazba závěrů}
-% Tiskne český závěr práce.
-\begin{kiconclusions}
-Závěr práce v \uv{českém} jazyce.
-\end{kiconclusions}
-
-% Tiskne anglický závěr práce.
-\begin{kiconclusions}[english]
-Thesis conclusions written in \uv{English}.
-\end{kiconclusions}
-\end{kicode}
-
-\subsection{Matematika}
-Pro sazbu matematiky je k dispozici sada standardních maker.
-$$\langle f \rangle, \lfloor g \rfloor,
-\lceil h \rceil, \ulcorner i \urcorner$$
-
-$$\left\{\frac{x^2}{y^3}\right\}$$
-
-$$
-A_{m,n} =
- \begin{pmatrix}
-  a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
-  a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
-  \vdots  & \vdots  & \ddots & \vdots  \\
-  a_{m,1} & a_{m,2} & \cdots & a_{m,n}
- \end{pmatrix}
-$$
-
-$$
-M = \begin{bmatrix}
-       \frac{5}{6} & \frac{1}{6} & 0           \\[0.3em]
-       \frac{5}{6} & 0           & \frac{1}{6} \\[0.3em]
-       0           & \frac{5}{6} & \frac{1}{6}
-     \end{bmatrix}
-$$
 
 \subsection{Sazba literatury}
 Pro sazbu literatury má uživatel dvě možnosti. Může použít služeb balíků \BibLaTeX{}, který je pro \textbf{kistyles} zapnutý, či lze použít manuální sazbu bibliografie.
@@ -342,203 +285,6 @@ Formát daného souboru je nad rámec této dokumentace a je na každém uživat
 Dokument, který využívá \BibLaTeX{} je následně nutné přeložit jak pomocí překladače zvoleného ovladače, tak pomocí aplikace \kiinlinecode{text}{!}{biber}. Více informací poskytne soubor \kiinlinecode{text}{!}{Makefile} z distribuce tohoto stylu.
 
 Výhodou tohoto přístupu je, že bibliografie se vysází automaticky a (obvykle) není třeba manuální úprava formátování.
-
-\subsubsection{Manuální sazba bibliografie}
-Manuální sazba obnáší vysázení prostředí \kiinlinecode{text}{!}{thebibliography} ručně. To je nad rámec tohoto dokumentu. Ukázku tohoto přístupu lze samozřejmě nalézt ve zdrojovém souboru tohoto dokumentu nebo také \href{http://www.math.uiuc.edu/~hildebr/tex/bibliographies.html}{zde}.
-
-Pro aktivaci manuální sazby bibliografie je třeba volat třídu \kiinlinecode{text}{!}{kidiplom} s parametrem \kiinlinecode{text}{!}{biblatex=false}. Mějte, prosím, na paměti, že v tomto módu jsou makra \kiinlinecode{text}{!}{\\bibliography} a \kiinlinecode{text}{!}{\\printbibliography} nedostupná.
-
-\subsection{Drobná makra}
-Základní styl definuje hned několik maker pro usnadnění práce. Například makro \kiinlinecode{TeX}{!}{\\buno} vysází řetezec \uv{bez újmy na obecnosti}. Je k dispozici i verze s prvním velkým písmenem, \kiinlinecode{TeX}{!}{\\Buno}.
-
-Je rovněž možno přidávat položky do seznamu zkratek. K tomu slouží makro \mbox{\kiinlinecode{TeX}{!}{\\newacronym}}, které lze použít například jednoduše jako \kiinlinecode{TeX}{!}{\\newacronym\{UPOL\}\{UPOL\}\{\\kitextunivcz\}}. Na danou zkratku se pak lze odkazovat jednoduše, \mbox{\kiinlinecode{TeX}{!}{\\gls\{UPOL\}}}.
-
-Sazba uvozovek respektuje nastavení částí dokumentu, a proto se doporučuje používat makro \kiinlinecode{TeX}{!}{\\uv}. V anglické závěru práce toto platí taky, viz tato PDF ukázka.
-
-Styl podporuje sazbu odstavců v tabulkách, více obsahuje tabulka \ref{tab:odstavce}.
-
-\begin{table}
-\begin{center}
-\caption{Odstavce v tabulkách}\label{tab:odstavce}
-\begin{tabular}{L{4cm}|R{4cm}|L{4cm}}
-\lipsum[23] & \lipsum[22] & \lipsum[21]
-\end{tabular}
-\end{center}
-\end{table}
-
-K dispozici jsou také makra pro sazbu \csharp{} (\kiinlinecode{TeX}{!}{\\csharp}) či \cpp{} (\kiinlinecode{TeX}{!}{\\cpp}).
-
-%% v případě tvorby rejstříku přeložit vygenerovaný soubor .idx
-%% programem Makeindex a v případě tvorby seznamu zkratek spustit
-%% program Makeglossaries s parametrem jméno souboru zdrojového textu
-%% bez přípony a následně opět (dvakrát) přeložit zdrojový text
-%% programem pdfLaTeX.
-
-\subsection{Sazba rejstříku}
-Sazba rejstříku sestává z několika kroků:
-
-\begin{enumerate}
-\item Je třeba přes volbu \kiinlinecode{TeX}{!}{index=true} rejstříkování povolit.
-\item Použítím makra \kiinlinecode{TeX}{!}{\\index} rejstříkovat vybrané pojmy.
-\item Kompilovat s použitím utility \kiinlinecode{TeX}{!}{makeindex}. Pro specifika tohoto kroku si stačí prohlédnout soubor \kiinlinecode{text}{!}{Makefile}.
-\end{enumerate}
-
-Makro \kiinlinecode{TeX}{!}{\\index} je redefinováno tak, že sází klikací odkaz na výraz v rejstříku. Je doporučeno jej použít ihned za výrazem\index{výraz}.
-
-\textbf{Omezení redefinovaného makra \kiinlinecode{TeX}{!}{\\index}}: klikací odkaz nefunguje, pokud použijete konstrukci \kiinlinecode{TeX}{!}{\\index\{výraz|makro\}} (resp. \kiinlinecode{TeX}{!}{\\index\{výraz|(makro\}}), např. \kiinlinecode{TeX}{!}{\\index\{výraz|textit\}}.
-
-Rejstřík lze vysázet pomocí makra \kiinlinecode{TeX}{!}{\\printindex}.
-
-\subsection{Sazba zdrojových kódů}
-Styl nabízí dva způsoby sazby zdrojových kódů:
-
-\begin{enumerate}
-\item Sazbu řádkových kódů, například \kiinlinecode{CSS}{!}{background-color: white;}. K tomu slouží makro formátu \kiinlinecode{TeX}{!}{\\kiinlinecode\{jazyk\}\{separátor\}\{kód\}}. Za separátor je vhodné volit jakýkoliv znak, který se nevyskytuje v samotném sázeném zdrojovém kódu. Za jazyk je nutno dosadit jeden z těchto: C, TeX, PHP, HTML, Lisp, SQL, TeX, Python, Java, TutorialD, text, csharp, cpp, JavaScript, CSS.
-
-\item Sazbu zdrojových kódu do separátních prostředí. Takto vytištěný kód se objeví v seznamu zdrojových kódů. Ukázka například zdrojový kód \ref{kod:cpp}. Ukázku sazby naleznete ve zdrojovém kódu tohoto dokumentu.
-\end{enumerate}
-
-\newacronym{UPOL}{UPOL}{\kitextunivcz}
-
-\begin{definition}[Název definice]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. \gls{UPOL}
-\end{definition}
-
-\begin{proof}[Název důkazu]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{proof}
-
-\begin{remark}[Pumpovací věta]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{remark}
-
-\begin{example}[Pumpovací věta]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{example}
-
-\begin{lemma}[Název definice]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{lemma}
-
-\begin{consequence}[Název důkazu]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{consequence}
-
-\begin{theorem}[Pumpovací věta]
-Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd. Abcd.
-\end{theorem}
-
-
-\begin{kicode}{cpp}{kod:cpp}{\cpp}
-int main("cs acsa") // komentar
-int main("cs acsa") // komentar
-int main("cs acsa") // komentar
-int main("cs acsa") // komentar
-int main("cs acsa") // komentar
-\end{kicode}
-
-\begin{kicode}{JavaScript}{}{JS}
-new object() // komentar
-\end{kicode}
-
-\begin{kicode}{csharp}{}{\csharp}
-public static int main("cs acsa") // komentar
-\end{kicode}
-
-\begin{kicode}{SQL}{}{SQL}
-SELECT * FROM table_1; /* komentar */
-\end{kicode}
-
-\begin{kicode}{TutorialD}{}{TutorialD}
-table_1 AND table_2;
-\end{kicode}
-
-%% Závěry práce. V jazyce práce a anglicky. Text pro jiný než
-%% nastavený jazyk práce (nepovinným parametrem language makra
-%% \documentclass, výchozí český) se zadává použitím makra s uvedením
-%% jazyka jako nepovinného parametru.
-\begin{kiconclusions}
-Závěr práce v \uv{českém} jazyce.
-\end{kiconclusions}
-
-\begin{kiconclusions}[english]
-Thesis conclusions in \uv{English}.
-\end{kiconclusions}
-
-%% Přílohy obsahu textu práce, za makrem \appendix.
-\appendix
-
-\section{První příloha}
-Text první přílohy
-
-\section{Druhá příloha}
-Text druhé přílohy
-
-%% Obsah elektronických dat. Poslední příloha. Upravte podle vlastní
-%% práce!
-\section{Obsah elektronických dat} \label{sec:ObsahData}
-
-Na samotném konci textu práce je uveden stručný popis obsahu
-elektronických dat odevzdaných v systému katedry informatiky spolu s
-textem. Tato data jsou nedílnou součástí práce a tvoří (datovou)
-přílohu textu práce. Povinné položky struktury dat jsou:
-
-\begin{description}
-
-\item[\texttt{text/}] \hfill \\
-  Adresář s textem práce ve formátu PDF, vytvořený s~použitím
-  závazného stylu KI PřF UP v~Olomouci pro závěrečné práce, včetně
-  všech (textových) příloh, a~všechny soubory potřebné pro
-  bezproblémové vytvoření PDF dokumentu textu (případně v~ZIP
-  archivu), tj.~zdrojový text textu a příloh, vložené obrázky, apod.
-
-\item[\texttt{README.*}] \hfill \\
-  Textový soubor (s příponou např. \texttt{.txt}) s informacemi o
-  opakovatelném způsobu použití ostatních dat práce -- typicky plně
-  reprodukovatelný co nejúplnější funkční postup zprovoznění software
-  vytvořeného v~rámci práce, tzn. jeho případné instalace/nasazení a
-  spuštění, včetně uvedení všech požadavků pro bezproblémový provoz;
-  za zprovoznění software se nepovažuje zpřístupnění (např. po
-  Internetu) již někde zprovozněného software.
-
-\item[\texttt{*}] \hfill \\
-  Adresáře a soubory s veškerými ostatními autorskými daty práce
-  (případně v~ZIP archivu) -- typicky spustitelné a další soubory
-  software vytvořeného v rámci práce potřebné pro bezproblémový provoz
-  software, případně jeho instalační program, a kompletní zdrojové
-  texty software a další data nutná pro plně reprodukovatelné korektní
-  vytvoření spustitelných souborů.
-
-\end{description}
-
-Dále mohou data obsahovat například:
-
-\begin{itemize}
-
-%\item[\texttt{data/}] \hfill \\
-\item
-  ukázková a~testovací data použitá v~práci nebo pro potřeby posouzení
-  práce v rámci její obhajoby,
-
-%\item[\texttt{literature/}] \hfill \\
-\item
-  položky bibliografie v elektronické podobě, příp.~jiná relevantní literatura
-  a dokumentace vztahující se k~práci,
-
-%\item[\texttt{install/}] \hfill \\
-\item
-  cizí data (software) potřebná pro bezproblémové použití autorských
-  dat práce (software), která nejsou standardní součástí
-  předpokládaného (softwarového) vybavení uživatele.
-
-\end{itemize}
-
-U~veškerých cizích obsažených materiálů jejich
-zahrnutí dovolují podmínky pro jejich veřejné šíření nebo přiložený souhlas
-držitele práv k užití. Pro všechny použité (a~citované) materiály,
-u~kterých toto není splněno a~nejsou tak obsaženy, je uveden
-jejich zdroj, např.~webová adresa, v~bibliografii nebo textu práce
-nebo souboru \texttt{README.*}.
 
 %% -------------------------------------------------------------------
 
@@ -565,7 +311,7 @@ nebo souboru \texttt{README.*}.
 % \end{thebibliography}
 
 %% Sazba volitelného rejstříku, za bibliografií.
-\printindex
+%% \printindex
 
 \end{document}
 

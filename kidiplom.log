@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  24 MAR 2025 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  24 MAR 2025 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,29 +1130,29 @@ Package biblatex Warning: Attempt to redefine deprecated '\mkbibnamelast'.
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'urldate=iso' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 139.
+(biblatex)                Setting 'seconds=true' on input line 132.
 
 (./kidiplom.aux)
 \openout1 = `kidiplom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1176,7 +1176,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 139.
+Package hyperref Info: Link coloring ON on input line 132.
 \c@lstlisting=\count485
 
 (./kidiplom.glsdefs)
@@ -1239,8 +1239,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kidiplom.bbl' found.
 
 (./kidiplom.bbl)
-Package biblatex Info: Reference section=0 on input line 139.
-Package biblatex Info: Reference segment=0 on input line 139.
+Package biblatex Info: Reference section=0 on input line 132.
+Package biblatex Info: Reference segment=0 on input line 132.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1278,50 +1278,50 @@ Package biblatex Info: Reference segment=0 on input line 139.
 <graphics/kititle-cz-nofont.pdf, id=4, 375.4025pt x 72.27pt>
 File: graphics/kititle-cz-nofont.pdf Graphic file (type pdf)
 <use graphics/kititle-cz-nofont.pdf>
-Package pdftex.def Info: graphics/kititle-cz-nofont.pdf  used on input line 144
+Package pdftex.def Info: graphics/kititle-cz-nofont.pdf  used on input line 137
 .
 (pdftex.def)             Requested size: 225.24323pt x 43.36232pt.
 <graphics/UP_znak.pdf, id=5, 101.59215pt x 101.59215pt>
 File: graphics/UP_znak.pdf Graphic file (type pdf)
 <use graphics/UP_znak.pdf>
-Package pdftex.def Info: graphics/UP_znak.pdf  used on input line 144.
+Package pdftex.def Info: graphics/UP_znak.pdf  used on input line 137.
 (pdftex.def)             Requested size: 101.59187pt x 101.59187pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-44.
+37.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-44.
+37.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-144.
+137.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-144.
+137.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 144.
+(Font)              <12> on input line 137.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 144.
+(Font)              <8> on input line 137.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 144.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144
+(Font)              <6> on input line 137.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 137
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144
+LaTeX Font Info:    Trying to load font information for U+msb on input line 137
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1334,7 +1334,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./graphics/kititle-cz-nofont.pdf> <./
 graphics/UP_znak.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 144.
+(Font)              <10.95> on input line 137.
  [2] [3
 
 ] [4
@@ -1352,12 +1352,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [6
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-77.
-
-(c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
@@ -1380,78 +1374,71 @@ File: lstlang3.sty 2024/03/11 1.10a listings language file
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 198.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 19
-8.
+nput line 187.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 18
+7.
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (11.6933pt too wide) in alignment at lines 222--284
+Overfull \hbox (11.6933pt too wide) in alignment at lines 211--273
  [] [] [] 
  []
 
 [7
 
-{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2024/texm
-f-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips
-/lm/lm-mathit.enc}] [8{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
- [9]
+] [8{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [9]
 Overfull \vbox (14.97247pt too high) has occurred while \output is active []
 
 
-[10] [11{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texliv
-e/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (12.74097pt too wide) in paragraph at lines 336--337
+[10]
+Overfull \hbox (12.74097pt too wide) in paragraph at lines 279--280
 \T1/lmr/m/n/12 Pro sazbu li-te-ra-tury má uºi-va-tel dv¥ moº-nosti. M·ºe po-u-º
 ít slu-ºeb ba-lík· \T1/lmr/m/sc/12 Bib\T1/lmr/m/n/12 L[]T[]X,
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 337.
+(Font)              using `T1/lmr/bx/n' instead on input line 280.
 
-
-Overfull \hbox (33.70378pt too wide) in paragraph at lines 354--355
-[][][][][][][][][][][]\T1/lmr/m/n/12 . Na da-nou zkratku se pak lze od-ka-zo-va
-t jed-no-du²e, []. 
- []
-
-[12]
-\@gls@deffile=\write11
-\openout11 = `kidiplom.glsdefs'.
-
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 403.
-Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
-line 407.
- [13] [14]
-Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 411.
-Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 415.
-Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
-line 419.
-Package hyperref Info: bookmark level for unknown consequence defaults to 0 on 
-input line 423.
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 427.
- [15] [16] [17
-
-] [18
-
-] [19
-
-] [20]
+[11]
 No file kidiplom.acr.
-[21
+[12
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 556.
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
 
-No file kidiplom.ind.
 
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (9.75381pt too wide) in paragraph at lines 303--303
+[]\T1/lmr/m/it/12 TUGBoat\T1/lmr/m/n/12 . 1980-. Do-stup-ný také z: $\OMS/lmsy/
+m/n/12 h$[][]$\T1/pcr/m/n/12 h t t p  : / / t u g b o a t  . t u g  . o r g /$[
+][]$\OMS/lmsy/m/n/12 i$\T1/lmr/m/n/12 . ISSN 1222-
+ []
+
+[13
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \hbox (10.81955pt too wide) in paragraph at lines 303--303
+[]\T1/lmr/m/n/12 Geniální, Ji°í (ed.). \T1/lmr/m/it/12 Mi-mo-°ádn¥ uºi-te£ný sb
+or-ník\T1/lmr/m/n/12 . Praha: Aca-de-mia, 2007. ISBN 978-
+ []
+
+[14] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./kidiplom.aux)
  ***********
@@ -1462,57 +1449,32 @@ L3 programming layer <2024-03-14>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                kidiplom
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 \openout1 = `kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30257 strings out of 474104
- 532750 string characters out of 5747502
- 1983496 words of memory out of 5000000
- 51974 multiletter control sequences out of 15000+600000
- 631418 words of font info for 86 fonts, out of 8000000 for 9000
+ 30370 strings out of 474104
+ 536291 string characters out of 5747502
+ 1970496 words of memory out of 5000000
+ 52145 multiletter control sequences out of 15000+600000
+ 626806 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,11n,125p,2606b,2067s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.8} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:UPOL} has been referenced but does not exist, r
-eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{1ind.ind} has been referenced but does not exist, r
-eplaced by a fixed one
-
-<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/t
-exmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/lm/lmbx8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc
-10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive
-/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/lm/lmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/l
-m/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/lm/lmri12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/
-texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf
--dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/c
-ourier/ucrb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
-b>
-Output written on kidiplom.pdf (21 pages, 360824 bytes).
+ 126i,10n,125p,2606b,4630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024
+/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/
+type1/public/lm/lmbx8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmc
+sc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/f
+onts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/l
+m/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/tex
+live/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/
+courier/ucrr8a.pfb>
+Output written on kidiplom.pdf (14 pages, 292633 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 120 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
