@@ -12,7 +12,6 @@
 
 %%  Postup získání Postscriptového souboru je popsán v dokumentaci.
 
-
 %%  Třída dokumentu implementující styl pro závěrečnou práci. Vybrané
 %%  nepovinné parametry (ostatní v dokumentaci):
 
@@ -60,7 +59,7 @@
 %  language=english,
 %  font=sans,
   figures=false,
-%  tables=false,
+  tables=false,
 %  theorems,
 %  sourcecodes,
   glossaries,
@@ -116,7 +115,7 @@
 
 %% Volitelné poděkování. Stručné! Výchozí je prázdné. Makro nemá
 %% nepovinný parametr pro uvedení jazyka.
-\thanks{Děkuji panu doc. RNDr. Janu Konečnému Ph. D. za cenné rady a podporu v průběhu tvorby práce. V neposlední řadě děkuji rodině a přítelkyni za trpělivost v průběhu celé tvorby práce.}
+\thanks{Děkuji panu doc. RNDr. Janu Konečnému Ph. D. za cenné rady a podněty při tvorbě práce. Svým blízkým za podporu běheme celého bakalářského studia.}
 
 %% Cesta k souboru s bibliografií pro její sazbu pomocí BibLaTeXu
 %% (zvolenou nepovinným parametrem biblatex makra
@@ -150,17 +149,29 @@
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v našich životech podstatnou roli. Z hlediska osobního pohledu jednoho člověka je užitečné mít ve svých financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat.
 
 \subsection{Motivace a požadavky}
-Požadované funkcionality na tuto aplikaci se současně odvíjely ode mě i mého vedoucího pane Konečného. Oba jsme si představovali mít jednoduchou aplikaci pro správu našich finančních prostředků. 
+Požadované funkcionality na tuto aplikaci se současně odvíjely ode mě i mého vedoucího pane Konečného. Oba jsme si představovali mít jednoduchou aplikaci pro správu našich finančních prostředků.
 
 \section{Přehled existujících řešení}
+K danému tématu již exstuje řada aplikací nabízejících nástroje pro správu financí. Každé řešení přistupuje k problému jiným způsobem. 
+
+Nejblíže je z hlediska uživatele poskytnutí základních nástrojů přímo v bankovní aplikaci. Z mého pohledu je to nejméně vhodné řešení hned z několika důvodů:
+\begin{itemize}
+  \item obvykle má člověk účet u více bank (aplikace jedné z nich neposkytuje přehled o celkových financích),
+  \item jen část (ikdyž v dnešní době většinová) transakcí je prováděna pomocí platební karty,
+  \item uživatel nemusí chtít mít všechny pohyby na účtu zahrnuty do celkové analýzy.
+\end{itemize}
+
+Dalším odvětví jsou aplikace třetích stran, které nabízí různé možnosti na základě daného typu a zaměření.
 
 \subsection{Wallet}
+Mobilní aplikace dostupné na platformy Android i iOS, za jejíž stažení uživatel v první fázi nezaplatí.
 
 \subsection{1Money}
+Mobilní aplikace dostupná pouze pro platformu iOS (na konci roku 2024 byla stále dostupná i na Google Play Store). 
 
 \subsection{GnuCash}
 
-\subsection{Homebank}	
+\subsection{Homebank}
 
 \section{Programátorská příručka}
 
@@ -171,11 +182,10 @@ Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou roz
 \section{Uživatelská příručka}
 
 \section{Možná rozšíření aplikace}
+Osobně si myslím, že nikdy se nedá o softwaru prohlásit, že by nepotřeboval vývoj a není možné mu dodat vylepšení. Už jen vzhledem k vnějšímu vývoji technologií a proměně uživatelských požadavků je nutné aplikaci udržovat aktuální. Se změnou požadavků se pojí rozšíření o nové funkce a nebo naopak odstranění funkcí nepouživaných.
 
 
 % ----- tady začíná to co v práci bylo dáno
-
-Důrazně se doporučuje používat aktuální verzi dané distribuce systému \LaTeX{}.
 
 %%%  Po přeložení programem CSLaTeX (třikrát) je potřeba použít
 %%%  program DVIPS a takto získaný PostScriptový soubor vytisknout
@@ -184,114 +194,14 @@ Důrazně se doporučuje používat aktuální verzi dané distribuce systému \
 %%%  Rovněž je možné použít program DVIPDFM a vytvořit z dokumentu
 %%%  soubor ve formátu PDF včetně hypertextových odkazů.
 
-\subsection{Přepínače}
-Styl kidiplom je z hlediska uživatele zastoupen ekvivalentně nazvanou třídou, kterou je třeba volat na záčátku dokumentu:
-\begin{kicode}{TeX}{}{Volání třídy \textbf{kidiplom}}
-\documentclass[
-  master,
-  program=ainfvs,
-  printversion,
-  biblatex,
-  language=english,
-  font=sans,
-  figures=false,
-  tables=false,
-  theorems,
-  sourcecodes,
-  joinlists,
-  glossaries,
-  index,
-  encoding=utf8,
-  bibencoding=utf8
-]{kidiplom}
-\end{kicode}
-
-Následuje přehled přepínačů, je vždy uvedeno jméno přepínač, včetně výchozí hodnoty. Přepínače uvádí tabulka \ref{tab:prepinace}.
-
-%\begin{table}
-\begin{center}
-\begin{longtable}{>{\bfseries}l >{\ttfamily}c L{8cm}}
-\caption{Seznam přepínačů}\label{tab:prepinace}\\
-  {\normalfont Přepínač} & {\normalfont Výchozí hodnota} & {\normalfont Popis} \\
-\hline
-master & false & Povolí nebo zakáže režim diplomové práce. Výchozí režim je tedy bakalářská práce. \\
-
-printversion & false & Je-li zapnuto, pak budou odkazy vysázeny optimalizovaně pro knižní sazbu. Tuto volbu je nutno použít pro tisk práce. \\
-
-biblatex & false & Zapne sazbu bibliografie přes balík \BibLaTeX{}. \\
-
-language & czech & Jazyk textu práce. Možné hodnoty jsou \textbf{czech},
-\textbf{english} a \textbf{slovak}. \\
-
-font & serif & Zapne či vypne podporu pěkného bezpatkového fontu. Možné hodnoty jsou:\newline
-\begin{description}\setlength{\itemsep}{-1ex}
-\item[serif] Patkové písmo (Computer Modern).
-\item[sans] Bezpatkové písmo (Iwona).
-\end{description} \\[-3ex]
-
-figures & true & Je-li zapnuto, pak v seznamech položek bude zahrnut seznam obrázků. \\
-
-tables & true & Je-li zapnuto, pak v seznamech položek bude zahrnut seznam tabulek. \\
-
-theorems & false & Je-li zapnuto, pak v seznamech bude zahrnut seznam teorémů. \\
-
-sourcecodes & false & Je-li zapnuto, pak v seznamech bude zahrnut seznam zdrojových kódů. \\
-
 %%% Argument `joinlists' způsobí zřetězení seznamů obrázků, tabulek,
 %%% vět a zdrojových kódů. Není-li použít, všechny seznamy jsou
 %%% uvedeny na samostatných stránkách.
 
-joinlists & true & Je-li zapnuto, pak seznamy obrázků, tabulek, vět a
-zdrojových kódů sázené za obsahem nebudou rozděleny na samostatné stránky. \\
-
-glossaries & false & Je-li zapnuto, pak na konci dokumentu bude vysázen seznam zkratek. \\
-
-index & false & Zapíná podporu sazby rejstříku. \\
-
 %%  'encoding=kódování' pro kódování tohoto a vložených zdrojových
 %%  textů v kódování jiném než výchozím utf8
-encoding & utf8 & Kódování souboru dokumentu, doporučuje se ponechat výchozí hodnotu. \\
-
-bibencoding & utf8 & Kódování souboru bibliografie. Tato volba má
-smysl pouze, pokud je použita bibliografie skrze balíček \BibLaTeX{}. \\
-
-program & \vtop{\hbox{\strut infpvs}\hbox{\strut ainfvs}} & Specifikuje studijní program/obor (specializaci):\newline
-\begin{description}
-\item[infoi] Informatika (Obecná informatika)\,--\,bakalářský i navazující magisterský,
-\item[infpvs] Informatika (Programování a vývoj software)\,--\,bakalářský,
-\item[itp] Informační technologie\,--\,bakalářský, prezenční forma,
-\item[itk] Informační technologie\,--\,bakalářský, kombinovaná forma,
-\item[infui] Informatika (Umělá inteligence)\,--\,navazující magisterský,
-\item[ainfvs] Aplikovaná informatika (Vývoj software)\,--\,navazující magisterský,
-\item[ainfpst] Aplikovaná informatika (Počítačové systémy a technologie)\,--\,navazující magisterský,
-\item[infv] Informatika pro vzdělávání\,--\,bakalářský,
-\item[uinf] Učitelství informatiky pro střední školy\,--\,navazující magisterský,
-\item[binf] Bioinformatika\,--\,bakalářský i navazující magisterský,
-\item[inf] Informatika (bez specializací)\,--\,bakalářský i navazující magisterský,
-\item[ainfp] Aplikovaná informatika (bez specializací)\,--\,bakalářský, prezenční forma,
-\item[ainfk] Aplikovaná informatika (bez specializací)\,--\,bakalářský, kombinovaná forma,
-\item[ainf] Aplikovaná informatika (bez specializací)\,--\,navazující magisterský.
-\end{description}
-\end{longtable}
-\end{center}
-%\end{table}
-
-
-\subsection{Sazba literatury}
-Pro sazbu literatury má uživatel dvě možnosti. Může použít služeb balíků \BibLaTeX{}, který je pro \textbf{kistyles} zapnutý, či lze použít manuální sazbu bibliografie.
-\subsubsection{Sazba bibliografie přes \BibLaTeX{}}
-Při použití tohoto balíku se data o použité literatuře ukládají do dedikovaného textového souboru, ukázku najdete i v tomto stylu pod jménem \kiinlinecode{text}{!}{bibliografie.bib}.
-
-Formát daného souboru je nad rámec této dokumentace a je na každém uživateli, aby si jej nastudoval. Bibliografie se tiskne makrem \kiinlinecode{TeX}{!}{\\printbibliography}. Taktéž v preambuli dokumentu je třeba definovat, který soubor data bibliografie obsahuje, tedy například \kiinlinecode{TeX}{!}{\\bibliography\{bibliografie.bib\}}.
-
-Dokument, který využívá \BibLaTeX{} je následně nutné přeložit jak pomocí překladače zvoleného ovladače, tak pomocí aplikace \kiinlinecode{text}{!}{biber}. Více informací poskytne soubor \kiinlinecode{text}{!}{Makefile} z distribuce tohoto stylu.
-
-Výhodou tohoto přístupu je, že bibliografie se vysází automaticky a (obvykle) není třeba manuální úprava formátování.
 
 %% -------------------------------------------------------------------
-
-%% Sazba volitelného seznamu zkratek, za přílohami.
-\printglossary
 
 %% Sazba povinné bibliografie, za přílohami (případně i za seznamem
 %% zkratek). Při použití BibLaTeXu použijte makro
@@ -299,25 +209,12 @@ Výhodou tohoto přístupu je, že bibliografie se vysází automaticky a (obvyk
 
 %% Sazba i v textu necitovaných zdrojů, při použití
 %% BibLaTeXu. Volitelné.
-\nocite{*}
+%% \nocite{*}
 %% Vlastní sazba bibliografie při použití BibLaTeXu.
-\printbibliography
+%% \printbibliography
 
-%% Bibliografie, včetně sazby, při NEpoužití BibLaTeXu.
-% \begin{thebibliography}{9}
-%\bibitem{kniha2} \uppercase{Hawke}, Paul. NanoHttpd: Light-weight HTTP server designed for embedding in other applications. GitHub [online]. 2014-05-12. [cit. 2014-12-06]. Dostupné z: \url{https://github.com/NanoHttpd/nanohttpd}
-%
-%\bibitem{jeske13} \uppercase{Jeske}, David; \uppercase{Novák}, Josef. Simple HTTP Server in \csharp: Threaded synchronous HTTP Server abstract class, to respond to HTTP requests. CodeProject: For those who code [online]. 2014-05-24. [cit. 2014-12-06]. Dostupné z: \url{http://www.codeproject.com/Articles/137979/Simple-HTTP-Server-in-C}
-%
-%\bibitem{uzis2012} \uppercase{ÚSTAV ZDRAVOTNICKÝCH INFORMACÍ A STATISTIKY ČR}. Lékaři, zubní lékaři a farmaceuti 2012 [online]. Praha 2, Palackého náměstí 4: Ústav zdravotnických informací a statistiky ČR, 2012 [cit. 2014-12-06]. ISBN 978-80-7472-089-5. Dostupné z: \url{http://www.uzis.cz/publikace/lekari-zubni-lekari-farmaceuti-2012}
-% \end{thebibliography}
 
 %% Sazba volitelného rejstříku, za bibliografií.
 %% \printindex
 
 \end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:

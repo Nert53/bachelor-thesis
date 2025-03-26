@@ -1,15 +1,11 @@
 \babel@toc {czech}{}\relax 
-\contentsline {section}{\numberline {1}Úvod}{7}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Motivace a požadavky}{7}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Přehled existujících řešení}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Wallet}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}1Money}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {1}Úvod}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivace a požadavky}{6}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Přehled existujících řešení}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Wallet}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}1Money}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}GnuCash}{7}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Homebank}{7}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Programátorská příručka}{7}{section.3}%
 \contentsline {section}{\numberline {4}Uživatelská příručka}{7}{section.4}%
 \contentsline {section}{\numberline {5}Možná rozšíření aplikace}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Přepínače}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Sazba literatury}{11}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Sazba bibliografie přes \textsc {Bib}\LaTeX {}}{11}{subsubsection.5.2.1}%
-\contentsline {section}{Seznam zkratek}{12}{section*.3}%
