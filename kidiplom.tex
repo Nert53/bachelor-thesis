@@ -148,8 +148,10 @@
 \section{Úvod}
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v našich životech podstatnou roli. Z hlediska osobního pohledu jednoho člověka je užitečné mít ve svých financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat.
 
-\subsection{Motivace a požadavky}
+\subsection{Motivace}
 Požadované funkcionality na tuto aplikaci se současně odvíjely ode mě i mého vedoucího pane Konečného. Oba jsme si představovali mít jednoduchou aplikaci pro správu našich finančních prostředků.
+
+\subsection{Požadavky}
 
 \section{Přehled existujících řešení}
 K danému tématu již exstuje řada aplikací nabízejících nástroje pro správu financí. Každé řešení přistupuje k problému jiným způsobem. 
@@ -167,23 +169,83 @@ Dalším odvětví jsou aplikace třetích stran, které nabízí různé možno
 Mobilní aplikace dostupné na platformy Android i iOS, za jejíž stažení uživatel v první fázi nezaplatí.
 
 \subsection{1Money}
-Mobilní aplikace dostupná pouze pro platformu iOS (na konci roku 2024 byla stále dostupná i na Google Play Store). 
+Ještě na konci roku 2024 obilní aplikace dostupná na obě platformy, o pár měsícu později už pouze na iOS. Z mnou vyzkoušených aplikací největší favorit pro denní užití. Aplikace mě zaujala svojí obrazovkou \textit{Categories}. Název nepůsobí nijak zajimavě, ale zpracování ano. Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v jeho středu se ještě nachází dva údaje - stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli ihned umožněno přidat transakci s danou kategorií a aktuálním časovým razítkem. Velmi intuitivní a rychlé řešení pro každodenní použití.
 
 \subsection{GnuCash}
 
 \subsection{Homebank}
 
+
+\section{Použité technologie}
+
+Požadavkem byla multiplatformní vývoj existuje řada technologií, které však k tvorbě aplikace přistupují odlišným způsobem. Část technologií jde cestou dnes velmi moderních webových aplikací, které se tváří jako běžné aplikace. Primárně tedy používají JavaScript jakožto programovací jazyk jak pro část logickou, tak i pro uživatelská rozhraní. Druhý přístup, který jsem zvolil já, jde více cestou desktopových aplikací. 
+
+Aplikace je otestována a řádně funguje na obou mobilních platformách (Android iOS) a jako desktopová Windows aplikace.
+
+\subsection{Dart}
+
+\subsection{Flutter}
+Tohle je test citace \cite{flutter}
+
+\subsection{Material Design}
+
+\subsection{SQLite}
+
+\subsection{Knihovny}
+
+
 \section{Programátorská příručka}
 
-Pro multiplatformní vývoj existuje řada technologií, které však k tvorbě aplikace přistupují odlišným způsobem. Část technologií jde cestou dnes velmi moderních webových aplikací, které se tváří jako běžné aplikace. Primárně tedy používají JavaScript jakožto programovací jazyk jak pro část logickou, tak i pro uživatelská rozhraní. Druhý přístup, který jsem zvolil já, jde více cestou bě
+Multiplatformní vývoj přináší jistá specifika (nutnost zvolit vhodné technologie, nutnost případné optimalizace zobrazení či zúžený výběr knihoven), ale z hlediska architektury či samothého procesu programování je většina věcí stejných. Zvolená technologie často sama navádí k použití vhodných prvků.
 
-Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou rozšíření. Část práce specifická pro platformu Android jsem realizoval v prostředí Android Studio, především se jednalo o úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle.
+Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou rozšíření. Část práce specifické pro platformu Android jsem realizoval v prostředí Android Studio. Především se jednalo o úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle, kde Androi Studio poskytuje jednodušší rozhraní a přesný návod.
+
+\subsection{Architektura aplikace}
+
+\subsection{Multiplatformní část projektu}
+
+
+\subsection{Implementace responzivního designu}
+
+\subsection{Neočekáváné zajímavosti při tvorbě práce}
+
+Problém s Sqlite knihovnou.
+
+Nedoděláné všechny komponenty material designu.
+
 
 \section{Uživatelská příručka}
+
+\subsection{První spuštění}
+
+\subsection{Zobrazení a úprava transakcí}
+
+\subsection{Využití reportů}
+
+\subsection{Export dat}
+
+\subsection{Nastavení aplikace}
+
+\subsection{Přizpůsobení vzhledu}
+
 
 \section{Možná rozšíření aplikace}
 Osobně si myslím, že nikdy se nedá o softwaru prohlásit, že by nepotřeboval vývoj a není možné mu dodat vylepšení. Už jen vzhledem k vnějšímu vývoji technologií a proměně uživatelských požadavků je nutné aplikaci udržovat aktuální. Se změnou požadavků se pojí rozšíření o nové funkce a nebo naopak odstranění funkcí nepouživaných.
 
+\begin{enumerate}
+  \item Možnost založit více účtů
+  \item Umožnit nastavení vlastní měny
+  \item Import dat z jiných aplikací
+  \item Vylepšení uživatelského rozhraní
+\end{enumerate}
+
+\begin{kiconclusions}
+Tady bude závěr.
+\end{kiconclusions}
+
+\begin{kiconclusions}[english]
+Here will be conclusion.
+\end{kiconclusions}
 
 % ----- tady začíná to co v práci bylo dáno
 
@@ -211,10 +273,11 @@ Osobně si myslím, že nikdy se nedá o softwaru prohlásit, že by nepotřebov
 %% BibLaTeXu. Volitelné.
 %% \nocite{*}
 %% Vlastní sazba bibliografie při použití BibLaTeXu.
-%% \printbibliography
+\printbibliography
+\nocite{*}
 
 
 %% Sazba volitelného rejstříku, za bibliografií.
 %% \printindex
-
+\printglossaries % Add glossary printing command
 \end{document}
