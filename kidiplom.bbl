@@ -36,6 +36,41 @@
       \verb https://flutter.dev/
       \endverb
     \endentry
+    \entry{sqlite}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{SQLite Home Page}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sqlite.org/
+      \endverb
+      \verb{url}
+      \verb https://www.sqlite.org/
+      \endverb
+    \endentry
+    \entry{m3}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Material Design}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://m3.material.io/
+      \endverb
+      \verb{url}
+      \verb https://m3.material.io/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
