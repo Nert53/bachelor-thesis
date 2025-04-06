@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  5 APR 2025 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  6 APR 2025 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1192,16 +1192,61 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 206.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 206.
- [9{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (1.16069pt too wide) in paragraph at lines 229--230
-\T1/lmr/m/n/12 Win-dows aº po webové roz-hraní. V ofi-ál-ním ná-vodu je do-po-ru-£ena knihovna
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 208.
+ [9{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [10] [11]
+Overfull \hbox (0.60709pt too wide) in paragraph at lines 251--252
+[]\T1/lmr/bx/n/12 Syncfusion Flut-ter Charts \T1/lmr/m/n/12 je roz-sáhlá knihovna pro tvorbu graf·. Umoº-
  []
 
-[10] [11] [12] [13
+[12] [13] [14
 
-] [14
+] [15
 
 ]
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1219,7 +1264,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[15
+[16
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1229,18 +1274,18 @@ Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30410 strings out of 476025
- 543584 string characters out of 5790017
- 1863388 words of memory out of 5000000
- 50257 multiletter control sequences out of 15000+600000
- 590011 words of font info for 89 fonts, out of 8000000 for 9000
+ 30468 strings out of 476025
+ 545446 string characters out of 5790017
+ 1887388 words of memory out of 5000000
+ 50293 multiletter control sequences out of 15000+600000
+ 590632 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,10n,120p,2670b,4430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 126i,10n,120p,2670b,4428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kidiplom.pdf (15 pages, 283729 bytes).
+Output written on kidiplom.pdf (16 pages, 299769 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
  299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

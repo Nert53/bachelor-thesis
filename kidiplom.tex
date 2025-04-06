@@ -178,60 +178,78 @@ Nejblíže je z hlediska uživatele poskytnutí základních nástrojů přímo 
 Aplikace třetích stran v tomto segmentu, nabízí různé možnosti. Mobilní aplikace bývají obvykle jednodušší a s přívětivějším uživatelským rozhraním. Zatímco desktopové aplikace mají uživatelské rozhraní spíše starší, avšak poskytují nepřebernou škálu funkcí.
 
 \subsection{Wallet}
-Mobilní aplikace dostupné na platformy Android i iOS, za jejíž stažení uživatel v první fázi nezaplatí. Nabízí věechny základní funkce co by uživatel očekával - kategorie transakcí, podpora více měn, poznámky. Z hlediska analýzu a grafového zobrazení je na výběr jen velmi málo možností v z mého pohledu nepřehledném uspořádání. Ze zajímavých funkcionalit stojí za zmínku plánované transakce nebo automatická bankovní synchronizace (tato funkce je už placená).
+Mobilní aplikace dostupné na platformy Android i iOS \cite{wallet}, za jejíž stažení uživatel v první fázi nezaplatí. Nabízí věechny základní funkce co by uživatel očekával - kategorie transakcí, podpora více měn, poznámky. Z hlediska analýzu a grafového zobrazení je na výběr jen velmi málo možností v z mého pohledu nepřehledném uspořádání. Ze zajímavých funkcionalit stojí za zmínku plánované transakce nebo automatická bankovní synchronizace (tato funkce je už placená).
 
 \subsection{1Money}
 Ještě na konci roku 2024 mobilní aplikace dostupná na obě platformy, o pár měsícu později už pouze na iOS. Z mnou vyzkoušených aplikací největší favorit pro denní užití. Aplikace mě zaujala svojí obrazovkou \textit{Categories}.  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v jeho středu se ještě nachází dva údaje - stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli ihned umožněno přidat transakci s danou kategorií a aktuálním časovým razítkem. Velmi intuitivní a rychlé řešení pro každodenní použití. Umožňuje vytvořit více různých účtů, včetně účtů pro spoření. Z hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti - již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v čase. Tuto aplikaci jsem si já osobně oblíbil nejvíce.
 
 \subsection{Cashew}
-Mobilní aplikace založená na stejné technologii jako moje aplikace - Flutter. Implementuje komponenty z Material Design, ale rozvržení obrazovky si autoři uspořádali podle sebe. Uživateli umožňuje široké možnosti nastavení z hlediska vzhledu (barvy, typ písma, typ ikon či formáty data i čísel). Umožňuje zálohování dat na Google disk i import z csv souborů. Podporuje funkci více účtů. Obsahuje i placenou verzi, které je primárně podporu pro vývojáře.
+Mobilní aplikace založená na stejné technologii jako moje aplikace - Flutter \cite{cashew}. Implementuje komponenty z Material Design, ale rozvržení obrazovky si autoři uspořádali podle sebe. Uživateli umožňuje široké možnosti nastavení z hlediska vzhledu (barvy, typ písma, typ ikon či formáty data i čísel). Umožňuje zálohování dat na Google disk i import z csv souborů. Podporuje funkci více účtů. Obsahuje i placenou verzi, které je primárně podporu pro vývojáře.
 
 \subsection{Money Manager Ex}
-Aplikace dostupná jak na mobilní zařízení (nízký počet stažení) tak především i na dekstopové zařízení. Uživatelské rozhraní je na první pohled relativně přívětivé, ikdyž místy obsahuje širokou škálu tlačítek a možností k nastavení. Při prvním spuštění nevyžaduje žádné složité nastavení. Zde se mi velmi líbí velká nabídka grafů k analýze údajů a možnost exportu do PDF pro většinu obrazovek.
+Aplikace dostupná jak na mobilní zařízení (nízký počet stažení \cite{money-manager-android}) tak především i na dekstopové zařízení \cite{money-manager}. Uživatelské rozhraní je na první pohled relativně přívětivé, ikdyž místy obsahuje širokou škálu tlačítek a možností k nastavení. Při prvním spuštění nevyžaduje žádné složité nastavení. Zde se mi velmi líbí velká nabídka grafů k analýze údajů a možnost exportu do PDF pro většinu obrazovek.
 
 \subsection{Homebank}
-Desktopová aplikace dostupná na Windows, Linux i macOS. Z hlediska uživatelského komfortu je oproti Money Manager Ex jednodušší na používání. Při prvotním nastavení sice člověk musí vhodně nakonfigurovat svůj účet, v dalších fázích je už používání intuitivní. Centrem aplikace je dashboard se stavy účtu, přehledem transakcí a jednoduchými grafy. Všechny ostatní funkce se pak otevírají jako nové okno. Uživteslké rozhraní působí moderním a intuitivním dojmem.
+Desktopová aplikace dostupná na Windows, Linux i macOS \cite{homebank}. Z hlediska uživatelského komfortu je oproti Money Manager Ex jednodušší na používání. Při prvotním nastavení sice člověk musí vhodně nakonfigurovat svůj účet, v dalších fázích je už používání intuitivní. Centrem aplikace je dashboard se stavy účtu, přehledem transakcí a jednoduchými grafy. Všechny ostatní funkce se pak otevírají jako nové okno. Uživteslké rozhraní působí moderním a intuitivním dojmem.
 
 \section{Použité technologie}
 
-Požadavkem byla multiplatformní vývoj existuje řada technologií, které však k tvorbě aplikace přistupují odlišným způsobem. Mezi nejpopulárnější technologie vhodné na tuto práci se řadí \textit{React Native} a \textit{Flutter}. Jelikož jsem za dobu, co se věnuji programování nepřilnul k webovým technologiím, na kterých primárně stojí React Native, zvolil jsem Flutter. Přispěl k tomu fakt, že se více blíží klasickým objektově orientovaným jazykům a jednoduše implementuje \textit{Material Design}, který rád v uživatelském rozhraní vídám.
+Požadavkem byla multiplatformní vývoj existuje řada technologií \cite{jetbrains-crossplatform}, které však k tvorbě aplikace přistupují odlišným způsobem. Mezi nejpopulárnější technologie vhodné na tuto práci se řadí \textit{React Native} a \textit{Flutter}. Jelikož jsem za dobu, co se věnuji programování nepřilnul k webovým technologiím, na kterých primárně stojí React Native, zvolil jsem Flutter. Přispěl k tomu fakt, že se více blíží klasickým objektově orientovaným jazykům a jednoduše implementuje \textit{Material Design}, který rád v uživatelském rozhraní vídám.
 
 Aplikace je otestována a řádně funguje na obou mobilních platformách (Android iOS) a jako desktopová Windows aplikace. Ze stejného kódu jde sestavit i aplikace na macOS a Linux. Tyto platformy jsem však netestoval a nemohu zaručit jejich bezproblémový chod.
 
 \subsection{Dart}
-Objektově orientovaný jazyk pohcázející z společnosti Google, jehož první verze byla zveřejněna 14. listopadu 2013. Momentálně je jeho aktjuální verze 3. Jde o typově bezpečný jazyk, podporující třídy se syntaxí založenou na jazyku C. Může být kompilován do strojového kódu, JavaScriptu nebo WebAssembly. Taktéž je základem frameworku Flutter.
+Objektově orientovaný jazyk pohcázející z společnosti Google \cite{dart}, jehož první verze byla zveřejněna 14. listopadu 2013. Momentálně je jeho aktjuální verze 3. Jde o typově bezpečný jazyk, podporující třídy se syntaxí založenou na jazyku C. Může být kompilován do strojového kódu, JavaScriptu nebo WebAssembly. Taktéž je základem frameworku Flutter.
 
 Je dodáván se širokou škálou základních knihoven, které umožňují obstarat běžný vývoj. Jako příklad mohu uvést knihovnu \verb|dart:async|, která umožňuje asynchorní programování za využítí tříd jako je \verb|Future| nebo knihovna \verb|dart:io| pro práci se souborovým systémem či HTTP protokolem.
 
-Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtual machine s JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejiž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále i AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování apliakce pro použití v produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do JavaScript nebo WebAssembly. Opět i zde Dart využívá různé techniky pro ladění kódu a následné produkci. Oba tyto způsoby jsou stejné v tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
+Technologie jazyka Dart umožňují spustit kód dvěma způsoby \cite{dart}. První z nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtual machine s JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejiž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále i AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování apliakce pro použití v produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do JavaScript nebo WebAssembly. Opět i zde Dart využívá různé techniky pro ladění kódu a následné produkci. Oba tyto způsoby jsou stejné v tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
 
+\begin{kicode}{}{}{Ukázka kódu v jazyce Dart}
+class Point {
+  final double x;
+  final double y;
+
+  const Point(this.x, this.y);
+
+  bool get isInsideUnitCircle => x * x + y * y <= 1;
+}
+\end{kicode}
 
 \subsection{Flutter}
-Open-source framework pro tvorbu uživatelských rozhraní založený společností Google. 
+Open-source framework pro tvorbu uživatelských rozhraní založený společností Google \cite{flutter}. Poprvé zveřejněn byl v květnu 2017. Google sám ho využívá v aplikacích jako je Google Play nebo Goole Earth \cite{flutter-showcase}. Mezi nejznámejší aplikace třetích stran používajích Flutter patří Alibaba nebo hra PUBG Mobile \cite{flutter-showcase}.
+
+Používá své vlastní vykreslovací jádro \cite{flutter-architecture}, která pixely přímo vykresulje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
+
+Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelksé rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovancýh widgetů - Material Design widgety a Cupertio widgety. Přestože oba mají svoji priámární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
+
+Pro rozložení prvků na stránce (vytvoření \textit{layout}) se tatkéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \verb|Row|, \verb|Column| a \verb|Container|. Pomocí \verb|Container| můžeme ostatním widgetům přidávat odsazení atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \verb|GridView| pro tvorbu mřížky nebo \verb|ListView| pro rolovatelný seznam. Nejvíce specifické widgety jako \verb|BottomNavigationBar| či \verb|AppBar| zajistí dodržení pravidel stanovaných Material Designem a umožní programátorovi velmi jednoduchou implementaci.
 
 Tohle je test citace \cite{flutter}
 
 \subsection{Material Design}
-V březnu 2025 je verze 3 nejnovějším open source designový systém od společnosti Google. Systémem v tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry i s respektem pro psychologický vliv uživatelského rozhraní na člověka.
+V březnu 2025 je verze 3 nejnovějším open source designový systém od společnosti Google \cite{m3}. Systémem v tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry s respektem pro psychologický vliv uživatelského rozhraní na člověka.
 
 Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktualizace tohoto systému. Tento krok dává smysl vzhledem k vyvíjejícím se trendům v oblasti designu. Tyto aktualizace mohl běžných uživatel pozorovat v operačním systému Android nebo v aplikacích od Googlu, jelikož Google tento systém používá téměr všude.
 
-V mém konkrétním případě při použití s Flutter je nevýhodou, že některé komponenty nejsou zatím implementovány. Programátor je tedy nemůže využít nebo je nutnost implementace ponechána na něm.
+Použití tohoto systému má ve Flutteru řadu výhod. Především většina Material widgetů je již od tvůrců implementována \cite{m3-components} a použití programátorem je velmi jednoduché. Programátor nemusí často řešit rozmístění jednotlivých prvků v konkrétní komponentě ani správnou adaptaci na velikost zařízení. Běžnou součástí aplikací jsou ikony. Ikony z Material Designu jsou ve Flutteru k přímému použití bez specifického nastavení. Programátor nemusí řešit žádné externí SVG soubory. Stejně to platí i pro použití fontů písem.
 
 \subsection{SQLite}
-Jedná se o velmi jednoduchou a rychlou databázi, která je uložena v jediném souboru \cite{sqlite}. Obvykle jsou všechny potřebné závilosti již zabudovány v zařizeních, ať už jde o mobilní telefony nebo desktopové operační systémy. Je zdarma k užití pro libivolné účely. Přesto poskytuje plnohodnotnou SQL implementaci.
+Jedná se o velmi jednoduchou a rychlou relační databázi, která je uložena v jediném souboru \cite{sqlite}. Projekt SQLite byl zahájen v roce 2000. Obvykle jsou všechny potřebné závilosti již zabudovány v zařizeních, ať už jde o mobilní telefony nebo desktopové operační systémy. Je zdarma k užití pro libivolné účely. Přesto poskytuje plnohodnotnou SQL implementaci. Zajímavostí je, že onen soubor je multiplatformní. Nevadí mu přenos mezi 32 a 64 bitovými systémy nebo architekturami big-endian a little-endian.
 
-\subsection{Knihovny}
+\subsection{Balíčky}
 
-Přestože knihovny tvoří závilosti projektu na ostatních okolnostech a programátor se musí spoléhat na jiné programátory, že je budou udržovat aktuální, je nemožné se jim v dnešním době vyhnout. 
+Přestože balíčky tvoří závilosti projektu na ostatních okolnostech a programátor se musí spoléhat na jiné programátory, že je budou udržovat aktuální, je nemožné se jim v dnešním době vyhnout. Dart a Flutter má výběr z široké veřejné knihovny balíčků, které jsou vyvjíveny ostatními programátory. 
+
+Balíčky je nutné do projektu zahrnout. Celý jejich seznam je dostupný v souboru \verb|pubspec.yaml|. 
 
 \begin{itemize}
-  \item \textbf{Drift} je knihovna poskytující rozhraní pro práci s SQLite.  databází. Její velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní. V ofiálním návodu je doporučena knihovna s názvem \textbf{sqflite} ta však tuto výhodu neposkytuje. Dále poskytuje velmi jednoduché API pro vytváření SQL dotazů bez použití jazyka SQL.
-  \item \textbf{GoRouter} je deklarativní balíček pro organiazci navigace v rámci aplikace (tzv. \textit{routování}). Funguje na principu URL adres. Umožňuje v adrese předávat parametry, zajistit přesměrování na základě práv uživatele či použití tzv. \textit{vnitřních navigátorů} nejčastěji pro komponentu \kiinlinecode{csharp}{;}{BottomNavigationBar}, který zůstává neustále viditelný skrz více obrazovek. Výhodou je, že autorem jsou přímo oficiální vývojaři Flutter, tudíž by balíček měl zůstat udržovaný.
-  \item \textbf{Skeletonizer} zjednodušeným způsobem poskytuje funkcionalitu označovanou jako \textit{skeleton loading}. Z názvu plyne přesně to, kde se používá. Používá se při načítáná obsahu na stránce a zobrazuje hrubý náhled rozložení prvků na stránce. Vše je doplněno vhodnou animací. 
-  \item \textbf{Another Flushbar}
-  \item \textbf{Syncfusion Flutter Charts}
-  \item \textbf{File Picker}
+  \item \textbf{Drift} je balíček poskytující rozhraní pro práci s SQLite.  databází \cite{drift}. Její velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní. V ofiálním návodu je doporučena knihovna s názvem \textbf{sqflite} ta však tuto výhodu neposkytuje. Dále poskytuje velmi jednoduché API pro vytváření dotazů nad databází bez použití jazyka SQL. Programátor vytváří strukturu databáze v jednom souboru, na jehož základě si Drift generuje interní soubory.
+  \item \textbf{GoRouter} je deklarativní balíček pro organiazci navigace v rámci aplikace (tzv. \textit{routování}). Funguje na principu URL adres. Umožňuje v adrese předávat parametry, zajistit přesměrování na základě práv uživatele či použití tzv. \textit{vnitřních navigátorů} nejčastěji pro komponentu \kiinlinecode{csharp}{;}{BottomNavigationBar}, který zůstává neustále viditelný skrz více obrazovek. Pro přechody umožňuje nastavit vlastní libovolné animace. Výhodou je, že autorem jsou přímo oficiální vývojaři Flutter, tudíž by balíček měl zůstat udržovaný.
+  \item \textbf{Skeletonizer} zjednodušeným způsobem poskytuje funkcionalitu označovanou jako \textit{skeleton loading}. Používá se při načítáná obsahu na stránce a zobrazuje hrubý náhled rozložení prvků na stránce. Vše je doplněno vhodnou animací, aby uživatel ihned poznal, že se obrazovka právě načítá. Zjednodušení použitím tohoto balíčku spočívá v tom, že programátorovi stačí již definovaný widget \uv{obalit} widgetem \verb|Skeletonizer| z tohoto balíčku a o zbytek práce se balíček postará sám.
+  \item \textbf{Another Flushbar} poskytuje vylepšenou komponentu \verb|Snackbar| z Material Design. Účelem komponenty je krátce informovat uživatele o akci, která byla právě provedena. Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v možnosti většího přizpůsobením - přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z důvodu správného zobrazování při otevřeném dialogovém okně.
+  \item \textbf{Syncfusion Flutter Charts} je rozsáhlá knihovna pro tvorbu grafů. Umožňuje vytvářet všechny druhy grafů - sloupcové, spojnicové, prstencové a další (autoři uvádí více než 30 druhů). Grafy lze dále přizpůsobovat - výběr animace, úpráv jednotek na osách, výběr barev, možnost zobrazit legendu či podrobné informace daného bodu v grafu po přejetí myší. Přes širokou škálu úprav je základní použití velmi jednoduché. Velkým bonusem je rozsáhlá dokumentace s úkázkami všech typů grafů a jejich zdrojových kódů.
+  \item \textbf{File Picker} dává programátorovi možnsot využít nativní průzkumník souborů k výběru složky nebo konkrétích souborů pro jejich další zpracování v aplikaci. Je možnost soubory filtrovat či umožnit výběr více z nich najednou. Základní funkcionalitu poskytuje na libovolné platformně s velmi jednoduchou implementací. V mém případě jsem ho použil pro výběr složky, kam si uživatel chce uložit exportované soubory. 
 
 \end{itemize}
 

@@ -19,26 +19,213 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{flutter}{online}{}
+    \entry{wallet}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Flutter - Build apps for any screen}
+      \field{title}{What is wallet - Wallet by BudgetBakers - Your New Personal Finance Manager}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://budgetbakers.com/what-is-wallet/
+      \endverb
+      \verb{url}
+      \verb https://budgetbakers.com/what-is-wallet/
+      \endverb
+    \endentry
+    \entry{cashew}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Cashew}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cashewapp.web.app/
+      \endverb
+      \verb{url}
+      \verb https://cashewapp.web.app/
+      \endverb
+    \endentry
+    \entry{money-manager-android}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Android Money Manager Ex – Aplikace na Google Play}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.money.manager.ex.android
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.money.manager.ex.android
+      \endverb
+    \endentry
+    \entry{money-manager}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{MoneyManager Ex}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://moneymanagerex.org/
+      \endverb
+      \verb{url}
+      \verb https://moneymanagerex.org/
+      \endverb
+    \endentry
+    \entry{homebank}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{HomeBank | Free personal finance software, money management for everyone}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gethomebank.org/en/index.php
+      \endverb
+      \verb{url}
+      \verb https://www.gethomebank.org/en/index.php
+      \endverb
+    \endentry
+    \entry{jetbrains-crossplatform}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The Six Most Popular Cross-Platform App Development Frameworks | Kotlin Multiplatform Development Documentation}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/help/kotlin-multiplatform-dev/cross-platform-frameworks.html
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/help/kotlin-multiplatform-dev/cross-platform-frameworks.html
+      \endverb
+    \endentry
+    \entry{dart}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Dart overview | Dart}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dart.dev/overview
+      \endverb
+      \verb{url}
+      \verb https://dart.dev/overview
+      \endverb
+    \endentry
+    \entry{flutter}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{UI | Flutter}
       \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://flutter.dev/
+      \verb https://docs.flutter.dev/ui
       \endverb
       \verb{url}
-      \verb https://flutter.dev/
+      \verb https://docs.flutter.dev/ui
+      \endverb
+    \endentry
+    \entry{flutter-showcase}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Showcase - Flutter apps in production}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://flutter.dev/showcase
+      \endverb
+      \verb{url}
+      \verb https://flutter.dev/showcase
+      \endverb
+    \endentry
+    \entry{flutter-architecture}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Flutter architectural overview | Flutter}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+      \verb{url}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+    \endentry
+    \entry{m3}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Material Design}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://m3.material.io/
+      \endverb
+      \verb{url}
+      \verb https://m3.material.io/
+      \endverb
+    \endentry
+    \entry{m3-components}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Components – Material Design 3}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://m3.material.io/components
+      \endverb
+      \verb{url}
+      \verb https://m3.material.io/components
       \endverb
     \endentry
     \entry{sqlite}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{SQLite Home Page}
@@ -53,22 +240,21 @@
       \verb https://www.sqlite.org/
       \endverb
     \endentry
-    \entry{m3}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+    \entry{drift}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Material Design}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
+      \field{title}{Home - Drift}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
       \field{urlyear}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
-      \verb https://m3.material.io/
+      \verb https://drift.simonbinder.eu/
       \endverb
       \verb{url}
-      \verb https://m3.material.io/
+      \verb https://drift.simonbinder.eu/
       \endverb
     \endentry
   \enddatalist
