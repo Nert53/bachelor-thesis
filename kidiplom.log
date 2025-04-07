@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  6 APR 2025 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  7 APR 2025 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,33 +1174,48 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [5
 
+] (./kidiplom.lof)
+\tf@lof=\write10
+\openout10 = `kidiplom.lof'.
+
+ [6
+
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 162.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 159.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6
+) [7
 
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 204.
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [8] [9]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 203.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 206.
+(Font)              <10> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 206.
+(Font)              <7> on input line 205.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 206.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 208.
- [9{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [10] [11]
-Overfull \hbox (0.60709pt too wide) in paragraph at lines 251--252
+(Font)              <5> on input line 205.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 207.
+ [10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [11]
+Overfull \hbox (2.19496pt too wide) in paragraph at lines 245--246
+\T1/lmr/m/it/12 vnit°-ních na-vi-gá-tor· \T1/lmr/m/n/12 nej-£as-t¥ji pro kom-po-nentu [][]\T1/pcr/m/n/12 BottomNavigationBar[]\T1/lmr/m/n/12 ,
+ []
+
+<images/skeletonizer.png, id=190, 3117.6475pt x 2490.30376pt>
+File: images/skeletonizer.png Graphic file (type png)
+<use images/skeletonizer.png>
+Package pdftex.def Info: images/skeletonizer.png  used on input line 250.
+(pdftex.def)             Requested size: 311.78302pt x 249.04497pt.
+
+Overfull \hbox (0.60709pt too wide) in paragraph at lines 255--256
 []\T1/lmr/bx/n/12 Syncfusion Flut-ter Charts \T1/lmr/m/n/12 je roz-sáhlá knihovna pro tvorbu graf·. Umoº-
  []
 
-[12] [13] [14
+[12] [13 <./images/skeletonizer.png>] [14] [15] [16
 
-] [15
+] [17
 
 ]
 
@@ -1259,14 +1274,28 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
+
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[18
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[16
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] 
+[19] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./kidiplom.aux)
 Package logreq Info: Writing requests to 'kidiplom.run.xml'.
@@ -1274,18 +1303,18 @@ Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30468 strings out of 476025
- 545446 string characters out of 5790017
+ 30497 strings out of 476025
+ 546112 string characters out of 5790017
  1887388 words of memory out of 5000000
- 50293 multiletter control sequences out of 15000+600000
+ 50307 multiletter control sequences out of 15000+600000
  590632 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,10n,120p,2670b,4428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 126i,10n,120p,2670b,4442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kidiplom.pdf (16 pages, 299769 bytes).
+Output written on kidiplom.pdf (19 pages, 1033788 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
- 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1573,6 +1573,10 @@ INPUT ./kidiplom.toc
 INPUT kidiplom.toc
 INPUT kidiplom.toc
 OUTPUT kidiplom.toc
+INPUT ./kidiplom.lof
+INPUT kidiplom.lof
+INPUT kidiplom.lof
+OUTPUT kidiplom.lof
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -1612,6 +1616,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT ./images/skeletonizer.png
+INPUT ./images/skeletonizer.png
+INPUT images/skeletonizer.png
+INPUT ./images/skeletonizer.png
+INPUT ./images/skeletonizer.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT kidiplom.aux
 INPUT kidiplom.run.xml

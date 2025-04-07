@@ -20,8 +20,8 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{wallet}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{What is wallet - Wallet by BudgetBakers - Your New Personal Finance Manager}
@@ -37,8 +37,8 @@
       \endverb
     \endentry
     \entry{cashew}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Cashew}
@@ -54,8 +54,8 @@
       \endverb
     \endentry
     \entry{money-manager-android}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Android Money Manager Ex – Aplikace na Google Play}
@@ -71,8 +71,8 @@
       \endverb
     \endentry
     \entry{money-manager}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{MoneyManager Ex}
@@ -88,8 +88,8 @@
       \endverb
     \endentry
     \entry{homebank}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{HomeBank | Free personal finance software, money management for everyone}
@@ -105,8 +105,8 @@
       \endverb
     \endentry
     \entry{jetbrains-crossplatform}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{The Six Most Popular Cross-Platform App Development Frameworks | Kotlin Multiplatform Development Documentation}
@@ -122,8 +122,8 @@
       \endverb
     \endentry
     \entry{dart}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Dart overview | Dart}
@@ -255,6 +255,54 @@
       \endverb
       \verb{url}
       \verb https://drift.simonbinder.eu/
+      \endverb
+    \endentry
+    \entry{skeleton}{online}{}
+      \name{author}{1}{}{%
+        {{hash=840e62508c4a1167421ffe8e878312b8}{%
+           family={Tankala},
+           familyi={T\bibinitperiod},
+           given={Samitha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{840e62508c4a1167421ffe8e878312b8}
+      \strng{fullhash}{840e62508c4a1167421ffe8e878312b8}
+      \strng{bibnamehash}{840e62508c4a1167421ffe8e878312b8}
+      \strng{authorbibnamehash}{840e62508c4a1167421ffe8e878312b8}
+      \strng{authornamehash}{840e62508c4a1167421ffe8e878312b8}
+      \strng{authorfullhash}{840e62508c4a1167421ffe8e878312b8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Skeleton Screens 101}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/skeleton-screens/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/skeleton-screens/
+      \endverb
+    \endentry
+    \entry{mvvm}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Model-View-ViewModel - .NET | Microsoft Learn}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm
       \endverb
     \endentry
   \enddatalist
