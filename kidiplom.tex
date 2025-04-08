@@ -255,13 +255,13 @@ class Point {
 \subsection{Flutter}
 Open source framework Flutter \cite{flutter} slouží pro tvorbu uživatelských Využívá Dart a je taktéž vyvíjený společností Google. Poprvé zveřejněn byl v květnu 2017. Google sám ho využívá v aplikacích jako je Google Play nebo Goole Earth \cite{flutter-showcase}. Mezi nejznámější aplikace třetích stran používajících Flutter patří Alibaba nebo hra PUBG Mobile \cite{flutter-showcase}.
 
-Používá své vlastní vykreslovací jádro \cite{flutter-architecture}, které pixely přímo vykresluje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňuje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
+Používá své vlastní vykreslovací jádro, které pixely přímo vykresluje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňuje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
 
-Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelské rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovaných widgetů -- Material Design (viz kapitola \ref{Material Design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
+Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelské rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovaných widgetů -- Material Design (viz kapitola \ref{material-design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
 
 Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených Material Designem a umožní programátorovi velmi jednoduchou implementaci.
 
-\subsection{Material Design} \label{Material Design}
+\subsection{Material Design} \label{material-design}
 V březnu 2025 je Material Design verze 3 \cite{m3} nejnovějším open source designový systém od společnosti Google. Systémem v tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry s respektem pro psychologický vliv uživatelského rozhraní na člověka.
 
 Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktualizace tohoto systému. Tento krok dává smysl vzhledem k vyvíjejícím se trendům v~oblasti designu. Tyto aktualizace mohl běžných uživatel pozorovat v operačním systému Android nebo v aplikacích od Googlu, jelikož Google tento systém používá téměř všude.
@@ -269,16 +269,16 @@ Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktual
 Použití tohoto systému má ve Flutteru řadu výhod. Především většina Material widgetů je již implementována \cite{m3-components} a použití programátorem je velmi jednoduché. Programátor nemusí často řešit rozmístění jednotlivých prvků v konkrétní komponentě ani správnou adaptaci na velikost zařízení. Běžnou součástí aplikací jsou ikony. Ikony z Material Designu jsou ve Flutteru k přímému použití bez specifického nastavení. Programátor nemusí řešit žádné externí SVG soubory. Stejně to platí i pro použití fontů písem.
 
 \subsection{SQLite}
-Jedná se o velmi jednoduchou a rychlou relační databázi, která je uložena v jediném souboru \cite{sqlite}. Projekt SQLite byl zahájen v roce 2000. Obvykle jsou všechny potřebné závislosti již zabudovány v zařízeních, ať už jde o mobilní telefony nebo desktopové operační systémy. Je zdarma k užití pro libovolné účely. Přesto poskytuje plnohodnotnou SQL implementaci. Zajímavostí je, že onen soubor je multiplatformní. Nevadí mu přenos mezi 32bitovými a 64bitovými systémy nebo architekturami big-endian a little-endian.
+SQLite \cite{sqlite} je velmi jednoduchá a rychlá relační databáze, která je uložena v jediném souboru. Vývoj SQLite byl zahájen v roce 2000. Obvykle jsou všechny potřebné závislosti již zabudovány v zařízeních, ať už jde o mobilní telefony nebo desktopové operační systémy. Je zdarma k užití pro libovolné účely. Přesto poskytuje plnohodnotnou SQL implementaci. Zajímavostí je, že onen soubor je multiplatformní. Nevadí mu přenos mezi 32bitovými a 64bitovými systémy nebo architekturami big-endian a little-endian.
 
 \subsection{Balíčky}
 
 Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a programátor se musí spoléhat na jiné programátory, že je budou udržovat aktuální, je nemožné se jim v dnešním době vyhnout. Dart a Flutter má výběr z široké veřejné knihovny balíčků, které jsou vyvíjeny ostatními programátory. Balíčky je nutné do projektu zahrnout. Celý jejich seznam je dostupný v~souboru \kiinlinecode{}{;}{pubspec.yaml}. 
 
 \begin{itemize}
-  \item \textbf{Drift} je balíček poskytující rozhraní pro práci s SQLite.  databází \cite{drift}. Její velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní. V oficiálním návodu je doporučena knihovna sqflite, ta však tuto výhodu neposkytuje. Dále poskytuje velmi jednoduché API pro vytváření dotazů nad databází bez použití jazyka SQL. Programátor vytváří strukturu databáze v jednom souboru, na jehož základě si Drift generuje interní soubory.
-  \item \textbf{GoRouter} je deklarativní balíček pro organizaci navigace v rámci aplikace (tzv. \textit{routování}). Funguje na principu URL adres. Umožňuje v adrese předávat parametry, zajistit přesměrování na základě práv uživatele či použití \textit{vnitřních navigátorů} nejčastěji pro komponentu \kiinlinecode{}{;}{BottomNavigationBar}, který zůstává neustále viditelný skrz více obrazovek. Pro přechody umožňuje nastavit vlastní libovolné animace. Výhodou je, že autorem jsou přímo oficiální vývojáři Flutter, tudíž by balíček měl zůstat udržovaný.
-  \item \textbf{Skeletonizer} zjednodušeným způsobem poskytuje funkcionalitu označovanou jako \textit{skeleton loading}. Používá se při načítání obsahu na stránce a zobrazuje hrubý náhled rozložení prvků na stránce. Vše je doplněno vhodnou animací, aby uživatel ihned poznal, že se obrazovka právě načítá. Zjednodušení použitím tohoto balíčku spočívá v tom, že programátorovi stačí již definovaný widget \uv{obalit} widgetem \kiinlinecode{}{;}{Skeletonizer} z tohoto balíčku a o zbytek práce se balíček postará sám.
+  \item \textbf{Drift} \cite{drift} je balíček poskytující rozhraní pro práci s SQLite databází. Její velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní. V oficiálním návodu je doporučena knihovna sqflite, ta však tuto výhodu neposkytuje. Dále poskytuje velmi jednoduché API pro vytváření dotazů nad databází bez použití jazyka SQL. Programátor vytváří strukturu databáze v jednom souboru, na jehož základě si Drift generuje interní soubory.
+  \item \textbf{GoRouter} \cite{gorouter}je deklarativní balíček pro organizaci navigace v rámci aplikace (tzv. \textit{routování}). Funguje na principu URL adres. Umožňuje v adrese předávat parametry, zajistit přesměrování na základě práv uživatele či použití \textit{vnitřních navigátorů} nejčastěji pro komponentu \kiinlinecode{}{;}{BottomNavigationBar}, který zůstává neustále viditelný skrz více obrazovek. Pro přechody umožňuje nastavit vlastní libovolné animace. Výhodou je, že autorem jsou přímo oficiální vývojáři Flutter, tudíž by balíček měl zůstat udržovaný.
+  \item \textbf{Skeletonizer} \cite{skeletonizer} zjednodušeným způsobem poskytuje funkcionalitu označovanou jako \textit{skeleton loading}. Používá se při načítání obsahu na stránce a zobrazuje hrubý náhled rozložení prvků na stránce. Vše je doplněno vhodnou animací, aby uživatel ihned poznal, že se obrazovka právě načítá. Zjednodušení použitím tohoto balíčku spočívá v tom, že programátorovi stačí již definovaný widget \uv{obalit} widgetem \kiinlinecode{}{;}{Skeletonizer} z tohoto balíčku a o zbytek práce se balíček postará sám.
   
   \begin{figure}
   	\centering
@@ -286,7 +286,7 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
   	\caption{Skeleton loading a načtená obrazovka - převzato z \cite{skeleton}}
   \end{figure}
   
-  \item \textbf{Another Flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} z Material Design. Účelem komponenty je krátce informovat uživatele o akci, která byla právě provedena. Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v možnosti většího přizpůsobením - přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z důvodu správného zobrazování při otevřeném dialogovém okně.
+  \item \textbf{Another Flushbar} \cite{flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} z Material Design. Účelem komponenty je krátce informovat uživatele o akci, která byla právě provedena. Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v možnosti většího přizpůsobením - přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z důvodu správného zobrazování při otevřeném dialogovém okně.
 
 \begin{figure}
 	\centering
@@ -295,8 +295,8 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
 \end{figure}
     
     
-  \item \textbf{Syncfusion Flutter Charts} je rozsáhlá knihovna pro tvorbu grafů. Umožňuje vytvářet všechny druhy grafů - sloupcové, spojnicové, prstencové a další (autoři uvádí více než 30 druhů). Grafy lze dále přizpůsobovat - výběr animace, úprav jednotek na osách, výběr barev, možnost zobrazit legendu či podrobné informace daného bodu v grafu po přejetí myší. Přes širokou škálu úprav je základní použití velmi jednoduché. Velkým bonusem je rozsáhlá dokumentace s ukázkami všech typů grafů a jejich zdrojových kódů.
-  \item \textbf{File Picker} dává programátorovi možnost využít nativní průzkumník souborů k výběru složky nebo konkrétních souborů pro jejich další zpracování v aplikaci. Je možnost soubory filtrovat či umožnit výběr více z nich najednou. Základní funkcionalitu poskytuje na libovolné platformně s velmi jednoduchou implementací. V mém případě jsem ho použil pro výběr složky, kam si uživatel chce uložit exportované soubory. 
+  \item \textbf{Syncfusion Flutter Charts} \cite{syncfusion-charts} je rozsáhlá knihovna pro tvorbu grafů. Umožňuje vytvářet všechny druhy grafů - sloupcové, spojnicové, prstencové a další (autoři uvádí více než 30 druhů). Grafy lze dále přizpůsobovat - výběr animace, úprav jednotek na osách, výběr barev, možnost zobrazit legendu či podrobné informace daného bodu v grafu po přejetí myší. Přes širokou škálu úprav je základní použití velmi jednoduché. Velkým bonusem je rozsáhlá dokumentace s ukázkami všech typů grafů a jejich zdrojových kódů.
+  \item \textbf{File Picker} \cite{file-picker} dává programátorovi možnost využít nativní průzkumník souborů k výběru složky nebo konkrétních souborů pro jejich další zpracování v aplikaci. Je možnost soubory filtrovat či umožnit výběr více z nich najednou. Základní funkcionalitu poskytuje na libovolné platformně s velmi jednoduchou implementací. V mém případě jsem ho použil pro výběr složky, kam si uživatel chce uložit exportované soubory. 
 
 \end{itemize}
 
@@ -391,22 +391,26 @@ Transakce se přidává tlačítkem označeným ikonou plus (na větším zaří
 Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{Transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží porstřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřezené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje červený odznak u tlačítka filtrace.
 
 \subsection{Využití reportů}
-Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit tlačítkem \textit{Manage reports} pod posledním reportem. Ny výběr je těchto pěti možností:
+Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit tlačítkem \textit{Manage reports} pod posledním reportem. Na výběr je těchto pěti možností:
 \begin{itemize}
   \item \textbf{Most spent categories} -- zobrazí sloupcový graf s pěti kategoriemi, ve~kterých je největší útrata ve~zvoleném období.
   \item \textbf{Spent during time} -- zobrazí plošný graf s vývojem útraty v~průběhu daného období. Graf je interaktivní a při najetí pohbyu kurzorem v~grafu se zobrazí hodnota pro konkrétní datum.
   \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o: procento ušetřených peněz z přijmu, průměrnou denní útratu a procento transakcí v~jiné měně než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
   \item \textbf{Category ratio} -- zobrazí dvě buňky s kruhovými grafy. První zobrazuje poměr kategorií v příjmech a druhý poměr kategorií ve~výdajích. Při použití na největším zařízení se zobrazí interaktivní legenda.
-  \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s číselnými údaji. Kokrétně se jedná o: součet všech příjmů, součet všech výdajů a celkový stav účtu.Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
+  \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s číselnými údaji. Kokrétně se jedná o: součet všech příjmů, součet všech výdajů a celkový stav účtu. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
 \end{itemize}
 
 \subsection{Nastavení aplikace}
-
-\subsubsection{Přizpůsobení vzhledu}
-
-\subsubsection{Přizpůsobení měn}
+Poslední obrazovkou dostupnou z navigační lišty je nastavení (záložka \textit{Settings}). Umožňuje nastavit jak prostředí po stránce funkcí, tak i po stránce vzhledu.
 
 \subsubsection{Úpráva kategorií}
+Přidávat, mazat i upravovat kategorie je možné v záložce \textit{Categories editor}. Otevře se nová obrazovka s výpisem všech kategorií formou karet. U každé karty je znázorněna ikona, název a barva. Ikonka tužky otevře dialogové okno s možností úpravit nastavení dané kategorie (změny je nutné uložit tlačítkem \textit{Save}). Ikona popelnice po potvrzení v dialogovém okně nevratně smaže danou kategorii i ji náležící transakce. Plovoucím tlačítkem s ikonou plus se vytváří nová kategorie s uživatelem definovaný parametry.
+
+\subsubsection{Přizpůsobení měn}
+Po kliknutí na kartu \textit{Currency settings} se rozbalí seznam všech měn (název a zkratka).
+
+\subsubsection{Přizpůsobení vzhledu}
+Vzhled je možno přizpůsobit rozbalením karty \textit{Color theme}. Na výběr je ze sedmi barev, které jsou pojmenované i s náhledem konkrétního odstínu. Konkrétní barvy reprezentují jednotlivá barevná témata. Výběr tohoto tématu změní celý nádech aplikace od výrazných barev až po jemné barvy v pozadí.
 
 \subsection{Export dat}
 
@@ -455,6 +459,7 @@ Here will be conclusion.
 %% BibLaTeXu. Volitelné.
 %% \nocite{*}
 %% Vlastní sazba bibliografie při použití BibLaTeXu.
+
 \printbibliography
 \nocite{*}
 
