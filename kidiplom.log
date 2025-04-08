@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  7 APR 2025 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  8 APR 2025 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,7 +1081,98 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kidiplom.bbl' found.
- (./kidiplom.bbl)
+ (./kidiplom.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'cashew':
+(biblatex)                - online entry 'cashew' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'wallet':
+(biblatex)                - online entry 'wallet' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'money-manager-android':
+(biblatex)                - online entry 'money-manager-android' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'money-manager':
+(biblatex)                - online entry 'money-manager' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'homebank':
+(biblatex)                - online entry 'homebank' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'jetbrains-crossplatform':
+(biblatex)                - online entry 'jetbrains-crossplatform' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'dart':
+(biblatex)                - online entry 'dart' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'flutter':
+(biblatex)                - online entry 'flutter' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'flutter-showcase':
+(biblatex)                - online entry 'flutter-showcase' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'flutter-architecture':
+(biblatex)                - online entry 'flutter-architecture' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'm3':
+(biblatex)                - online entry 'm3' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'm3-components':
+(biblatex)                - online entry 'm3-components' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'sqlite':
+(biblatex)                - online entry 'sqlite' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'drift':
+(biblatex)                - online entry 'drift' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'skeleton':
+(biblatex)                - online entry 'skeleton' (bibliografie.bib): Invalid format '2025-04-06' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'mvvm':
+(biblatex)                - online entry 'mvvm' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'layout-m3':
+(biblatex)                - online entry 'layout-m3' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'flutter-docs':
+(biblatex)                - online entry 'flutter-docs' (bibliografie.bib): Invalid format '2025-04-08' of date field 'urldate' - ignoring.
+
+)
 Package biblatex Info: Reference section=0 on input line 131.
 Package biblatex Info: Reference segment=0 on input line 131.
 
@@ -1187,115 +1278,52 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [7
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [8] [9]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 203.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 204.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 205.
+(Font)              <10> on input line 206.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 205.
+(Font)              <7> on input line 206.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 205.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 207.
+(Font)              <5> on input line 206.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 208.
  [10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [11]
-Overfull \hbox (2.19496pt too wide) in paragraph at lines 245--246
-\T1/lmr/m/it/12 vnit°-ních na-vi-gá-tor· \T1/lmr/m/n/12 nej-£as-t¥ji pro kom-po-nentu [][]\T1/pcr/m/n/12 BottomNavigationBar[]\T1/lmr/m/n/12 ,
- []
-
-<images/skeletonizer.png, id=190, 3117.6475pt x 2490.30376pt>
+<images/skeletonizer.png, id=194, 3117.6475pt x 2490.30376pt>
 File: images/skeletonizer.png Graphic file (type png)
 <use images/skeletonizer.png>
-Package pdftex.def Info: images/skeletonizer.png  used on input line 250.
+Package pdftex.def Info: images/skeletonizer.png  used on input line 249.
 (pdftex.def)             Requested size: 311.78302pt x 249.04497pt.
 
-Overfull \hbox (0.60709pt too wide) in paragraph at lines 255--256
+Overfull \hbox (0.60709pt too wide) in paragraph at lines 254--255
 []\T1/lmr/bx/n/12 Syncfusion Flut-ter Charts \T1/lmr/m/n/12 je roz-sáhlá knihovna pro tvorbu graf·. Umoº-
  []
 
-[12] [13 <./images/skeletonizer.png>] [14] [15] [16
+[12] [13 <./images/skeletonizer.png>] [14] [15]
+<images/navigation1.png, id=241, 1357.07pt x 602.25pt>
+File: images/navigation1.png Graphic file (type png)
+<use images/navigation1.png>
+Package pdftex.def Info: images/navigation1.png  used on input line 317.
+(pdftex.def)             Requested size: 409.50119pt x 181.724pt.
+ [16 <./images/navigation1.png>] [17] [18] [19
 
-] [17
+] [20
 
 ]
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-[18
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[19] 
+[21
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./kidiplom.aux)
 Package logreq Info: Writing requests to 'kidiplom.run.xml'.
@@ -1303,18 +1331,18 @@ Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30497 strings out of 476025
- 546112 string characters out of 5790017
- 1887388 words of memory out of 5000000
- 50307 multiletter control sequences out of 15000+600000
- 590632 words of font info for 91 fonts, out of 8000000 for 9000
+ 30552 strings out of 476025
+ 547077 string characters out of 5790017
+ 1905388 words of memory out of 5000000
+ 50334 multiletter control sequences out of 15000+600000
+ 591253 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,10n,120p,2670b,4442s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kidiplom.pdf (19 pages, 1033788 bytes).
+ 126i,10n,120p,2670b,4417s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on kidiplom.pdf (21 pages, 1092819 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 450 compressed objects within 5 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
