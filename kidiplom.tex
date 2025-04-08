@@ -125,8 +125,8 @@
 
 %% Další dodatečné styly (balíky) potřebné pro sazbu vlastního textu
 %% práce.
-\usepackage{lipsum}
 \usepackage{longtable}
+\usepackage{svg}
 
 \begin{document}
 %% Sazba úvodních stran -- titulní, s bibliografickými údaji, s
@@ -287,6 +287,14 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
   \end{figure}
   
   \item \textbf{Another Flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} z Material Design. Účelem komponenty je krátce informovat uživatele o akci, která byla právě provedena. Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v možnosti většího přizpůsobením - přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z důvodu správného zobrazování při otevřeném dialogovém okně.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/flushbar.pdf}
+	\caption{Komponenta Flushbar}
+\end{figure}
+    
+    
   \item \textbf{Syncfusion Flutter Charts} je rozsáhlá knihovna pro tvorbu grafů. Umožňuje vytvářet všechny druhy grafů - sloupcové, spojnicové, prstencové a další (autoři uvádí více než 30 druhů). Grafy lze dále přizpůsobovat - výběr animace, úprav jednotek na osách, výběr barev, možnost zobrazit legendu či podrobné informace daného bodu v grafu po přejetí myší. Přes širokou škálu úprav je základní použití velmi jednoduché. Velkým bonusem je rozsáhlá dokumentace s ukázkami všech typů grafů a jejich zdrojových kódů.
   \item \textbf{File Picker} dává programátorovi možnost využít nativní průzkumník souborů k výběru složky nebo konkrétních souborů pro jejich další zpracování v aplikaci. Je možnost soubory filtrovat či umožnit výběr více z nich najednou. Základní funkcionalitu poskytuje na libovolné platformně s velmi jednoduchou implementací. V mém případě jsem ho použil pro výběr složky, kam si uživatel chce uložit exportované soubory. 
 
@@ -373,11 +381,24 @@ Při spuštění se zobrazí rovnou úvodní obrazovka \textit{dashboard}. Není
 \subsection{Úvodní obrazovka}
 Úvodní obrazovka, anglicky dashboard je centrem dění pro uživatele. Poskytuje základní přehled o finanční situaci. Konkrétně zobrazuje graf kategorií, stav účtu, dnešní útratu a posledních pět transakcí. Na zařízení s větší obrazovkou je rozšířena o legendu grafu a další zajímavé číselné údaje o stavu účtu. Úvodní obrazovka není uživatelsky přizpůsobitelná.
 
+\subsection{Přidání transakce}
+Transakce se přidává tlačítkem označeným ikonou plus (na větším zařízení i doplňujícím popiskem). Na menším zařízení se tlačítko nachází v pravé dolní části obrazovky nad navigační lištou. Na větším zařízení je umístěno před prvním prvkem v navigační liště na pravé straně obrazovky. Po stistknutí se objeví dialogové okno, kde uživatel může vybrat z následujících možností:
+\begin{itemize}
+  \item 
+\end{itemize}
+
 \subsection{Zobrazení a úprava transakcí}
-Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží porstřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřezené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje odznak u tlačítka filtrace.
+Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{Transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží porstřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřezené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje červený odznak u tlačítka filtrace.
 
 \subsection{Využití reportů}
-Grafy a důležité číselné údaje se nachází na obrazovce \textit{reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit pod tlačítkem \textit{Manage reports} ve spodní části. 
+Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit tlačítkem \textit{Manage reports} pod posledním reportem. Ny výběr je těchto pěti možností:
+\begin{itemize}
+  \item \textbf{Most spent categories} -- zobrazí sloupcový graf s pěti kategoriemi, ve~kterých je největší útrata ve~zvoleném období.
+  \item \textbf{Spent during time} -- zobrazí plošný graf s vývojem útraty v~průběhu daného období. Graf je interaktivní a při najetí pohbyu kurzorem v~grafu se zobrazí hodnota pro konkrétní datum.
+  \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o: procento ušetřených peněz z přijmu, průměrnou denní útratu a procento transakcí v~jiné měně než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
+  \item \textbf{Category ratio} -- zobrazí dvě buňky s kruhovými grafy. První zobrazuje poměr kategorií v příjmech a druhý poměr kategorií ve~výdajích. Při použití na největším zařízení se zobrazí interaktivní legenda.
+  \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s číselnými údaji. Kokrétně se jedná o: součet všech příjmů, součet všech výdajů a celkový stav účtu.Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
+\end{itemize}
 
 \subsection{Nastavení aplikace}
 
