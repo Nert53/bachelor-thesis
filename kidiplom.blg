@@ -1,33 +1,33 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'kidiplom.blg'
-[31] biber-darwin:340> INFO - === Tue Apr  8, 2025, 09:42:31
-[39] Biber.pm:419> INFO - Reading 'kidiplom.bcf'
-[72] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[78] Biber.pm:4419> INFO - Processing section 0
-[83] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografie.bib' for section 0
-[83] bibtex.pm:1713> INFO - LaTeX decoding ...
-[87] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografie.bib'
-[109] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[109] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[109] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs_CZ'
-[116] bbl.pm:660> INFO - Writing 'kidiplom.bbl' with encoding 'UTF-8'
-[117] bbl.pm:763> INFO - Output to kidiplom.bbl
-[117] Biber.pm:131> WARN - online entry 'cashew' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'mvvm' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'flutter' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'm3' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'flutter-docs' (bibliografie.bib): Invalid format '2025-04-08' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'wallet' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'flutter-showcase' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'jetbrains-crossplatform' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'dart' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'layout-m3' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'homebank' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'skeleton' (bibliografie.bib): Invalid format '2025-04-06' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'money-manager' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'drift' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'm3-components' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'flutter-architecture' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'sqlite' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
-[117] Biber.pm:131> WARN - online entry 'money-manager-android' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
-[117] Biber.pm:133> INFO - WARNINGS: 18
+[31] biber-darwin:340> INFO - === Tue Apr  8, 2025, 12:42:20
+[37] Biber.pm:419> INFO - Reading 'kidiplom.bcf'
+[71] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[77] Biber.pm:4419> INFO - Processing section 0
+[81] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografie.bib' for section 0
+[82] bibtex.pm:1713> INFO - LaTeX decoding ...
+[86] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografie.bib'
+[107] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[107] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[107] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs_CZ'
+[113] bbl.pm:660> INFO - Writing 'kidiplom.bbl' with encoding 'UTF-8'
+[114] bbl.pm:763> INFO - Output to kidiplom.bbl
+[114] Biber.pm:131> WARN - online entry 'drift' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'm3' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'm3-components' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'dart' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'money-manager' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'homebank' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'cashew' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'flutter' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'skeleton' (bibliografie.bib): Invalid format '2025-04-06' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'flutter-architecture' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'flutter-docs' (bibliografie.bib): Invalid format '2025-04-08' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'wallet' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'flutter-showcase' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'sqlite' (bibliografie.bib): Invalid format '2025-03-29' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'jetbrains-crossplatform' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'mvvm' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'money-manager-android' (bibliografie.bib): Invalid format '2025-04-05' of date field 'urldate' - ignoring
+[114] Biber.pm:131> WARN - online entry 'layout-m3' (bibliografie.bib): Invalid format '2025-04-07' of date field 'urldate' - ignoring
+[114] Biber.pm:133> INFO - WARNINGS: 18

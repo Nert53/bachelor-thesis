@@ -177,19 +177,55 @@ Aplikace třetích stran v tomto segmentu, nabízí různé možnosti. Mobilní 
 \subsection{1Money}
 Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o pár měsíců později už pouze na iOS. Z mnou vyzkoušených aplikací největší favorit pro denní užití. Aplikace mě zaujala svojí obrazovkou \textit{Categories}.  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v jeho středu se ještě nachází dva údaje - stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli ihned umožněno přidat transakci s danou kategorií a aktuálním časovým razítkem. Velmi intuitivní a rychlé řešení pro každodenní použití. Umožňuje vytvořit více různých účtů, včetně účtů pro spoření. Z hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti - již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v čase. Tuto aplikaci jsem si já osobně oblíbil nejvíce.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/onemoney1.PNG}
+    \hspace{10px}
+    \includegraphics[width=0.35\textwidth]{images/onemoney2.PNG}
+    \caption{Aplikace 1Money}
+\end{figure}
+
 \subsection{Cashew}
 Multiplatformní aplikace založená na stejné technologii Flutter jako moje aplikace se jmenuje Cashew \cite{cashew}. Implementuje komponenty z Material Design, ale rozvržení obrazovky si autoři uspořádali podle sebe. Uživateli umožňuje široké možnosti nastavení z hlediska vzhledu (barvy, typ písma, typ ikon či formáty data i čísel). Umožňuje zálohování dat na Google disk i import z csv souborů. Podporuje funkci více účtů. Obsahuje i placenou verzi, které je primárně podporu pro vývojáře.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.35\textwidth]{images/cashew2.PNG}
+    \hspace{10px}
+    \includegraphics[width=0.35\textwidth]{images/cashew1.PNG}
+  \caption{Aplikace Cashew}
+\end{figure}
 
 \subsection{Wallet}
 Mobilní aplikace Wallet \cite{wallet} je dostupná na platformy Android i iOS. Za její stažení uživatel v první fázi nezaplatí. Nabízí všechny základní funkce, co by uživatel očekával -- kategorie transakcí, podpora více měn, přidání poznámky. Z hlediska analýzy a grafového zobrazení je na výběr jen velmi málo možností v z mého pohledu nepřehledném uspořádání. Ze zajímavých funkcionalit stojí za zmínku plánované transakce nebo automatická bankovní synchronizace (tato funkce je už placená).
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.35\textwidth]{images/wallet1.PNG}
+    \hspace{10px}
+    \includegraphics[width=0.35\textwidth]{images/wallet2.PNG}
+  \caption{Aplikace Wallet}
+\end{figure}
+
 \subsection{Money Manager Ex}
 Aplikace dostupná jak na mobilní zařízení (nízký počet stažení \cite{money-manager-android}) tak především i na desktopové zařízení \cite{money-manager}. Uživatelské rozhraní je na první pohled relativně přívětivé, i když místy obsahuje širokou škálu tlačítek a možností k nastavení. Při prvním spuštění nevyžaduje žádné složité nastavení. Zde se mi velmi líbí velká nabídka grafů k analýze údajů a možnost exportu do PDF pro většinu obrazovek.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{images/manager-ex.png}
+  \caption{Aplikace Money Manager Ex}
+\end{figure}
 
 \subsection{Homebank}
 Desktopová aplikace dostupná na Windows, Linux i macOS \cite{homebank}. Z hlediska uživatelského komfortu je oproti Money Manager Ex jednodušší na používání. Při prvotním nastavení sice člověk musí vhodně nakonfigurovat svůj účet, v~dalších fázích je už používání intuitivní. Centrem aplikace je obrazovka se stavy účtu, přehledem transakcí a jednoduchými grafy. Všechny ostatní funkce se pak otevírají jako nové okno. Uživatelské rozhraní působí moderním a intuitivním dojmem.
 
-Co se pokusím vylepšit, udělat jinak.
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{images/homebank.png}
+  \caption{Aplikace Homebank}
+\end{figure}
+
+Oproti existujícím aplikacím by tato měla nabídnout přívětivější uživatelské rozhraní a ulehčit první použití. Rád bych přinesl i lepší vizualizaci v podobě grafů a zajímavých číselných údajů. V neposlední řadě by měla být spustitelná na libovolné platformně, tak aby uživatel nebyl limitován například při změně mobilního telefonu.
 
 \section{Použité technologie}
 
@@ -335,12 +371,13 @@ Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systé
 Při spuštění se zobrazí rovnou úvodní obrazovka \textit{dashboard}. Není nutné se přihlašovat, aplikace je nyní určena pouze pro jednoho uživatele a běží lokálně. Pro první spuštění jsou vložené základní kategorie transakcí a nejběžnější měny (obojí je možno upravit). 
 
 \subsection{Úvodní obrazovka}
-Úvodní obrazovka, anglicky dashboard je centrem dění pro uživatele. Poskytuje základní přehled o finanční situaci. Konkrétně zobrazuje graf kategorií, stav účtu,  dnešní útratu a posledních pět transakcí. Na zařízení s větší obrazovkou je rozšířena o legendu grafu a další zajímavé číselné údaje o stavu účtu. Úvodní obrazovka není uživatelsky přizpůsobitelná.
+Úvodní obrazovka, anglicky dashboard je centrem dění pro uživatele. Poskytuje základní přehled o finanční situaci. Konkrétně zobrazuje graf kategorií, stav účtu, dnešní útratu a posledních pět transakcí. Na zařízení s větší obrazovkou je rozšířena o legendu grafu a další zajímavé číselné údaje o stavu účtu. Úvodní obrazovka není uživatelsky přizpůsobitelná.
 
 \subsection{Zobrazení a úprava transakcí}
-
+Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží porstřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřezené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje odznak u tlačítka filtrace.
 
 \subsection{Využití reportů}
+Grafy a důležité číselné údaje se nachází na obrazovce \textit{reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit pod tlačítkem \textit{Manage reports} ve spodní části. 
 
 \subsection{Nastavení aplikace}
 

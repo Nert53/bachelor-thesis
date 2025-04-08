@@ -6,37 +6,37 @@
 \contentsline {subsection}{\numberline {2.2}Cashew}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Wallet}{9}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Money Manager Ex}{9}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Homebank}{9}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Použité technologie}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Dart}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Flutter}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Material Design}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}SQLite}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Balíčky}{12}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Programátorská příručka}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Architektura aplikace}{14}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Multiplatformní část projektu}{14}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Uchovávání stavu}{15}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Implementace responzivního designu}{15}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Zajímavosti při tvorbě práce}{16}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Uživatelská příručka}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}První spuštění}{17}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Úvodní obrazovka}{17}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zobrazení a úprava transakcí}{17}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Využití reportů}{17}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Nastavení aplikace}{17}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Přizpůsobení vzhledu}{17}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Přizpůsobení měn}{17}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Úpráva kategorií}{17}{subsubsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.6}Export dat}{17}{subsection.5.6}%
-\contentsline {section}{\numberline {6}Možná rozšíření aplikace}{17}{section.6}%
-\contentsline {section}{Z\'av\v er}{19}{section*.3}%
+\contentsline {subsection}{\numberline {2.5}Homebank}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Použité technologie}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dart}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Flutter}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Material Design}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}SQLite}{15}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Balíčky}{15}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Programátorská příručka}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Architektura aplikace}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Multiplatformní část projektu}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Uchovávání stavu}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Implementace responzivního designu}{19}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Zajímavosti při tvorbě práce}{19}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Uživatelská příručka}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}První spuštění}{20}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Úvodní obrazovka}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Zobrazení a úprava transakcí}{20}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Využití reportů}{21}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Nastavení aplikace}{21}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Přizpůsobení vzhledu}{21}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Přizpůsobení měn}{21}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Úpráva kategorií}{21}{subsubsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.6}Export dat}{21}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Možná rozšíření aplikace}{21}{section.6}%
+\contentsline {section}{Z\'av\v er}{22}{section*.3}%
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{Conclusions}{20}{section*.5}%
+\contentsline {section}{Conclusions}{23}{section*.5}%
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{Literatura}{21}{section*.7}%
+\contentsline {section}{Literatura}{24}{section*.7}%
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {english}{}\relax 

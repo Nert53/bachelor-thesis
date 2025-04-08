@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber kidiplom"] 1744098150 "kidiplom.bcf" "kidiplom.bbl" "kidiplom" 1744098975 0
-  "kidiplom.bcf" 1744098975 100914 a790c17cf45d62eb435913c464f8d83f "pdflatex"
+["biber kidiplom"] 1744108939 "kidiplom.bcf" "kidiplom.bbl" "kidiplom" 1744108967 0
+  "kidiplom.bcf" 1744108967 100914 a790c17cf45d62eb435913c464f8d83f "pdflatex"
   (generated)
   "kidiplom.bbl"
   "kidiplom.blg"
   (rewritten before read)
-["makeindex kidiplom.idx"] 1744096043 "kidiplom.idx" "kidiplom.ind" "kidiplom" 1744098975 0
-  "kidiplom.idx" 1744098973 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex kidiplom.idx"] 1744108932 "kidiplom.idx" "kidiplom.ind" "kidiplom" 1744108967 0
+  "kidiplom.idx" 1744108963 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "kidiplom.ilg"
   "kidiplom.ind"
   (rewritten before read)
-["pdflatex"] 1744098973 "/Users/nert/Desktop/upol/_bachelor_finish/_thesis_bachelor/text/kidiplom.tex" "kidiplom.pdf" "kidiplom" 1744098975 0
-  "/Users/nert/Desktop/upol/_bachelor_finish/_thesis_bachelor/text/kidiplom.tex" 1744098971 36047 2201e36ac6ef02fef0486a85e9526b2a ""
+["pdflatex"] 1744108962 "/Users/nert/Desktop/upol/_bachelor_finish/_thesis_bachelor/text/kidiplom.tex" "kidiplom.pdf" "kidiplom" 1744108967 0
+  "/Users/nert/Desktop/upol/_bachelor_finish/_thesis_bachelor/text/kidiplom.tex" 1744108962 38620 74869eaf9ea4045263b463063f94aeaf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -238,21 +238,29 @@
   "english-iso.lbx" 1742537928 292 ce1004c4c0d380cc5ae6d84de8c03da6 ""
   "graphics/UP_znak.pdf" 1742537928 3121 caaf4f5447a3a0b25b356a30208583d1 ""
   "graphics/kititle-cz-nofont.pdf" 1742537928 12762 4b9f69751f3c44debf721c7e80adffc7 ""
+  "images/cashew1.PNG" 1744107312 1366006 8e074196f8f49ba149df4dd6e6c4887d ""
+  "images/cashew2.PNG" 1744107324 1966050 52ffdf94a5c151f554b9d62c1faaf058 ""
+  "images/homebank.png" 1744108778 222957 d8da49ac62d8af2fd1bb2579a0081690 ""
+  "images/manager-ex.png" 1744108803 139054 e3ef8ca158b7ce201646ec85d3a5a0fc ""
   "images/navigation1.png" 1744053027 64151 bbb9c0a95f2320f1f6d22168f42bedec ""
+  "images/onemoney1.PNG" 1744107342 259792 c8b4e265c66e0d49b27b09eb4b151655 ""
+  "images/onemoney2.PNG" 1744107351 529999 e719f86c0cb30104a420b8ba5affcf9d ""
   "images/skeletonizer.png" 1743944626 982641 07899202f6e7fe4badeadc266bacfeb3 ""
+  "images/wallet1.PNG" 1744107362 183307 e64a3b08165cc3e7a17db00f3f46705b ""
+  "images/wallet2.PNG" 1744107374 164123 b9d44cbbbc642522d1cff3169dc77071 ""
   "iso-numeric.bbx" 1742537928 319 50b9ccdb608c40ac14dd498079e9ab29 ""
   "iso-numeric.cbx" 1742537928 73 45828f8df9dead5135d2c8a727f5b601 ""
   "iso.bbx" 1742537928 13233 9f9e9c852fe772bfe1efaacc6b415eb7 ""
   "kibase.sty" 1742537928 23853 021ae8236751950ac5e18f6a5bcf1da7 ""
-  "kidiplom.aux" 1744098975 20770 d26ef73ea15bc59f7c8ac86fbfca702d "pdflatex"
-  "kidiplom.bbl" 1744098151 11336 0e6d7db7b9e4b8bb44f880a259152edc "biber kidiplom"
+  "kidiplom.aux" 1744108967 21418 e52a65915d369826ee9e55431b6f815d "pdflatex"
+  "kidiplom.bbl" 1744108940 11336 0e6d7db7b9e4b8bb44f880a259152edc "biber kidiplom"
   "kidiplom.cls" 1742896175 18593 b39ea0de16f6341d8e04168c1f00003c ""
   "kidiplom.glsdefs" 1742537928 525 791a05cd0a9f8650067804d8f5ff3f41 ""
-  "kidiplom.ind" 1744096043 0 d41d8cd98f00b204e9800998ecf8427e "makeindex kidiplom.idx"
-  "kidiplom.lof" 1744098975 1492 571c39d1f9e8179d8b602ad047bf9eae "pdflatex"
-  "kidiplom.run.xml" 1744098975 2535 2737d3f684fc863fcc16a4e0d9d0a735 "pdflatex"
-  "kidiplom.tex" 1744098971 36047 2201e36ac6ef02fef0486a85e9526b2a ""
-  "kidiplom.toc" 1744098975 3934 56522c021e2979372644bcafb0e158f2 "pdflatex"
+  "kidiplom.ind" 1744108932 0 d41d8cd98f00b204e9800998ecf8427e "makeindex kidiplom.idx"
+  "kidiplom.lof" 1744108967 1933 4b792313b5949e2cd086f982a2bd9e4a "pdflatex"
+  "kidiplom.run.xml" 1744108967 2535 2737d3f684fc863fcc16a4e0d9d0a735 "pdflatex"
+  "kidiplom.tex" 1744108962 38620 74869eaf9ea4045263b463063f94aeaf ""
+  "kidiplom.toc" 1744108967 3936 30fa84068a15bf3a2a1486778af8d4e4 "pdflatex"
   (generated)
   "kidiplom.acn"
   "kidiplom.aux"
