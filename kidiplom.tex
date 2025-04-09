@@ -126,7 +126,8 @@
 %% Další dodatečné styly (balíky) potřebné pro sazbu vlastního textu
 %% práce.
 \usepackage{longtable}
-\usepackage{svg}
+\usepackage{url}          %% kvuli podtrzitku v .bib souboru
+\usepackage{hyperref}     %% kvuli podtrzitku v .bib souboru
 
 \begin{document}
 %% Sazba úvodních stran -- titulní, s bibliografickými údaji, s
@@ -150,7 +151,7 @@ Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v našich ž
 
 V dnešní době již většina lidí používá internetové bankovnictví, která dost často poskytuje alespoň základní statistiky o našem nakládání s financemi. Na druhou stranu lidé mívají účty u více bank a reporty o stavu financí nejsou dostatečně přizpůsobitelné.
 
-Kromě toho, že peníze se podaří člověku ušetřit je vhodné s nimi potom dále nakládat. Můžeme je ihned utratit (což není dlouhodobě vhodná varianta), spořit si nebo dále investovat. Spořit si je možné na řadu věcí -- nové bydlení, automobil či vytvoření dostatečného objemu pěnez pro založení vlastního podnikání. Pro spoření existují dva základní způsoby jak peníze ukládat. Prvním z nich je mít je na běžném či spořícím účtu a jejich hodnota bude v čas pořád zhruba stejná. Druhým přístupem je aktivně investovat a snažit se pomocí nich vydělat další peníze.
+Kromě toho, že peníze se podaří člověku ušetřit je vhodné s nimi potom dále nakládat. Můžeme je ihned utratit (což není dlouhodobě vhodná varianta), spořit si nebo dále investovat. Spořit si je možné na řadu věcí -- nové bydlení, automobil či vytvoření dostatečného objemu peněz pro založení vlastního podnikání. Pro spoření existují dva základní způsoby jak peníze ukládat. Prvním z nich je mít je na běžném či spořícím účtu a jejich hodnota bude v čas pořád zhruba stejná. Druhým přístupem je aktivně investovat a snažit se pomocí nich vydělat další peníze.
 
 \subsection{Požadavky}
 Napsat něco jiného než minule, vhodný začátek podkapitoly.
@@ -239,7 +240,7 @@ Objektově orientovaný jazyk Dart \cite{dart} pochází od společnosti Google,
 \kiinlinecode{}{;}
 Je dodáván se širokou škálou základních knihoven, které umožňují obstarat běžný vývoj. Jako příklad mohu uvést knihovnu \kiinlinecode{}{;}{dart:async}, která umožňuje asynchronní programování za využití tříd jako je \kiinlinecode{}{;}{Future} nebo knihovna \kiinlinecode{}{;}{dart:io} pro práci se souborovým systémem či HTTP protokolem.
 
-Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtuální stroj s JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejíž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále i AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování apliakce pro použití v produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do JavaScript nebo WebAssembly. Opět i zde Dart využívá různé techniky pro ladění kódu a následné produkci. Oba tyto způsoby jsou stejné v tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
+Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtuální stroj s JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejíž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále i AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování aplikace pro použití v produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do JavaScript nebo WebAssembly. Opět i zde Dart využívá různé techniky pro ladění kódu a následné produkci. Oba tyto způsoby jsou stejné v tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
 
 \begin{kicode}{}{}{Ukázka kódu v jazyce Dart}
 class Point {
@@ -253,18 +254,18 @@ class Point {
 \end{kicode}
 
 \subsection{Flutter}
-Open source framework Flutter \cite{flutter} slouží pro tvorbu uživatelských Využívá Dart a je taktéž vyvíjený společností Google. Poprvé zveřejněn byl v květnu 2017. Google sám ho využívá v aplikacích jako je Google Play nebo Goole Earth \cite{flutter-showcase}. Mezi nejznámější aplikace třetích stran používajících Flutter patří Alibaba nebo hra PUBG Mobile \cite{flutter-showcase}.
+Open source framework Flutter \cite{flutter} slouží pro tvorbu uživatelských Využívá Dart a je taktéž vyvíjený společností Google. Poprvé zveřejněn byl v květnu 2017. Google sám ho využívá v aplikacích jako je Google Play nebo Google Earth \cite{flutter-showcase}. Mezi nejznámější aplikace třetích stran používajících Flutter patří Alibaba nebo hra PUBG Mobile \cite{flutter-showcase}.
 
 Používá své vlastní vykreslovací jádro, které pixely přímo vykresluje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňuje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
 
 Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelské rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovaných widgetů -- Material Design (viz kapitola \ref{material-design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
 
-Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených Material Designem a umožní programátorovi velmi jednoduchou implementaci.
+Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených systémem Material Design a umožní programátorovi velmi jednoduchou implementaci.
 
 \subsection{Material Design} \label{material-design}
 V březnu 2025 je Material Design verze 3 \cite{m3} nejnovějším open source designový systém od společnosti Google. Systémem v tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry s respektem pro psychologický vliv uživatelského rozhraní na člověka.
 
-Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktualizace tohoto systému. Tento krok dává smysl vzhledem k vyvíjejícím se trendům v~oblasti designu. Tyto aktualizace mohl běžných uživatel pozorovat v operačním systému Android nebo v aplikacích od Googlu, jelikož Google tento systém používá téměř všude.
+Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktualizace tohoto systému. Tento krok dává smysl vzhledem k vyvíjejícím se trendům v~oblasti designu. Tyto aktualizace mohl běžných uživatel pozorovat v operačním systému Android nebo v aplikacích od Google, jelikož Google tento systém používá téměř všude.
 
 Použití tohoto systému má ve Flutteru řadu výhod. Především většina Material widgetů je již implementována \cite{m3-components} a použití programátorem je velmi jednoduché. Programátor nemusí často řešit rozmístění jednotlivých prvků v konkrétní komponentě ani správnou adaptaci na velikost zařízení. Běžnou součástí aplikací jsou ikony. Ikony z Material Designu jsou ve Flutteru k přímému použití bez specifického nastavení. Programátor nemusí řešit žádné externí SVG soubory. Stejně to platí i pro použití fontů písem.
 
@@ -288,16 +289,14 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
   
   \item \textbf{Another Flushbar} \cite{flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} z Material Design. Účelem komponenty je krátce informovat uživatele o akci, která byla právě provedena. Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v možnosti většího přizpůsobením - přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z důvodu správného zobrazování při otevřeném dialogovém okně.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\textwidth]{images/flushbar.pdf}
-	\caption{Komponenta Flushbar}
-\end{figure}
-    
-    
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/flushbar.pdf}
+    \caption{Komponenta Flushbar}
+  \end{figure}
+      
   \item \textbf{Syncfusion Flutter Charts} \cite{syncfusion-charts} je rozsáhlá knihovna pro tvorbu grafů. Umožňuje vytvářet všechny druhy grafů - sloupcové, spojnicové, prstencové a další (autoři uvádí více než 30 druhů). Grafy lze dále přizpůsobovat - výběr animace, úprav jednotek na osách, výběr barev, možnost zobrazit legendu či podrobné informace daného bodu v grafu po přejetí myší. Přes širokou škálu úprav je základní použití velmi jednoduché. Velkým bonusem je rozsáhlá dokumentace s ukázkami všech typů grafů a jejich zdrojových kódů.
   \item \textbf{File Picker} \cite{file-picker} dává programátorovi možnost využít nativní průzkumník souborů k výběru složky nebo konkrétních souborů pro jejich další zpracování v aplikaci. Je možnost soubory filtrovat či umožnit výběr více z nich najednou. Základní funkcionalitu poskytuje na libovolné platformně s velmi jednoduchou implementací. V mém případě jsem ho použil pro výběr složky, kam si uživatel chce uložit exportované soubory. 
-
 \end{itemize}
 
 
@@ -307,7 +306,7 @@ Multiplatformní vývoj přináší jistá specifika (nutnost zvolit vhodné tec
 
 Mnou navržené a vytvořené aplikace jsem dal název Budget Buddy. Je určena pro mobilní telefony, tablety i desktopová zařízení. Testování probíhalo na operačních systémech Android verze xx a vyšší, iOS xx a vyšší a Windows xx a vyšší. Pro ostatní operační systémy není zaručena plná funkcionalita, i když z podstaty frameworku by se tak stát nemělo.
 
-Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou rozšíření. Část práce specifické pro platformu Android jsem realizoval v prostředí Android Studio. Především se jednalo o úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle, kde Androi Studio poskytuje jednodušší rozhraní a programátora výborně provede celým procesem.
+Pro vývoj aplikace jsem použil textový editor Visual Studio Code s řadou rozšíření. Část práce specifické pro platformu Android jsem realizoval v prostředí Android Studio. Především se jednalo o úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle, kde Android Studio poskytuje jednodušší rozhraní a programátora výborně provede celým procesem.
 
 \subsection{Architektura aplikace}
 Pro multiplatformní vývoj neexistuje doporučená architektura už z podstaty věci širokého záběru různých zařízení. Je možné se držet dlouho známých architektur, které se používají v různých systémech (\textit{Model-View-Controller} či \textit{Mode-View-Viewmodel}) nebo se řídit podle zvyklostí daného frameworku (ve Flutteru se jedná například o \textit{The Clen Architecture} nebo \textit{Bloc}). Já se ve své aplikaci držel architektury Model-View-Viewmodel, jelikož s ní mám z minulosti zkušenosti a pro moji malou aplikaci je plně dostačující. 
@@ -379,16 +378,23 @@ Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systé
 Při spuštění se zobrazí rovnou úvodní obrazovka \textit{dashboard}. Není nutné se přihlašovat, aplikace je nyní určena pouze pro jednoho uživatele a běží lokálně. Pro první spuštění jsou vložené základní kategorie transakcí a nejběžnější měny (obojí je možno upravit). 
 
 \subsection{Úvodní obrazovka}
-Úvodní obrazovka, anglicky dashboard je centrem dění pro uživatele. Poskytuje základní přehled o finanční situaci. Konkrétně zobrazuje graf kategorií, stav účtu, dnešní útratu a posledních pět transakcí. Na zařízení s větší obrazovkou je rozšířena o legendu grafu a další zajímavé číselné údaje o stavu účtu. Úvodní obrazovka není uživatelsky přizpůsobitelná.
+Úvodní obrazovka je centrem dění pro uživatele. Poskytuje základní přehled o finanční situaci. Konkrétně zobrazuje graf kategorií, stav účtu, dnešní útratu a posledních pět transakcí. Na zařízení s větší obrazovkou je rozšířena o legendu grafu a další zajímavé číselné údaje o stavu účtu. Úvodní obrazovka není uživatelsky přizpůsobitelná.
 
 \subsection{Přidání transakce}
-Transakce se přidává tlačítkem označeným ikonou plus (na větším zařízení i doplňujícím popiskem). Na menším zařízení se tlačítko nachází v pravé dolní části obrazovky nad navigační lištou. Na větším zařízení je umístěno před prvním prvkem v navigační liště na pravé straně obrazovky. Po stistknutí se objeví dialogové okno, kde uživatel může vybrat z následujících možností:
+Transakce se přidává tlačítkem označeným ikonou plus, na větším zařízení i doplňujícím popiskem. Na menším zařízení se tlačítko nachází v pravé dolní části obrazovky nad navigační lištou jako tzv. \textit{floating action button}. Na větším zařízení je umístěno před prvním prvkem v navigační liště na pravé straně obrazovky. Po stistknutí se objeví dialogové okno, kde uživatel může vybrat z následujících možností:
 \begin{itemize}
-  \item 
+  \item \textbf{Částka} -- zadává se hodnota transakce jako číslo. Desetinná čísla jsou povolená jak s čárkou i s tečkou (aplikace si je sama převede na tečku).
+  \item \textbf{Poznámka} -- textový doplněk transakce o délce maximálně 1000 znaků.  Poznámka není povinná.
+  \item \textbf{Typ} -- výběr ze dvou možností zda-li jde o útratu nebo příjem.
+  \item \textbf{Kategorie} -- kategorie se kterou bude transakce spojena. Výběr se zobrazí ve vyjížděcím seznamu po kliknutí.
+  \item \textbf{Měna} -- měna dané transakce. Konverze hodnoty v Českých korunách se provede podle aktuálně nastaveného kurzu.
+  \item \textbf{Datum} -- jaký den byla transakce provedena. Předvyplněno na aktuální datum.
+  \item \textbf{Čas} -- v jakou denní dobu byla transakce provedena. Předvyplněno na aktuální čas.
 \end{itemize}
+Vyplněnou transakci je nutné tlačítkem \textit{Save Transaction} uložit jinak nebude zápis proveden.
 
 \subsection{Zobrazení a úprava transakcí}
-Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{Transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží porstřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřezené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje červený odznak u tlačítka filtrace.
+Transakce a jejich úprava se provádí na druhé obrazovce s názvem \textit{Transactions}. Výpis je proveden v seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka. Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit, případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby. Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k čemuž slouží prostřední tlačítko v horní části. Šipky na stranách umožňují přesouvat se o zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřazené (kategorie, měna, typ atd.). Obrazovka s výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje červený odznak u tlačítka filtrace.
 
 \subsection{Využití reportů}
 Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}. Je zde na výběr z pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit tlačítkem \textit{Manage reports} pod posledním reportem. Na výběr je těchto pěti možností:
@@ -397,23 +403,23 @@ Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}
   \item \textbf{Spent during time} -- zobrazí plošný graf s vývojem útraty v~průběhu daného období. Graf je interaktivní a při najetí pohbyu kurzorem v~grafu se zobrazí hodnota pro konkrétní datum.
   \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o: procento ušetřených peněz z přijmu, průměrnou denní útratu a procento transakcí v~jiné měně než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
   \item \textbf{Category ratio} -- zobrazí dvě buňky s kruhovými grafy. První zobrazuje poměr kategorií v příjmech a druhý poměr kategorií ve~výdajích. Při použití na největším zařízení se zobrazí interaktivní legenda.
-  \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s číselnými údaji. Kokrétně se jedná o: součet všech příjmů, součet všech výdajů a celkový stav účtu. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
+  \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s číselnými údaji. Konkrétně se jedná o: součet všech příjmů, součet všech výdajů a celkový stav účtu. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
 \end{itemize}
 
 \subsection{Nastavení aplikace}
 Poslední obrazovkou dostupnou z navigační lišty je nastavení (záložka \textit{Settings}). Umožňuje nastavit jak prostředí po stránce funkcí, tak i po stránce vzhledu.
 
-\subsubsection{Úpráva kategorií}
-Přidávat, mazat i upravovat kategorie je možné v záložce \textit{Categories editor}. Otevře se nová obrazovka s výpisem všech kategorií formou karet. U každé karty je znázorněna ikona, název a barva. Ikonka tužky otevře dialogové okno s možností úpravit nastavení dané kategorie (změny je nutné uložit tlačítkem \textit{Save}). Ikona popelnice po potvrzení v dialogovém okně nevratně smaže danou kategorii i ji náležící transakce. Plovoucím tlačítkem s ikonou plus se vytváří nová kategorie s uživatelem definovaný parametry.
+\subsubsection{Úprava kategorií}
+Přidávat, mazat i upravovat kategorie je možné v záložce \textit{Categories editor}. Otevře se nová obrazovka s výpisem všech kategorií formou karet. U každé karty je znázorněna ikona, název a barva. Ikonka tužky otevře dialogové okno s možností upravit nastavení kategorie (změny je nutné uložit tlačítkem \textit{Save}). Ikona popelnice po potvrzení v dialogovém okně nevratně smaže danou kategorii i ji náležící transakce. Plovoucím tlačítkem s ikonou plus se vytváří nová kategorie s uživatelem definovaný parametry.
 
 \subsubsection{Přizpůsobení měn}
-Po kliknutí na kartu \textit{Currency settings} se rozbalí seznam všech měn (název a zkratka).
+Po kliknutí na kartu \textit{Currency settings} se rozbalí seznam všech měn. V seznamu je vidět název a zkratka měny. Na pravé straně každé měny je tlačítko \textit{Edit}, které vyvolá dialogové okno pro editaci měny. V něm je možné zvolit název, směnný kurz a zkratku. Doporučený formát pro zkratku je  ISO~4217 \cite{iso4217}, jelikož zaručuje kompatibilitu s aktualizací kurzu z ČNB. Příklady formátu jsou USD pro dolar, CZK pro Českou korunu nebo EUR pro euro. Aktualizace směnného kurzu se provádí tlačítkem i ikonou šipek v kruhu. Směnné kurzy jsou čerpány ze stránek ČNB \cite{cnb-kurzy}. Změna kurzu nemá vliv na v minulosti uložené transakce.
 
 \subsubsection{Přizpůsobení vzhledu}
-Vzhled je možno přizpůsobit rozbalením karty \textit{Color theme}. Na výběr je ze sedmi barev, které jsou pojmenované i s náhledem konkrétního odstínu. Konkrétní barvy reprezentují jednotlivá barevná témata. Výběr tohoto tématu změní celý nádech aplikace od výrazných barev až po jemné barvy v pozadí.
+Vzhled je možno přizpůsobit rozbalením karty \textit{Color theme}. Na výběr je ze sedmi barev, které jsou pojmenované i s náhledem konkrétní barvy. Konkrétní barvy reprezentují jednotlivá barevná témata (jedna barva je základem tématu a z ní se odvíjí barvy ostatní). Výběr tohoto tématu změní celý nádech aplikace od výrazných barev až po jemné barvy v pozadí. Změnu proběhne ihned a není nutné ji nikde potvrzovat.
 
 \subsection{Export dat}
-
+Export dat se nachází pod položkou \textit{Export data}. Je možný ve třech formátech -- CSV, JSON a SQLite. První dva formáty slouží především pro import do jiných aplikací nebo pro libovolné zpracování uživatel. Jsou široce podporované a čitelné pro člověka. Poslední formát slouží pro zálohu dat. Jde o soubor s kompletní SQLite databází, který není běžně čitelný člověkem, ale je nutné ho zpracovat. Pro export dat je možné si vybrat libovolné umístění na právě používaném zařízení.
 
 \section{Možná rozšíření aplikace}
 Osobně si myslím, že nikdy se nedá o softwaru prohlásit, že by nepotřeboval vývoj a není možné mu dodat vylepšení. Už jen vzhledem k vnějšímu vývoji technologií a proměně uživatelských požadavků je nutné aplikaci udržovat aktuální. Se změnou požadavků se pojí rozšíření o nové funkce a nebo naopak odstranění funkcí nepoužívaných.
@@ -432,6 +438,27 @@ Tady bude závěr.
 \begin{kiconclusions}[english]
 Here will be conclusion.
 \end{kiconclusions}
+
+\appendix
+\section{Obsah elektronický dat} \label{sec:ObsahElData}
+Součástí textu práce jsou i elektronická data v systému Katedy informatiky PřF v Olomouci s touto strukturou:
+
+\begin{description}
+
+  \item[\texttt{src/}] \hfill \\
+    Adresář obsahující soubory pro instalaci na platformy Android a Windows.
+  \item[\texttt{bin/}] \hfill \\
+    Adresář obsahující veškeré soubory a adresáře (v ZIP archivu) nutné pro sestavení spustitelných souborů. Jde o celý Flutter projekt.
+  \item[\texttt{text/}] \hfill \\
+    Adresář s textem práce ve formátu PDF, vytvořený s~použitím
+    závazného stylu KI PřF UP v~Olomouci pro závěrečné práce, včetně
+    všech (textových) příloh, a~všechny soubory potřebné pro
+    bezproblémové vytvoření PDF dokumentu textu (případně v~ZIP
+    archivu), tj.~zdrojový text textu a příloh, vložené obrázky, apod.
+  \item[\texttt{README.md}] \hfill \\
+    Textový soubor ve značkovacím jazyku Markdown s instrukcemi pro instalaci a spuštění aplikace.
+
+\end{description}
 
 % ----- tady začíná to co v práci bylo dáno
 
@@ -462,7 +489,6 @@ Here will be conclusion.
 
 \printbibliography
 \nocite{*}
-
 
 %% Sazba volitelného rejstříku, za bibliografií.
 %% \printindex
