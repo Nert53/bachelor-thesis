@@ -128,6 +128,7 @@
 \usepackage{longtable}
 \usepackage{url}          %% kvuli podtrzitku v .bib souboru
 \usepackage{hyperref}     %% kvuli podtrzitku v .bib souboru
+\usepackage{nameref}
 
 \begin{document}
 %% Sazba úvodních stran -- titulní, s bibliografickými údaji, s
@@ -258,11 +259,11 @@ Open source framework Flutter \cite{flutter} slouží pro tvorbu uživatelských
 
 Používá své vlastní vykreslovací jádro, které pixely přímo vykresluje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňuje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
 
-Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelské rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovaných widgetů -- Material Design (viz kapitola \ref{material-design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
+Základní komponentou je \textit{widget}. Ten se dále může skládat z dalších widgetů. Celé uživatelské rozhraní je poté poskládáno z těchto celků. Flutter sám o sobě poskytuje dva typy předdefinovaných widgetů -- Material Design (viz kapitola~\ref{sec:material-design}~\nameref{sec:material-design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně kdekoliv. Programátor si samozřejmě sám může definovat widgety vlastní.
 
 Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených systémem Material Design a umožní programátorovi velmi jednoduchou implementaci.
 
-\subsection{Material Design} \label{material-design}
+\subsection{Material Design} \label{sec:material-design}
 V březnu 2025 je Material Design verze 3 \cite{m3} nejnovějším open source designový systém od společnosti Google. Systémem v tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry s respektem pro psychologický vliv uživatelského rozhraní na člověka.
 
 Předchozí označení verze 3 napovídá, že v minulosti již proběhly aktualizace tohoto systému. Tento krok dává smysl vzhledem k vyvíjejícím se trendům v~oblasti designu. Tyto aktualizace mohl běžných uživatel pozorovat v operačním systému Android nebo v aplikacích od Google, jelikož Google tento systém používá téměř všude.

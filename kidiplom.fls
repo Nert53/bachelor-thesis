@@ -1402,6 +1402,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/euscript.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT ./kidiplom.aux
 INPUT kidiplom.aux
 INPUT kidiplom.aux
