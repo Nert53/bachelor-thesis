@@ -172,23 +172,6 @@
       \verb https://m3.material.io/
       \endverb
     \endentry
-    \entry{m3-components}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Components – Material Design 3}
-      \field{urlday}{5}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://m3.material.io/components
-      \endverb
-      \verb{url}
-      \verb https://m3.material.io/components
-      \endverb
-    \endentry
     \entry{sqlite}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -306,8 +289,8 @@
       \endverb
     \endentry
     \entry{syncfusion-charts}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{syncfusion-flutter-charts | Flutter package}
@@ -422,24 +405,6 @@
       \endverb
       \verb{url}
       \verb https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/
-      \endverb
-    \endentry
-    \entry{money-manager-android}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Android Money Manager Ex – Aplikace na Google Play}
-      \field{urlday}{5}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.money.manager.ex.android
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.money.manager.ex.android
       \endverb
     \endentry
   \enddatalist

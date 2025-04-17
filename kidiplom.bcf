@@ -2155,21 +2155,19 @@
     <bcf:citekey order="10" intorder="1">flutter-showcase</bcf:citekey>
     <bcf:citekey order="11" intorder="1">flutter-showcase</bcf:citekey>
     <bcf:citekey order="12" intorder="1">m3</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">m3-components</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">sqlite</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">drift</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">gorouter</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">skeletonizer</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">skeleton</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">flushbar</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">syncfusion-charts</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">file-picker</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">mvvm</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">layout-m3</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">flutter-docs</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">iso4217</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">cnb-kurzy</bcf:citekey>
-    <bcf:citekey order="27" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">sqlite</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">drift</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">gorouter</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">skeletonizer</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">skeleton</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">flushbar</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">syncfusion-charts</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">file-picker</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">mvvm</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">layout-m3</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">flutter-docs</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">iso4217</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">cnb-kurzy</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
