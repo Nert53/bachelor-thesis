@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  18 APR 2025 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  18 APR 2025 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,62 +1167,62 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [5
 
-] (./kidiplom.lof)
+] [6] (./kidiplom.lof)
 \tf@lof=\write10
 \openout10 = `kidiplom.lof'.
 
- [6
+ [7
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 151.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7
+) [8
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/onemoney1.PNG, id=151, 1183.42125pt x 2422.04875pt>
+<images/onemoney1.PNG, id=161, 1183.42125pt x 2422.04875pt>
 File: images/onemoney1.PNG Graphic file (type png)
 <use images/onemoney1.PNG>
 Package pdftex.def Info: images/onemoney1.PNG  used on input line 174.
 (pdftex.def)             Requested size: 143.32791pt x 293.3312pt.
-<images/onemoney2.PNG, id=152, 1183.42125pt x 2414.01875pt>
+<images/onemoney2.PNG, id=162, 1183.42125pt x 2414.01875pt>
 File: images/onemoney2.PNG Graphic file (type png)
 <use images/onemoney2.PNG>
 Package pdftex.def Info: images/onemoney2.PNG  used on input line 176.
 (pdftex.def)             Requested size: 143.32791pt x 292.3587pt.
-<images/cashew2.PNG, id=158, 1183.42125pt x 2464.20625pt>
+<images/cashew2.PNG, id=168, 1183.42125pt x 2464.20625pt>
 File: images/cashew2.PNG Graphic file (type png)
 <use images/cashew2.PNG>
 Package pdftex.def Info: images/cashew2.PNG  used on input line 186.
 (pdftex.def)             Requested size: 143.32791pt x 298.43684pt.
-<images/cashew1.PNG, id=159, 1183.42125pt x 2428.07124pt>
+<images/cashew1.PNG, id=169, 1183.42125pt x 2428.07124pt>
 File: images/cashew1.PNG Graphic file (type png)
 <use images/cashew1.PNG>
 Package pdftex.def Info: images/cashew1.PNG  used on input line 188.
 (pdftex.def)             Requested size: 143.32791pt x 294.06058pt.
- [8]
-<images/wallet1.PNG, id=168, 1181.41376pt x 2415.0225pt>
+ [9]
+<images/wallet1.PNG, id=179, 1181.41376pt x 2415.0225pt>
 File: images/wallet1.PNG Graphic file (type png)
 <use images/wallet1.PNG>
 Package pdftex.def Info: images/wallet1.PNG  used on input line 198.
 (pdftex.def)             Requested size: 143.32791pt x 292.95932pt.
-<images/wallet2.PNG, id=169, 1183.42125pt x 2443.1275pt>
+<images/wallet2.PNG, id=180, 1183.42125pt x 2443.1275pt>
 File: images/wallet2.PNG Graphic file (type png)
 <use images/wallet2.PNG>
 Package pdftex.def Info: images/wallet2.PNG  used on input line 200.
 (pdftex.def)             Requested size: 143.32791pt x 295.88402pt.
-<images/manager-ex.png, id=173, 1445.4pt x 776.14969pt>
+<images/manager-ex.png, id=184, 1445.4pt x 776.14969pt>
 File: images/manager-ex.png Graphic file (type png)
 <use images/manager-ex.png>
 Package pdftex.def Info: images/manager-ex.png  used on input line 210.
 (pdftex.def)             Requested size: 409.50119pt x 219.89038pt.
- [9 <./images/onemoney1.PNG> <./images/onemoney2.PNG>] [10 <./images/cashew2.PNG> <./images/cashew1.PNG>] [11 <./images/wallet1.PNG> <./images/wallet2.PNG> <./images/manager-ex.png>]
-<images/homebank.png, id=194, 1445.4pt x 777.65532pt>
+ [10 <./images/onemoney1.PNG> <./images/onemoney2.PNG>] [11 <./images/cashew2.PNG> <./images/cashew1.PNG>] [12 <./images/wallet1.PNG> <./images/wallet2.PNG> <./images/manager-ex.png>]
+<images/homebank.png, id=204, 1445.4pt x 777.65532pt>
 File: images/homebank.png Graphic file (type png)
 <use images/homebank.png>
 Package pdftex.def Info: images/homebank.png  used on input line 220.
 (pdftex.def)             Requested size: 409.50119pt x 220.31694pt.
- [12 <./images/homebank.png>]
+ [13 <./images/homebank.png>]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 238.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1234,42 +1234,60 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 240.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 242.
- [13{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [14]
-<images/skeletonizer.png, id=244, 3117.6475pt x 2490.30376pt>
+ [14{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [15]
+<images/skeletonizer.png, id=254, 3117.6475pt x 2490.30376pt>
 File: images/skeletonizer.png Graphic file (type png)
 <use images/skeletonizer.png>
 Package pdftex.def Info: images/skeletonizer.png  used on input line 283.
 (pdftex.def)             Requested size: 311.78302pt x 249.04497pt.
- [15]
+ [16]
 
 pdfTeX warning: pdflatex (file ./images/flushbar.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/flushbar.pdf, id=259, 602.25pt x 100.375pt>
+<images/flushbar.pdf, id=269, 602.25pt x 100.375pt>
 File: images/flushbar.pdf Graphic file (type pdf)
 <use images/flushbar.pdf>
 Package pdftex.def Info: images/flushbar.pdf  used on input line 292.
 (pdftex.def)             Requested size: 204.7506pt x 34.1255pt.
-[16 <./images/skeletonizer.png> <./images/flushbar.pdf>] [17] [18]
-<images/navigation1.png, id=350, 1357.07pt x 602.25pt>
+[17 <./images/skeletonizer.png> <./images/flushbar.pdf>] [18] [19]
+<images/navigation1.png, id=361, 1357.07pt x 602.25pt>
 File: images/navigation1.png Graphic file (type png)
 <use images/navigation1.png>
 Package pdftex.def Info: images/navigation1.png  used on input line 356.
 (pdftex.def)             Requested size: 409.50119pt x 181.724pt.
- [19 <./images/navigation1.png>]
-<images/bottom-sheet.png, id=361, 678.535pt x 519.44063pt>
+
+
+pdfTeX warning: pdflatex (file ./images/app-icon.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/app-icon.pdf, id=365, 1027.84pt x 1027.84pt>
+File: images/app-icon.pdf Graphic file (type pdf)
+<use images/app-icon.pdf>
+Package pdftex.def Info: images/app-icon.pdf  used on input line 366.
+(pdftex.def)             Requested size: 163.79797pt x 163.79904pt.
+[20 <./images/navigation1.png>]
+<images/poppins.png, id=370, 1022.82124pt x 102.3825pt>
+File: images/poppins.png Graphic file (type png)
+<use images/poppins.png>
+Package pdftex.def Info: images/poppins.png  used on input line 373.
+(pdftex.def)             Requested size: 196.5588pt x 19.67471pt.
+<images/roboto.png, id=371, 910.40125pt x 84.315pt>
+File: images/roboto.png Graphic file (type png)
+<use images/roboto.png>
+Package pdftex.def Info: images/roboto.png  used on input line 375.
+(pdftex.def)             Requested size: 196.5588pt x 18.20326pt.
+<images/bottom-sheet.png, id=375, 678.535pt x 519.44063pt>
 File: images/bottom-sheet.png Graphic file (type png)
 <use images/bottom-sheet.png>
-Package pdftex.def Info: images/bottom-sheet.png  used on input line 369.
+Package pdftex.def Info: images/bottom-sheet.png  used on input line 388.
 (pdftex.def)             Requested size: 327.60219pt x 250.78705pt.
- [20 <./images/bottom-sheet.png>] [21]
-Overfull \hbox (0.67523pt too wide) in paragraph at lines 404--405
+ [21 <./images/app-icon.pdf> <./images/poppins.png> <./images/roboto.png>] [22 <./images/bottom-sheet.png>] [23]
+Overfull \hbox (0.67523pt too wide) in paragraph at lines 423--424
 []\T1/lmr/bx/n/12 Most spent ca-te-go-ries \T1/lmr/m/n/12 -- zob-razí sloup-cový graf s p¥ti ka-te-go-ri-emi, ve kte-
  []
 
-[22] [23] [24] [25
+[24] [25] [26] [27
 
-] [26
+] [28
 
-] [27
+] [29
 
 ]
 
@@ -1345,7 +1363,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[28
+[30
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
@@ -1377,7 +1395,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[29] 
+[31] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./kidiplom.aux)
 Package logreq Info: Writing requests to 'kidiplom.run.xml'.
@@ -1385,18 +1403,18 @@ Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30254 strings out of 476025
- 539393 string characters out of 5790017
+ 30283 strings out of 476025
+ 539942 string characters out of 5790017
  1908388 words of memory out of 5000000
- 50016 multiletter control sequences out of 15000+600000
+ 50037 multiletter control sequences out of 15000+600000
  587610 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  126i,10n,120p,2670b,4442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kidiplom.pdf (29 pages, 4037893 bytes).
+Output written on kidiplom.pdf (31 pages, 4089945 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
