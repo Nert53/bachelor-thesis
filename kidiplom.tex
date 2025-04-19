@@ -142,7 +142,7 @@
 \section{Úvod}
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v~našich životech podstatnou roli. Z~hlediska pohledu jednotlivce je užitečné mít ve financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat. V~neposlední řadě by měl člověk vědět, kolik peněz by potřeboval v~případě výpadku příjmů.
 
-V~dnešní době již většina lidí používá internetové bankovnictví, která často poskytuje alespoň základní statistiky o~našem nakládání s~financemi. Na druhou stranu lidé mívají účty u~více bank a analýzy o~stavu financí přímo v bankovních aplikacích nejsou dostatečně přizpůsobitelné. Lidé proto vyhledávají alternativy v podobě aplikací třetích stran. V těchto aplikacích mají uživatelé plnou kontrolu nad tím co si evidují a lepší podmínky pro analýzu.
+V~dnešní době již většina lidí používá internetové bankovnictví, která často poskytuje alespoň základní statistiky o~našem nakládání s~financemi. Na druhou stranu lidé mívají účty u~více bank a analýzy o~stavu financí přímo v~bankovních aplikacích nejsou dostatečně přizpůsobitelné. Lidé proto vyhledávají alternativy v~podobě aplikací třetích stran. V~těchto aplikacích mají uživatelé plnou kontrolu nad tím co si evidují a lepší podmínky pro analýzu.
 
 \subsection{Požadavky}
 Aplikace by měla vyplnit nedostatky již existujících řešení. Smyslem je navrhnout uživatelsky přívětivou aplikaci, která bude velmi pohodlná při denním používání a bude vyžadovat velmi málo času pro zadávání dat. Pro analýzu by měla poskytnout dostatečně komplexní nástroj, ideálně s~vhodnou vizualizací.
@@ -167,7 +167,7 @@ Nejblíže je z~hlediska uživatele poskytnutí základních nástrojů přímo 
 Aplikace třetích stran v~této oblasti, nabízí různé možnosti. Mobilní aplikace bývají obvykle jednodušší s~přívětivějším uživatelským rozhraním. Zatímco desktopové aplikace mají uživatelské rozhraní nemoderní, avšak poskytují nepřebernou škálu funkcí.
 
 \subsection{1Money}
-Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z těchto důvodů není možné poskytnout žádný odkaz na aplikaci, ikdyž na mém azřízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací největší favorit pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
+Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z~těchto důvodů není možné poskytnout žádný odkaz na aplikaci, ikdyž na mém azřízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací největší favorit pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
 
 \begin{figure}
     \centering
@@ -237,7 +237,7 @@ Objektově orientovaný jazyk Dart \cite{dart} je vyvíjen společností Google.
 \kiinlinecode{}{;}
 Je dodáván se širokou škálou základních knihoven, které umožňují obstarat běžný vývoj. Jako příklad uvádím knihovnu \kiinlinecode{}{;}{dart:async}, která umožňuje asynchronní programování za využití tříd jako \kiinlinecode{}{;}{Future} nebo knihovna \kiinlinecode{}{;}{dart:io} pro práci se souborovým systémem či HTTP protokolem.
 
-Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z~nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtuální stroj s~JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejíž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování aplikace pro použití v~produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do jazyků JavaScript nebo WebAssembly. I zde Dart využívá rozdílné techniky pro ladění kódu a následnou produkci. Oba tyto způsoby jsou stejné v~tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o~správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
+Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z~nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtuální stroj s~JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejíž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování aplikace pro použití v~produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do jazyků JavaScript nebo WebAssembly. I~zde Dart využívá rozdílné techniky pro ladění kódu a následnou produkci. Oba tyto způsoby jsou stejné v~tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o~správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
 
 \begin{kicode}{}{}{Ukázka kódu v~jazyce Dart}
 class Point {
@@ -301,7 +301,7 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
 
 \section{Programátorská příručka}
 
-Multiplatformní vývoj přináší jistá specifika (nutnost zvolit vhodné technologie, případnou optimalizaci zobrazení či zúžený výběr knihoven). Z~hlediska architektury či samotného procesu programování je postup z většiny totožný jako u~programování pro jednu platformu. Zvolená technologie často sama navádí k~použití vhodných prvků.
+Multiplatformní vývoj přináší jistá specifika (nutnost zvolit vhodné technologie, případnou optimalizaci zobrazení či zúžený výběr knihoven). Z~hlediska architektury či samotného procesu programování je postup z~většiny totožný jako u~programování pro jednu platformu. Zvolená technologie často sama navádí k~použití vhodných prvků.
 
 Mnou navržené a vytvořené aplikace jsem dal název Budget Buddy. Je určena pro mobilní telefony, tablety i desktopová zařízení. Testování probíhalo na operačních systémech Android, iOS a Windows. Pro ostatní operační systémy není zaručena plná funkcionalita, i když z~podstaty frameworku by se tak stát nemělo.
 
@@ -320,7 +320,7 @@ Model-View-ViewModel (zkráceně MVVM) je architektura, která odděluje v~aplik
 V~mé konkrétní implementaci je kód strukturován do složek podle MVVM architektury -- \kiinlinecode{}{;}{model}, \kiinlinecode{}{;}{view} a \kiinlinecode{}{;}{view_model}. Ve \kiinlinecode{}{;}{view} je jemnější rozdělení na obrazovky \kiinlinecode{}{;}{screens} a jednotlivé widgety \kiinlinecode{}{;}{widgets}. Dále je v~projektu i složka \kiinlinecode{}{;}{data} pro databázi, složka \kiinlinecode{}{;}{utils} pro jednoduché funkce používané skrz projektem (převod kódu ikony na Ikonu, zkrášlení číselného formátu a další) a složka \kiinlinecode{}{;}{theme} spravuje vizuální téma aplikace.
 
 \subsection{Uchovávání stavu}
-Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité pro uživatelský komfort. Běžně se uživatel překlikne nebo přeskakuje mezi obrazovkami a není žádoucí, aby po každé byla obrazovka ve výchozím stavu (např. aby bylo nutné opět scrollovat v seznamu). Použití GoRouter za programátora řeší i tento problém. Není nutné nic nastavovat a stačí řídit se dokumentací GoRouter. Po zavedení do aplikace již uchování stavů funguje přesně tak, jak je pro uživatelský komfort vhodné. V~první řade bylo nutné vytvořit aplikaci konstruktorem ~\kiinlinecode{}{;}{MaterialApp.router}. Do parametru \kiinlinecode{}{;}{_router} jsem vložil konfiguraci GoRouter (viz kód \ref{gorouter-code}). V~konfiguraci je uvedena cesta a obrazovka, která se při jejím zadání zobrazí.
+Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité pro uživatelský komfort. Běžně se uživatel překlikne nebo přeskakuje mezi obrazovkami a není žádoucí, aby po každé byla obrazovka ve výchozím stavu (např. aby bylo nutné opět scrollovat v~seznamu). Použití GoRouter za programátora řeší i tento problém. Není nutné nic nastavovat a stačí řídit se dokumentací GoRouter. Po zavedení do aplikace již uchování stavů funguje přesně tak, jak je pro uživatelský komfort vhodné. V~první řade bylo nutné vytvořit aplikaci konstruktorem ~\kiinlinecode{}{;}{MaterialApp.router}. Do parametru \kiinlinecode{}{;}{_router} jsem vložil konfiguraci GoRouter (viz kód \ref{gorouter-code}). V~konfiguraci je uvedena cesta a obrazovka, která se při jejím zadání zobrazí.
 
 \begin{kicode}{csharp}{gorouter-code}{Ukázka použití GoRouter}
   // GoRouter konfigurace
@@ -366,7 +366,7 @@ Flutter poskytuje komponenty vhodné pro responzivní design, ale na programáto
 \end{figure}
 
 \subsection{Vizuální část aplikace}
-Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva v barevném tématu a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:app-icon]{Obrázek \ref{fig:appicon}}) byla vytvořena v nástroji Figma. Byly v ní použity ikony z Google Fonts. Jako font aplikace jsme zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design. Fonty jsou vidět na obrázku \ref{fig:font}. 
+Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v~aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva v~barevném tématu a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:app-icon]{Obrázek \ref{fig:appicon}}) byla vytvořena v~nástroji Figma. Byly v~ní použity ikony z~Google Fonts. Jako font aplikace jsme zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design. Fonty jsou vidět na obrázku \ref{fig:font}. 
 
 \begin{figure}
   \centering
@@ -420,7 +420,7 @@ Transakce se přidává tlačítkem označeným ikonou plus, na větším zaří
   \item \textbf{Poznámka} -- textový doplněk transakce o~délce maximálně 1000 znaků.  Poznámka není povinná.
   \item \textbf{Typ} -- výběr ze dvou možností zda-li jde o~útratu nebo příjem.
   \item \textbf{Kategorie} -- kategorie se kterou bude transakce spojena. Výběr se zobrazí ve vyjíždějícím seznamu po kliknutí.
-  \item \textbf{Měna} -- měna dané transakce. Pokud se jedná o měnu jinou než Česká koruna, bude provedena konverze podle aktuálně nastaveného kurzu.
+  \item \textbf{Měna} -- měna dané transakce. Pokud se jedná o~měnu jinou než Česká koruna, bude provedena konverze podle aktuálně nastaveného kurzu.
   \item \textbf{Datum} -- jaký den byla transakce provedena. Předvyplněno na aktuální datum.
   \item \textbf{Čas} -- v~jakou denní dobu byla transakce provedena. Předvyplněno na aktuální čas.
 \end{itemize}
