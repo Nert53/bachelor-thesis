@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.5}Homebank}{13}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Použité technologie}{13}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dart}{14}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Flutter}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Flutter}{15}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Material Design}{15}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}SQLite}{16}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Balíčky}{16}{subsection.3.5}%
@@ -37,7 +37,7 @@
 \contentsline {section}{Conclusions}{34}{section*.5}%
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{\numberline {A}Obsah elektronický dat}{35}{appendix.A}%
+\contentsline {section}{\numberline {A}Obsah elektronických dat}{35}{appendix.A}%
 \contentsline {section}{Literatura}{36}{section*.7}%
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
