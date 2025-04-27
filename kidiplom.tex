@@ -1,4 +1,3 @@
-%%%  Šablona práce od:
 %%%  Copyright (C) 2012 Martin Rotter, <rotter.martinos@gmail.com>
 %%%  Copyright (C) 2014 Jan Outrata, <jan.outrata@upol.cz>
 
@@ -93,7 +92,7 @@
 %% práce). Jeden odstavec!
 \annotation{Finance v~dnešní době hrají v~životech lidí podstatnou roli. Mít v~nich pořádek přináší řadu benefitů. Člověk zjistí, zda-li neutrácí někde zbytečně či jaký má přebytek. Digitální doba je ideální pro využití aplikací na jejich správu. Navržená multiplatformní aplikace Budget Buddy tyto potřeby naplňuje. Umožňuje uživateli jednoduše evidovat příjmy a výdaje na denní bázi. Poskytuje také nástroje pro následnou analýzu v~podobě grafů a zajímavých číselných údajů. V~neposlední řadě je data možné exportovat do CSV a JSON formátu pro další použití. Využití multiplatformního frameworku Flutter zajišťuje dostupnost aplikace pro různé operační systémy.}
 
-\annotation[english]{PŘELOŽIT!!. Finance plays a significant role in people's lives today. Keeping them organized brings numerous benefits. The digital age is ideal for using applications to manage finances. The proposed cross-platform application, Budget Buddy, meets these needs. It allows users to easily track their income and expenses on a daily basis. It also provides subsequent analysis in the form of graphs and interesting numerical data. Last but not least, the data can be exported in CSV and JSON formats for further use. The use of the cross-platform framework Flutter ensures the application's availability for Android and Windows operating systems.}
+\annotation[english]{Finance plays a significant role in people's lives today. Maintaining order in one's finances brings numerous benefits. A~person can determine whether they are spending unnecessarily or what their surplus is. The digital age is ideal for using applications to manage finances. The proposed multi-platform application, Budget Buddy, fulfills these needs. It allows the user to easily record income and expenses on a daily basis. It also provides tools for subsequent analysis in the form of graphs and interesting numerical data. Last but not least, the data can be exported to CSV and JSON formats for further use. The use of the multi-platform framework Flutter ensures the application's availability for various operating systems.}
 
 %% Klíčová slova práce, včetně anglických. Oddělená středníkem.
 \keywords{Flutter; Dart; multiplatformní; osobní finance}
@@ -107,7 +106,7 @@
 
 %% Volitelné poděkování. Stručné! Výchozí je prázdné. Makro nemá
 %% nepovinný parametr pro uvedení jazyka.
-\thanks{Děkuji panu doc. RNDr. Janu Konečnému Ph. D. za cenné rady a podněty při tvorbě práce. Děkuji mé rodině za podporu během celého bakalářského studia.}
+\thanks{Děkuji panu doc. RNDr. Janu Konečnému, Ph. D. za cenné rady a podněty při tvorbě práce. Děkuji mé rodině za podporu během celého bakalářského studia.}
 
 %% Cesta k souboru s bibliografií pro její sazbu pomocí BibLaTeXu
 %% (zvolenou nepovinným parametrem biblatex makra
@@ -137,8 +136,6 @@
 
 \newcommand{\BibLaTeX}{\textsc{Bib}\LaTeX}
 
-% ----- tady začíná MNOU PSANÝ TEXT
-
 \section{Úvod}
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v~našich životech podstatnou roli. Z~pohledu jednotlivce je užitečné mít ve financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat. V~neposlední řadě by měl člověk vědět, kolik peněz by potřeboval v~případě výpadku příjmů.
 
@@ -167,7 +164,7 @@ Nejblíže je z~hlediska uživatele poskytnutí základních nástrojů přímo 
 Aplikace třetích stran v~této oblasti nabízí různé možnosti. Mobilní aplikace bývají obvykle jednodušší s~přívětivějším uživatelským rozhraním. Zatímco desktopové aplikace mají uživatelské rozhraní nemoderní, avšak poskytují nepřebernou škálu funkcí.
 
 \subsection{1Money}
-Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z~těchto důvodů není možné poskytnout žádný odkaz na aplikaci, ikdyž na mém azřízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací se jedná o největšího favorita pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
+Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z~těchto důvodů není možné poskytnout žádný odkaz na aplikaci, ikdyž na mém azřízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací se jedná o~největšího favorita pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
 
 \begin{figure}
     \centering
@@ -459,7 +456,7 @@ Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports}
 \begin{itemize}
   \item \textbf{Most spent categories} -- zobrazí sloupcový graf s~pěti kategoriemi, ve~kterých je největší útrata ve~zvoleném období.
   \item \textbf{Spent during time} -- zobrazí plošný graf s~vývojem útraty v~průběhu daného období. Graf je interaktivní a při najetí pohybu kurzorem v~grafu se zobrazí hodnota pro konkrétní datum.
-  \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o procento ušetřených peněz z~přijmu, o průměrnou denní útratu a o procento transakcí v~jiné měně, než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
+  \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o~procento ušetřených peněz z~přijmu, o~průměrnou denní útratu a o~procento transakcí v~jiné měně, než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
   \item \textbf{Category ratio} -- zobrazí dvě buňky s~kruhovými grafy. První zobrazuje poměr kategorií v~příjmech a druhý poměr kategorií ve~výdajích. Při použití na největším zařízení se zobrazí interaktivní legenda.
   \item \textbf{Income / Outcome numbers} -- zobrazí tři buňky s~číselnými údaji. Konkrétně se jedná o~součet všech příjmů, o~součet všech výdajů a~celkový stav účtu. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
 \end{itemize}
@@ -545,12 +542,10 @@ Součástí textu práce jsou i elektronická data v~systému Katedy informatiky
     všech (textových) příloh, a~všechny soubory potřebné pro
     bezproblémové vytvoření PDF dokumentu textu (případně v~ZIP
     archivu), tj.~zdrojový text textu a příloh, vložené obrázky, apod.
-  \item[\texttt{README.md}] \hfill \\
-    Textový soubor ve značkovacím jazyku Markdown s~instrukcemi pro instalaci a spuštění aplikace.
+  \item[\texttt{README.txt}] \hfill \\
+    Textový soubor s~instrukcemi pro instalaci a spuštění aplikace.
 
 \end{description}
-
-% ----- tady začíná to co v práci bylo dáno
 
 %%%  Po přeložení programem CSLaTeX (třikrát) je potřeba použít
 %%%  program DVIPS a takto získaný PostScriptový soubor vytisknout
