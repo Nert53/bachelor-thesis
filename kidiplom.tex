@@ -152,7 +152,7 @@ Aplikace by měla vyplnit nedostatky již existujících řešení. Smyslem je n
 \end{itemize}
 
 \section{Přehled existujících řešení}
-Pro organizaci financí již existuje řada aplikací poskytujícíh tuto funkcionalitu. Každé řešení přistupuje k~problému jiným způsobem. 
+Pro organizaci financí již existuje řada aplikací poskytujících tuto funkcionalitu. Každé řešení přistupuje k~problému jiným způsobem. 
 
 Nejblíže je z~hlediska uživatele poskytnutí základních nástrojů přímo v~bankovní aplikaci. Z~mého pohledu je to nejméně vhodné řešení hned z~několika důvodů:
 \begin{itemize}
@@ -164,7 +164,7 @@ Nejblíže je z~hlediska uživatele poskytnutí základních nástrojů přímo 
 Aplikace třetích stran v~této oblasti nabízí různé možnosti. Mobilní aplikace bývají obvykle jednodušší s~přívětivějším uživatelským rozhraním. Zatímco desktopové aplikace mají uživatelské rozhraní nemoderní, avšak poskytují nepřebernou škálu funkcí.
 
 \subsection{1Money}
-Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z~těchto důvodů není možné poskytnout žádný odkaz na aplikaci, ikdyž na mém azřízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací se jedná o~největšího favorita pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
+Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platformy, o~pár měsíců později už aplikace funguje jen uživatelům, kteří ji měli nainstalovanou dříve. Z~těchto důvodů není možné poskytnout žádný odkaz na aplikaci, i když na mém zařízení pořád funguje bez problémů. Z~mnou vyzkoušených aplikací se jedná o~největšího favorita pro denní používání. Aplikace mě zaujala svojí obrazovkou \textit{Categories} (viz \hyperref[fig:1money]{Obrázek \ref{fig:1money}}).  Středem obrazovky je prstencový graf zobrazující poměr utracených peněz podle kategorií a v~jeho středu se nachází dva údaje -- stav příjmů a výdajů. Zbytek obrazovky pokrývají kolečka označující kategorie, po jejichž stisknutí je uživateli umožněno přidat transakci s~danou kategorií a aktuálním časovým razítkem. Umožňuje vytvořit více účtů, včetně účtů pro spoření. Z~hlediska analýzy a grafů zde najdeme pouze dvě velmi omezené možnosti -- již zmíněný prstencový graf kategorií a sloupcový graf znázornění transakcí v~čase.
 
 \begin{figure}
     \centering
@@ -303,16 +303,16 @@ Mnou navržené a vytvořené aplikaci jsem dal název Budget Buddy. Je určena 
 Pro vývoj aplikace jsem použil textový editor Visual Studio Code s~řadou rozšíření. Část práce specifické pro platformu Android jsem realizoval v~prostředí Android Studio. Především se jednalo o~úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle, kde Android Studio poskytuje jednodušší rozhraní a programátora provede celým procesem.
 
 \subsection{Architektura aplikace}
-Pro multiplatformní vývoj neexistuje doporučená architektura už z~podstaty věci širokého záběru různých zařízení. Je možné se držet dlouho známých architektur, které se používají v~různých systémech (\textit{Model-View-Controller} či \textit{Mode-View-ViewModel}) nebo se řídit podle zvyklostí daného frameworku (ve Flutteru se jedná například o~\textit{Bloc} \cite{bloc}). Já se ve své aplikaci držel architektury Model-View-Viewmodel, jelikož s~ní mám z~minulosti zkušenosti a~pro moji malou aplikaci je plně dostačující. 
+Pro multiplatformní vývoj neexistuje doporučená architektura už z~podstaty věci širokého záběru různých zařízení. Je možné se držet dlouho známých architektur, které se používají v~různých systémech (\textit{Model-View-Controller} či \textit{Mode-View-ViewModel}) nebo se řídit podle zvyklostí daného frameworku (ve Flutteru se jedná například o~\textit{Bloc} \cite{bloc}). Já se ve své aplikaci držel architektury Model-View-ViewModel, jelikož s~ní mám z~minulosti zkušenosti a~pro moji malou aplikaci je plně dostačující. 
 
-Model-View-ViewModel (zkráceně MVVM) je architektura, která odděluje v~aplikaci uživatelské rozhraní, logiku a datovou část \cite{mvvm}. Ve framworku Flutter je velmi dobře podporována, jednak z~hlediska komponent frameworku, tak i oficiální dokumentace na architekturu odkazuje jako vhodný příklad návrhu aplikace. Rozdělení aplikace je do následujících tří detailněji popsaných celků.
+Model-View-ViewModel (zkráceně MVVM) je architektura, která odděluje v~aplikaci uživatelské rozhraní, logiku a datovou část \cite{mvvm}. Ve frameworku Flutter je velmi dobře podporována, jednak z~hlediska komponent frameworku, tak i oficiální dokumentace na architekturu odkazuje jako vhodný příklad návrhu aplikace. Rozdělení aplikace je do následujících tří detailněji popsaných celků.
 \begin{itemize}
-  \item \textbf{Model} je částí zapouzdřující data, se kterými aplikace pracuje. Udává strukturu poskytovaných dat i metody pro jejich získání objekty ve Viewmodel.
+  \item \textbf{Model} je částí zapouzdřující data, se kterými aplikace pracuje. Udává strukturu poskytovaných dat i metody pro jejich získání objekty ve ViewModel.
   \item \textbf{View} je zodpovědné za strukturu a zobrazení uživatelského rozhraní. Neměl by obsahovat žádnou logiku aplikace. Vstupy které přijme od uživatele předává ke zpracování na ViewModel. 
   \item \textbf{ViewModel} je prostředníkem mezi View a Model. Do View poskytuje data a případně je upraví do vhodného formátu pro zobrazení. Reaguje na zprávy od View, které představují vstupy uživatele. Vlákno pro uživatelské rozhraní by neměl blokovat, zlepší se tím uživatelský zážitek.
 \end{itemize}
 
-V~mé konkrétní implementaci je kód strukturován do složek podle MVVM architektury -- \kiinlinecode{}{;}{model}, \kiinlinecode{}{;}{view} a \kiinlinecode{}{;}{view_model}. Ve \kiinlinecode{}{;}{view} je jemnější rozdělení na obrazovky \kiinlinecode{}{;}{screens} a jednotlivé widgety \kiinlinecode{}{;}{widgets}. Dále je v~projektu i složka \kiinlinecode{}{;}{data} pro databázi, složka \kiinlinecode{}{;}{utils} pro jednoduché funkce používané skrz projektem (převod kódu ikony na Ikonu, zkrášlení číselného formátu a další) a složka \kiinlinecode{}{;}{theme} spravuje vizuální téma aplikace.
+V~mé konkrétní implementaci je kód strukturován do složek podle MVVM architektury -- \kiinlinecode{}{;}{model}, \kiinlinecode{}{;}{view} a \kiinlinecode{}{;}{view_model}. Ve \kiinlinecode{}{;}{view} je jemnější rozdělení na obrazovky \kiinlinecode{}{;}{screens} a jednotlivé widgety \kiinlinecode{}{;}{widgets}. Dále je v~projektu i složka \kiinlinecode{}{;}{repository} pro databázi, složka \kiinlinecode{}{;}{utils} pro jednoduché funkce používané skrz projektem (převod kódu ikony na Ikonu, zkrášlení číselného formátu a další) a složka \kiinlinecode{}{;}{theme} spravuje vizuální téma aplikace.
 
 \subsection{Uchovávání stavu}
 Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité pro uživatelský komfort. Běžně se uživatel překlikne nebo přeskakuje mezi obrazovkami a není žádoucí, aby po každé byla obrazovka ve výchozím stavu (např. aby bylo nutné opět scrollovat v~seznamu). Použití GoRouter za programátora řeší i tento problém. Není nutné nic nastavovat a stačí řídit se dokumentací GoRouter. Po zavedení do aplikace již uchování stavů funguje přesně tak, jak je pro uživatelský komfort vhodné. V~první řade bylo nutné vytvořit aplikaci konstruktorem ~\kiinlinecode{}{;}{MaterialApp.router}. Do parametru \kiinlinecode{}{;}{_router} jsem vložil konfiguraci GoRouter (viz kód \ref{gorouter-code}). V~konfiguraci je uvedena cesta a obrazovka, která se při jejím zadání zobrazí.
@@ -342,9 +342,9 @@ Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité p
 \subsection{Implementace responzivního designu}
 Responzivní design má zajistit, že aplikace se bude vhodně zobrazovat na libovolně velkém zařízení. Vyskytuje se především u~webových technologií z~důvodu běžného používání na různých typech zařízení. Stejná problematika je u~multiplatformních aplikací.
 
-Podle velikosti obrazovky je nutné vhodně zvolit z~určitých komponent, které slouží pro stejný účel, ale jsou jinak zobrazené. V~této aplikaci se jedná například o~navigaci. Pro menší obrazovky jsem použil navigation bar, pro větší navigation rail, případně navigation drawer (viz \hyperref[fig:navigation]{Obrázek \ref{fig:navigation}}). Dále je nutné vhodně zobrazit komponenty v~hlavním těle obrazovky. Řazení komponent na menším zařízení jsem zvolil pod sebe do sloupce, na větším naopak vedle sebe v~řádku (viz obrázek grafy v~mé appce). Je dostupná i komponenta \kiinlinecode{}{;}{GridView} vytvářející tabulku. Avšak není vhodná pro tvorbu layoutu. Material Design poskytuje i~speciální kanonické rozložení (viz \hyperref[fig:canonical-layout]{Obrázek \ref{fig:canonical-layout}}), které je vhodné ve spojení se zobrazením seznamu. V~této aplikaci by bylo vhodné pro obrazovku transakcí. Implementace pro Flutter zatím není dostupná, tudíž není možné ho použít. Dialogová okna jsem podle doporučení pro menší zařízení zvolil celoobrazovková, zatímco na větších jsou plovoucí (viz obrázek dialog okno moje).
+Podle velikosti obrazovky je nutné vhodně zvolit z~určitých komponent, které slouží pro stejný účel, ale jsou jinak zobrazené. V~této aplikaci se jedná například o~navigaci. Pro různou velikost obrazovky jsem použil různé komponenty -- navigation bar, navigation rail a navigation drawer (viz \hyperref[fig:navigation]{Obrázek \ref{fig:navigation}}). Dále je nutné vhodně zobrazit komponenty v~hlavním těle obrazovky. Řazení komponent na menším zařízení jsem zvolil pod sebe do sloupce, na větším naopak vedle sebe v~řádku. Je dostupná i komponenta \kiinlinecode{}{;}{GridView} vytvářející tabulku. Avšak není vhodná pro tvorbu layoutu. Material Design poskytuje i~speciální kanonické rozložení (viz \hyperref[fig:canonical-layout]{Obrázek \ref{fig:canonical-layout}}), které je vhodné ve spojení se zobrazením seznamu. V~této aplikaci by bylo vhodné pro obrazovku transakcí. Implementace pro framework Flutter zatím není dostupná, tudíž není možné ho použít. Dialogová okna jsem podle doporučení pro menší zařízení zvolil celoobrazovková, zatímco na větších obrazovkách jsou plovoucí (viz \hyperref[fig:add-transaction]{Obrázek \ref{fig:add-transaction}}).
 
-Flutter poskytuje komponenty vhodné pro responzivní design, ale na programátorovi je ponecháno kdy jaké zvolí, včetně celé implementace. Zatím není dostupná žádná komponenta pro tvorbu responzivního rozložení, které by umožnila v~jediném kódu pro uživatelské rozhraní rozhodnout do jakého widgetu kód \uv{obalit}.
+Framework Flutter poskytuje komponenty vhodné pro responzivní design, ale na programátorovi je ponecháno kdy jaké zvolí, včetně celé implementace. Zatím není dostupná žádná komponenta pro tvorbu responzivního rozložení, které by umožnila v~jediném kódu pro uživatelské rozhraní rozhodnout do jakého widgetu kód \uv{obalit}.
 
 \begin{figure}
   \centering 
@@ -361,7 +361,7 @@ Flutter poskytuje komponenty vhodné pro responzivní design, ale na programáto
 \end{figure}
 
 \subsection{Vizuální část aplikace}
-Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v~aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva v~barevném tématu a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:appicon]{Obrázek \ref{fig:appicon}}) byla vytvořena v~nástroji Figma. Byly v~ní použity ikony z~Google Fonts. Jako font aplikace jsem zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design. Fonty jsou vidět na \hyperref[fig:font]{Obrázku \ref{fig:font}}. 
+Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v~aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva v~barevném tématu a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:appicon]{Obrázek \ref{fig:appicon}}) byla vytvořena v~nástroji Figma. Byly v~ní použity ikony z~Google Fonts. Jako font aplikace jsem zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design, ale je více zaoblený. Fonty jsou vidět na \hyperref[fig:font]{Obrázku \ref{fig:font}}. 
 
 \begin{figure}
   \centering
@@ -393,7 +393,7 @@ Tvorba aplikace oproti návrhu místy přinese neplánované komplikace, které 
 \end{itemize}
 
 \section{Uživatelská příručka}
-Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systém Android verze 5.0 a vyšší a Windows 10 a vyšší se zárukou bezproblémové funkčnosti podle návodu. Pro operační systémy macOS a Linux je nutné aplikaci nejdříve sestavit a následně nainstalovat (tento postup je ponechán na zdatném uživateli). Návod se týka jen vybraných platforem z~důvodu testování. 
+Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systém Android verze 5.0 a vyšší a Windows 10 a vyšší se zárukou bezproblémové funkčnosti podle návodu. Pro operační systémy macOS a Linux je nutné aplikaci nejdříve sestavit a následně nainstalovat (tento postup je ponechán na zdatném uživateli). V návodu jsou uvedeny jen ony dvě platformy z~důvodu testování. 
 
 \subsection{První spuštění}
 Při prvním spuštění se zobrazí rovnou úvodní obrazovka \textit{Dashboard}. Není nutné se přihlašovat, aplikace je nyní určena pouze pro jednoho uživatele a běží lokálně. Pro první spuštění jsou předpřipravené základní kategorie transakcí a nejběžnější měny (obojí je možno upravit). 
@@ -535,7 +535,7 @@ Součástí textu práce jsou i elektronická data v~systému Katedy informatiky
   \item[\texttt{src/}] \hfill \\
     Adresář obsahující soubory pro instalaci na platformy Android a Windows.
   \item[\texttt{bin/}] \hfill \\
-    Adresář obsahující veškeré soubory a adresáře (v~ZIP archivu) nutné pro sestavení spustitelných souborů. Jde o~celý Flutter projekt.
+    Adresář obsahující zdrojový kód aplikace. Jde o~celý Flutter projekt.
   \item[\texttt{text/}] \hfill \\
     Adresář s~textem práce ve formátu PDF, vytvořený s~použitím
     závazného stylu KI PřF UP v~Olomouci pro závěrečné práce, včetně
