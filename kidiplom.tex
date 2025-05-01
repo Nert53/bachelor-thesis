@@ -92,7 +92,7 @@
 %% práce). Jeden odstavec!
 \annotation{Finance v~dnešní době hrají v~životech lidí podstatnou roli. Mít v~nich pořádek přináší řadu benefitů. Člověk zjistí, zda-li neutrácí někde zbytečně či jaký má přebytek. Digitální doba je ideální pro využití aplikací na jejich správu. Navržená multiplatformní aplikace Budget Buddy tyto potřeby naplňuje. Umožňuje uživateli jednoduše evidovat příjmy a výdaje na denní bázi. Poskytuje také nástroje pro následnou analýzu v~podobě grafů a zajímavých číselných údajů. V~neposlední řadě je data možné exportovat do CSV a JSON formátu pro další použití. Využití multiplatformního frameworku Flutter zajišťuje dostupnost aplikace pro různé operační systémy.}
 
-\annotation[english]{Finance plays a significant role in people's lives today. Maintaining order in one's finances brings numerous benefits. A~person can determine whether they are spending unnecessarily or what their surplus is. The digital age is ideal for using applications to manage finances. The proposed multi-platform application, Budget Buddy, fulfills these needs. It allows the user to easily record income and expenses on a daily basis. It also provides tools for subsequent analysis in the form of graphs and interesting numerical data. Last but not least, the data can be exported to CSV and JSON formats for further use. The use of the multi-platform framework Flutter ensures the application's availability for various operating systems.}
+\annotation[english]{Finance plays a significant role in people's lives today. Keeping them in order brings a number of benefits. A~person can determine whether they are spending unnecessarily or what their surplus is. The digital age is ideal for using applications to manage finances. The proposed cross-platform application, Budget Buddy, fulfills these needs. It allows the user to easily record income and expenses on a daily basis. It also provides tools for analysis in the form of graphs and interesting numerical data. Last but not least, the data can be exported to CSV and JSON formats for further use. The use of the cross-platform framework Flutter ensures the application's availability for various operating systems.}
 
 %% Klíčová slova práce, včetně anglických. Oddělená středníkem.
 \keywords{Flutter; Dart; multiplatformní; osobní finance}
@@ -139,16 +139,16 @@
 \section{Úvod}
 Peníze se vyskytují všude kolem nás a chceme-li nebo ne, hrají v~našich životech podstatnou roli. Z~pohledu jednotlivce je užitečné mít ve financích pořádek. Můžeme tak ušetřit peníze, případně je efektivněji využívat. V~neposlední řadě by měl člověk vědět, kolik peněz by potřeboval v~případě výpadku příjmů.
 
-V~dnešní době již většina lidí používá internetové bankovnictví, která často poskytuje alespoň základní statistiky o~našem nakládání s~financemi. Na druhou stranu lidé mívají účty u~více bank a analýzy o~stavu financí přímo v~bankovních aplikacích nejsou dostatečně přizpůsobitelné. Lidé proto vyhledávají alternativy v~podobě aplikací třetích stran. V~těchto aplikacích mají uživatelé plnou kontrolu nad tím, co si evidují a lepší podmínky pro analýzu.
+V~dnešní době již většina lidí používá internetové bankovnictví, které často poskytuje alespoň základní statistiky o~nakládání s~financemi. Na druhou stranu lidé mívají účty u~více bank a analýzy o~stavu financí přímo v~bankovních aplikacích nejsou dostatečně přizpůsobitelné. Lidé proto vyhledávají alternativy v~podobě aplikací třetích stran. V~těchto aplikacích mají uživatelé plnou kontrolu nad tím, co si evidují a lepší podmínky pro analýzu.
 
 \subsection{Požadavky}
-Aplikace by měla vyplnit nedostatky již existujících řešení. Smyslem je navrhnout uživatelsky přívětivou aplikaci, která bude velmi pohodlná při denním používání a bude vyžadovat velmi málo času pro zadávání dat. Pro analýzu by měla poskytnout dostatečně komplexní nástroj, ideálně s~vhodnou vizualizací.
+Aplikace by měla vyplnit nedostatky již existujících řešení. Smyslem je navrhnout uživatelsky přívětivou aplikaci, která bude velmi pohodlná při denním používání a bude vyžadovat velmi málo času pro zadávání dat. Pro analýzu dat by měla poskytnout dostatečně komplexní nástroje, ideálně s~vhodnou vizualizací.
 
 \begin{itemize}
   \item \textbf{Jednoduchost více než komplexní funkce} -- snažit se implementovat dostatečný počet funkcí, avšak nezahltit uživatele příliš mnoha různými nastaveními, které mu přidají práci při volbě parametrů. Ideálně pokud je pro uživatele pohodlné zapisovat transakce již v~průběhu dne, aniž by měl pocit, že u~aplikace tráví moc času.
   \item \textbf{Mobilní telefony i počítače} -- zpřístupnění aplikace na více různých platformách a zařízeních přináší dostupnost aplikace pro více uživatelů. Někdo preferuje evidenci financí na denní bázi (obvykle pomocí mobilního telefonu), někdo naopak až měsíc zpětně. Na zpracování více dat najednou je jistě počítač s~větším displejem vhodnější volbou.
   \item \textbf{Zahraniční měny} -- v~dnešní době velká část lidí cestuje jak pracovně, tak i za dovolenou. Placení kartou v~zahraničí bez nutnosti dopředu směnit hotovost se stalo standardem. Jelikož každá banka používá jiný směnný kurz měny, měl by jít libovolně upravit, případně automaticky synchronizovat z~internetu.
-  \item \textbf{Export dat} -- uživatel by měl mít možnost exportovat data v~běžně používaných formátech jako je CSV nebo JSON. Export považuji za důležitý z~důvodu přenesení dat do jiné aplikace, pro další analýzu nebo pro zálohu dat.
+  \item \textbf{Export dat} -- uživatel by měl mít možnost exportovat data v~běžně používaných formátech jako je CSV\footnote{Comma-separated values} nebo JSON\footnote{JavaScript Object Notation}. Export považuji za důležitý z~důvodu přenesení dat do jiné aplikace, pro další analýzu nebo pro zálohu dat.
 \end{itemize}
 
 \section{Přehled existujících řešení}
@@ -176,7 +176,7 @@ Ještě na konci roku 2024 byla aplikace 1Money dostupná na obě mobilní platf
 \end{figure}
 
 \subsection{Cashew}
-Multiplatformní aplikace, založená na stejné technologii Flutter jako moje aplikace, se jmenuje Cashew \cite{cashew}. Implementuje komponenty ze systému Material Design (viz kapitola~\ref{sec:material-design}~\nameref{sec:material-design} a \hyperref[fig:cashew]{Obrázek \ref{fig:cashew}}), ale rozvržení obrazovky si autoři uspořádali podle sebe. Uživateli umožňuje široké možnosti nastavení z~hlediska vzhledu (barvy, fonty, typ ikon či formáty čísel). Umožňuje zálohování dat na Google disk i import z~CSV souborů. Podporuje funkci více účtů. Obsahuje i placenou verzi, které je primárně podporu pro vývojáře.
+Multiplatformní aplikace, založená na stejné technologii Flutter jako moje aplikace, se jmenuje Cashew \cite{cashew}. Implementuje komponenty ze systému Material Design (viz kapitola~\ref{sec:material-design}~\nameref{sec:material-design} a \hyperref[fig:cashew]{Obrázek \ref{fig:cashew}}), ale rozvržení obrazovky si autoři uspořádali podle sebe. Uživateli umožňuje široké možnosti nastavení z~hlediska vzhledu (barvy, fonty, typ ikon či formáty čísel). Umožňuje zálohování dat na Google disk i import z~CSV souborů. Podporuje funkci více účtů. Nabízí i~placenou PRO verzi, která přináší jen málo funkcí a~slouží především jako podpora vývojářů.
 
 \begin{figure}
   \centering
@@ -200,7 +200,7 @@ Mobilní aplikace Wallet \cite{wallet} je dostupná na platformy Android i iOS. 
 \end{figure}
 
 \subsection{Money Manager Ex}
-Aplikace dostupná jak na mobilní telefony, tak především na desktopové zařízení \cite{money-manager}. Uživatelské rozhraní je na první pohled relativně přívětivé, i když místy obsahuje širokou škálu tlačítek a možností k~nastavení. Při prvním spuštění nevyžaduje žádné složité nastavení, jak je vidět na \hyperref[fig:money-manager]{Obrázku \ref{fig:money-manager}}. Zde se mi velmi líbí velká nabídka grafů k~analýze údajů a možnost exportu do PDF formátu pro většinu obrazovek.
+Money Manager Ex \cite{money-manager} je aplikace dostupná jak na mobilní telefony, tak především na desktopová zařízení. Uživatelské rozhraní je na první pohled relativně přívětivé, i když místy obsahuje širokou škálu tlačítek a možností k~nastavení. Při prvním spuštění nevyžaduje žádné složité nastavení, jak je vidět na \hyperref[fig:money-manager]{Obrázku \ref{fig:money-manager}}. Zde se mi velmi líbí velká nabídka grafů k~analýze údajů a možnost exportu do PDF formátu pro většinu obrazovek.
 
 \begin{figure}
   \centering
@@ -223,18 +223,18 @@ Oproti existujícím aplikacím by mnou vytvořená aplikace měla nabídnout p�
 
 \section{Použité technologie}
 
-Hlavním požadavkem byl multiplatformní vývoj. K~této problematice existuje řada technologií \cite{jetbrains-crossplatform}, které však k~tvorbě aplikace přistupují odlišným způsobem. Mezi nejpopulárnější technologie vhodné na tuto práci se řadí \textit{React Native} a~\textit{Flutter}. Jelikož jsem za dobu, co se věnuji programování nepřilnul k~webovým technologiím, na kterých primárně stojí React Native, zvolil jsem Flutter. Přispěl k~tomu fakt, že se více blíží klasickým objektově orientovaným jazykům a jednoduše implementuje systém Material Design, který rád v~uživatelském rozhraní vídám.
+Hlavním požadavkem byl multiplatformní vývoj. K~této problematice existuje řada technologií \cite{jetbrains-crossplatform}, které však k~tvorbě aplikace přistupují odlišným způsobem. Mezi nejpopulárnější technologie vhodné na tuto práci se řadí \textit{React Native} a~\textit{Flutter}. Jelikož jsem za dobu, co se věnuji programování nepřilnul k~webovým technologiím, na kterých primárně stojí React Native, zvolil jsem framework Flutter. Přispěl k~tomu fakt, že se více blíží klasickým objektově orientovaným jazykům a jednoduše implementuje systém Material Design, který rád v~uživatelském rozhraní vídám.
 
-Aplikace je otestována a řádně funguje na mobilní platformě Android a jako desktopová Windows aplikace. Ze stejného kódu jde sestavit i aplikace na macOS a Linux. Tyto platformy jsem však netestoval a nemohu zaručit jejich bezproblémový chod.
+Aplikace je otestována a~řádně funguje na mobilní platformě Android a~jako desktopová Windows aplikace. Ze stejného kódu jde sestavit i aplikace na iOS, macOS a~Linux. Tyto platformy jsem však netestoval a~nemohu zaručit jejich bezproblémový chod.
 
 \subsection{Dart}
-Objektově orientovaný jazyk Dart \cite{dart} je vyvíjen společností Google. První verze byla zveřejněna 14. listopadu 2013, aktuální je verze 3. Jde o~typově bezpečný jazyk, podporující třídy, se syntaxí založenou na jazyku C. Může být kompilován do strojového kódu, jazyků JavaScript nebo WebAssembly. Taktéž je základem pro framework Flutter.
+Objektově orientovaný jazyk Dart \cite{dart} je vyvíjen společností Google. První verze byla zveřejněna 14. listopadu 2013, aktuální je verze 3. Jde o~typově bezpečný jazyk, podporující třídy, se syntaxí založenou na jazyku C (viz \hyperref[code:dart]{Zdrojový kód \ref{code:dart}}). Může být kompilován do strojového kódu, jazyků JavaScript nebo WebAssembly. Taktéž je základem pro framework Flutter.
 
 Je dodáván se širokou škálou základních knihoven, které umožňují obstarat běžný vývoj. Jako příklad uvádím knihovnu \kiinlinecode{}{;}{dart:async}, která umožňuje asynchronní programování za využití tříd jako \kiinlinecode{}{;}{Future} nebo knihovna \kiinlinecode{}{;}{dart:io} pro práci se souborovým systémem či HTTP protokolem.
 
 Technologie jazyka Dart umožňují spustit kód dvěma způsoby. První z~nich je určen pro mobilní a desktopové aplikace. Dart obsahuje virtuální stroj s~JIT\footnote{Just in time} kompilací, který se používá především ve fázi vývoje. Tento způsob umožňuje tzv. inkrementální rekompilaci jejíž výhodou je funkcionalita \textit{hot reload} či nástroje \textit{DevTools} pro aktuální metriky ladění. Dále AOT\footnote{Ahead of time} kompilátor pro tvorbu strojového kódu, který se využívá při sestavování aplikace pro použití v~produkci. Druhý způsob se týká webové platformy, kde Dart umožňuje kód přeložit do jazyků JavaScript nebo WebAssembly. I~zde Dart využívá rozdílné techniky pro ladění kódu a následnou produkci. Oba tyto způsoby jsou stejné v~tom že potřebují \textit{běhové prostředí Dart}. Toto prostředí se stará o~správu paměti pomocí garbage collector, vynucení kontroly typů a správu vláken.
 
-\begin{kicode}{}{}{Ukázka kódu v~jazyce Dart}
+\begin{kicode}{csharp}{code:dart}{Ukázka kódu v~jazyce Dart}
 class Point {
   final double x;
   final double y;
@@ -243,6 +243,7 @@ class Point {
 
   bool get isInsideUnitCircle => x * x + y * y <= 1;
 }
+\label{code:dart}
 \end{kicode}
 
 \subsection{Flutter}
@@ -250,9 +251,9 @@ Open source framework Flutter \cite{flutter} slouží pro tvorbu uživatelských
 
 Používá vlastní vykreslovací jádro, které pixely přímo vykresluje na obrazovku. Toto je podstatný rozdíl oproti řadě jiných frameworků, které se spoléhají na vykreslovací jádro dané platformy. Tento přístup umožňuje mít identicky vypadající uživatelské rozhraní napříč všemi podporovanými platformami.
 
-Základní komponentou je \textit{widget}. Ten se může skládat z~dalších widgetů a vytvářet tak stromovou strukturu. Celé uživatelské rozhraní je poskládáno widgetů. Flutter poskytuje dva typy předdefinovaných widgetů podle dvou designových systémů -- Material Design (viz kapitola~\ref{sec:material-design}~\nameref{sec:material-design}) widgety a Cupertino widgety. Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně. Programátor si samozřejmě může definovat widgety vlastní.
+Základní komponentou je \textit{widget}. Ten se může skládat z~dalších widgetů a vytvářet tak stromovou strukturu. Celé uživatelské rozhraní je poskládáno z~widgetů. Flutter poskytuje dva typy předdefinovaných widgetů podle dvou designových systémů -- Material Design (viz kapitola~\ref{sec:material-design}~\nameref{sec:material-design}) widgety a~Cupertino widgety (respektující Human Interface pravidla \cite{human-interface} od společnosti Apple). Přestože oba mají svoji primární platformu, Flutter je umožňuje používat libovolně. Programátor si samozřejmě může definovat widgety vlastní.
 
-Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení, ohraničení, transformaci atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených systémem Material Design a umožní programátorovi velmi jednoduchou implementaci.
+Pro rozložení prvků na stránce (vytvoření \textit{layout}) se taktéž používají widgety, přestože nejsou při zobrazení viditelné. Základními widgety pro tvorbu layoutu jsou \kiinlinecode{}{;}{Row}, \kiinlinecode{}{;}{Column} a \kiinlinecode{}{;}{Container}. Pomocí \kiinlinecode{}{;}{Container} můžeme ostatním widgetům přidávat odsazení, ohraničení, transformaci atd. Tyto widgety slouží pro specifickou či nízkoúrovňovou tvorbu layoutu. Můžeme využít i specializované widgety jako \kiinlinecode{}{;}{GridView} pro tvorbu mřížky nebo \kiinlinecode{}{;}{ListView} pro rolovatelný seznam. Nejvíce specifické widgety jako \kiinlinecode{}{;}{BottomNavigationBar} či \kiinlinecode{}{;}{AppBar} zajistí dodržení pravidel stanovených systémem Material Design a~umožní programátorovi velmi jednoduchou implementaci těchto komponent.
 
 \subsection{Material Design} \label{sec:material-design}
 V~březnu 2025 je Material Design verze 3 \cite{m3} nejnovějším open source designový systém od společnosti Google. Systémem v~tomto případě mám na mysli soubor pravidel pro uživatelské rozhraní, konkrétní komponenty i barevné provedení. Všechny tyto prvky jsou vytvořeny zkušenými designéry s~respektem pro psychologický vliv uživatelského rozhraní na člověka.
@@ -269,7 +270,7 @@ SQLite \cite{sqlite} je velmi jednoduchá a rychlá relační databáze, která 
 Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a programátor se musí spoléhat na jiné programátory, že je budou udržovat aktuální, je nemožné se jim v~dnešním době vyhnout. Dart a Flutter má na výběr z~široké veřejné knihovny balíčků. Balíčky je nutné do projektu importovat. Celý jejich seznam je dostupný v~souboru \kiinlinecode{}{;}{pubspec.yaml}. Přidání balíčku do projektu se provádí zapsáním do souboru \kiinlinecode{}{;}{pubspec.yaml} a spuštěním příkazu \kiinlinecode{}{;}{flutter pub get} nebo rovnou příkazem \kiinlinecode{}{;}{}\kiinlinecode{}{;}{flutter pub add <název_balíčku>}.
 
 \begin{itemize}
-  \item \textbf{Drift} \cite{drift} je balíček poskytující rozhraní pro práci s~SQLite databází. Jeho velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní (na rozdíl od knihovny sqflite, která je zmíněna v~oficiálním návodu). Dále poskytuje velmi jednoduché API pro vytváření dotazů nad databází bez použití jazyka SQL. Programátor vytváří strukturu databáze v~jednom souboru, na jehož základě si Drift generuje interní soubory.
+  \item \textbf{Drift} \cite{drift} je balíček poskytující rozhraní pro práci s~SQLite databází. Jeho velkou výhodou oproti ostatním implementacím SQLite pro Dart je možnost multiplatformnosti. Funguje na všech platformách od Androidu přes Windows až po webové rozhraní (na rozdíl od knihovny sqflite, která je zmíněna v~oficiálním návodu). Dále poskytuje velmi jednoduché API pro vytváření dotazů nad databází bez použití jazyka SQL. Programátor vytváří strukturu databáze v~jedniném souboru pomocí jazyka Dart. Na základě tohoto souboru si Drift vygeneruje interní soubory. 
   \item \textbf{GoRouter} \cite{gorouter} je deklarativní balíček pro organizaci navigace v~rámci aplikace (tzv. \textit{routování}). Funguje na principu URL adres. Umožňuje v~adrese předávat parametry, zajistit přesměrování na základě práv uživatele či použití \textit{vnitřních navigátorů} nejčastěji pro navigaci, která zůstává neustále viditelná skrz více obrazovek. Pro přechody umožňuje nastavit vlastní libovolné animace. Autory jsou přímo oficiální vývojáři frameworku Flutter.
   \item \textbf{Skeletonizer} \cite{skeletonizer} zjednodušeným způsobem poskytuje funkcionalitu označovanou jako \textit{skeleton loading}. Používá se při načítání obsahu na stránce a zobrazuje hrubý náhled rozložení prvků na stránce (znázorněno  na \hyperref[fig:skeleton]{Obrázku \ref{fig:skeleton}}). Vše je doplněno vhodnou animací, aby uživatel ihned poznal, že se obrazovka načítá. Zjednodušení použitím tohoto balíčku spočívá v~tom, že programátorovi stačí již definovaný widget \uv{obalit} widgetem \kiinlinecode{}{;}{Skeletonizer} z~tohoto balíčku a o~zbytek práce se postará balíček.
   
@@ -280,12 +281,12 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
     \label{fig:skeleton}
   \end{figure}
   
-  \item \textbf{Another Flushbar} \cite{flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} ze systému Material Design. Účelem komponenty je krátce informovat uživatele o~akci, která byla právě provedena (například akce úspěšného exportu transakcí je znázorněna na \hyperref[fig:snackbar]{Obrázku \ref{fig:snackbar}}). Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočítá v~možnosti většího přizpůsobením -- přidání ikony, změna barvy či animace a libovolné umístění. Já tento balíček preferoval i z~důvodu správného zobrazování při otevřeném dialogovém okně.
+  \item \textbf{Another Flushbar} \cite{flushbar} poskytuje vylepšenou komponentu \kiinlinecode{}{;}{Snackbar} ze systému Material Design. Účelem komponenty je krátce informovat uživatele o~akci, která byla právě provedena (například akce úspěšné archivace e-mailu je znázorněna na \hyperref[fig:snackbar]{Obrázku \ref{fig:snackbar}}). Obvykle se objevuje ve spodní části obrazovky. Vylepšení spočívá v~možnosti většího přizpůsobení -- přidání ikony, změny barvy či libovolného umístění. Já tento balíček preferoval i z~důvodu správného zobrazování při otevřeném dialogovém okně.
 
   \begin{figure}
     \centering
     \includegraphics[width=0.75\textwidth]{images/snackbar.png}
-    \caption{Komponenta Snackbar - převzato z~\cite{m3-components}}
+    \caption{Komponenta Snackbar -- převzato z~\cite{m3-components}}
     \label{fig:snackbar}
   \end{figure}
       
@@ -298,12 +299,12 @@ Přestože balíčky tvoří závislosti projektu na ostatních okolnostech a pr
 
 Multiplatformní vývoj přináší jistá specifika (nutnost zvolit vhodné technologie, případnou optimalizaci zobrazení či zúžený výběr knihoven). Z~hlediska architektury či samotného procesu programování je postup z~většiny totožný jako u~programování pro jednu platformu. Zvolená technologie často sama navádí k~použití vhodných prvků.
 
-Mnou navržené a vytvořené aplikaci jsem dal název Budget Buddy. Je určena pro mobilní telefony, tablety i desktopová zařízení. Testování probíhalo na operačních systémech Android, iOS a Windows. Pro ostatní operační systémy není zaručena plná funkcionalita, i když z~podstaty frameworku by neměly nastat problémy.
+Mnou navržené a vytvořené aplikaci jsem dal název Budget Buddy. Je určena pro mobilní telefony, tablety i desktopová zařízení. Testování probíhalo na operačních systémech Android a Windows. Pro ostatní operační systémy není zaručena plná funkcionalita, i když z~podstaty frameworku by neměly nastat problémy.
 
 Pro vývoj aplikace jsem použil textový editor Visual Studio Code s~řadou rozšíření. Část práce specifické pro platformu Android jsem realizoval v~prostředí Android Studio. Především se jednalo o~úlohy typu aktualizace Software Developement Kit či migrace na novější verzi Kotlin gradle, kde Android Studio poskytuje jednodušší rozhraní a programátora provede celým procesem.
 
 \subsection{Architektura aplikace}
-Pro multiplatformní vývoj neexistuje doporučená architektura už z~podstaty věci širokého záběru různých zařízení. Je možné se držet dlouho známých architektur, které se používají v~různých systémech (\textit{Model-View-Controller} či \textit{Mode-View-ViewModel}) nebo se řídit podle zvyklostí daného frameworku (ve Flutteru se jedná například o~\textit{Bloc} \cite{bloc}). Já se ve své aplikaci držel architektury Model-View-ViewModel, jelikož s~ní mám z~minulosti zkušenosti a~pro moji malou aplikaci je plně dostačující. 
+Pro multiplatformní vývoj neexistuje doporučená architektura už z~podstaty věci širokého záběru různých zařízení. Je možné se držet dlouho známých architektur, které se používají v~různých systémech (\textit{Model-View-Controller} či \textit{Mode-View-ViewModel}) nebo se řídit podle zvyklostí daného frameworku (ve Flutteru se jedná například o~\textit{Bloc} \cite{bloc} architekturu). Já se ve své aplikaci držel architektury Model-View-ViewModel, jelikož s~ní mám z~minulosti zkušenosti a~pro moji malou aplikaci je plně dostačující. 
 
 Model-View-ViewModel (zkráceně MVVM) je architektura, která odděluje v~aplikaci uživatelské rozhraní, logiku a datovou část \cite{mvvm}. Ve frameworku Flutter je velmi dobře podporována, jednak z~hlediska komponent frameworku, tak i oficiální dokumentace na architekturu odkazuje jako vhodný příklad návrhu aplikace. Rozdělení aplikace je do následujících tří detailněji popsaných celků.
 \begin{itemize}
@@ -312,12 +313,12 @@ Model-View-ViewModel (zkráceně MVVM) je architektura, která odděluje v~aplik
   \item \textbf{ViewModel} je prostředníkem mezi View a Model. Do View poskytuje data a případně je upraví do vhodného formátu pro zobrazení. Reaguje na zprávy od View, které představují vstupy uživatele. Vlákno pro uživatelské rozhraní by neměl blokovat, zlepší se tím uživatelský zážitek.
 \end{itemize}
 
-V~mé konkrétní implementaci je kód strukturován do složek podle MVVM architektury -- \kiinlinecode{}{;}{model}, \kiinlinecode{}{;}{view} a \kiinlinecode{}{;}{view_model}. Ve \kiinlinecode{}{;}{view} je jemnější rozdělení na obrazovky \kiinlinecode{}{;}{screens} a jednotlivé widgety \kiinlinecode{}{;}{widgets}. Dále je v~projektu i složka \kiinlinecode{}{;}{repository} pro databázi, složka \kiinlinecode{}{;}{utils} pro jednoduché funkce používané skrz projektem (převod kódu ikony na Ikonu, zkrášlení číselného formátu a další) a složka \kiinlinecode{}{;}{theme} spravuje vizuální téma aplikace.
+V~mé konkrétní implementaci je kód strukturován do složek podle MVVM architektury -- \kiinlinecode{}{;}{model}, \kiinlinecode{}{;}{repository}, \kiinlinecode{}{;}{view} a \kiinlinecode{}{;}{view_model}. Ve \kiinlinecode{}{;}{view} je jemnější rozdělení na obrazovky \kiinlinecode{}{;}{screens} a jednotlivé widgety \kiinlinecode{}{;}{widgets}. Složka \kiinlinecode{}{;}{repository} slouží pro databázi a~operace nad ní. Složka \kiinlinecode{}{;}{utils} má v~sobě definované jednoduché funkce používané napříč projektem (převod kódu ikony na Ikonu, zkrášlení číselného formátu a další) a~složka \kiinlinecode{}{;}{theme} spravuje vizuální téma aplikace.
 
 \subsection{Uchovávání stavu}
-Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité pro uživatelský komfort. Běžně se uživatel překlikne nebo přeskakuje mezi obrazovkami a není žádoucí, aby po každé byla obrazovka ve výchozím stavu (např. aby bylo nutné opět scrollovat v~seznamu). Použití GoRouter za programátora řeší i tento problém. Není nutné nic nastavovat a stačí řídit se dokumentací GoRouter. Po zavedení do aplikace již uchování stavů funguje přesně tak, jak je pro uživatelský komfort vhodné. V~první řade bylo nutné vytvořit aplikaci konstruktorem ~\kiinlinecode{}{;}{MaterialApp.router}. Do parametru \kiinlinecode{}{;}{_router} jsem vložil konfiguraci GoRouter (viz kód \ref{gorouter-code}). V~konfiguraci je uvedena cesta a obrazovka, která se při jejím zadání zobrazí.
+Uchování stavu jednotlivých obrazovek a jiných prvků je velmi důležité pro uživatelský komfort. Běžně se uživatel překlikne nebo přeskakuje mezi obrazovkami a není žádoucí, aby po každé byla obrazovka ve výchozím stavu (např. aby bylo nutné opět scrollovat v~seznamu). Použití GoRouter za programátora řeší i tento problém. Není nutné nic nastavovat a stačí řídit se dokumentací GoRouter. Po zavedení do aplikace již uchování stavů funguje přesně tak, jak je pro uživatelský komfort vhodné. V~první řade bylo nutné vytvořit aplikaci konstruktorem ~\kiinlinecode{}{;}{MaterialApp.router}. Do parametru \kiinlinecode{}{;}{_router} jsem vložil konfiguraci GoRouter (viz \hyperref[code:gorouter]{Zdrojový kód \ref{code:gorouter}}). V~konfiguraci je uvedena cesta a obrazovka, která se při jejím zadání zobrazí.
 
-\begin{kicode}{csharp}{gorouter-code}{Ukázka použití GoRouter}
+\begin{kicode}{csharp}{code:gorouter}{Ukázka použití GoRouter}
   // GoRouter konfigurace
   final _router = GoRouter(
     routes: [
@@ -361,7 +362,7 @@ Framework Flutter poskytuje komponenty vhodné pro responzivní design, ale na p
 \end{figure}
 
 \subsection{Vizuální část aplikace}
-Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v~aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva v~barevném tématu a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:appicon]{Obrázek \ref{fig:appicon}}) byla vytvořena v~nástroji Figma. Byly v~ní použity ikony z~Google Fonts. Jako font aplikace jsem zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design, ale je více zaoblený. Fonty jsou vidět na \hyperref[fig:font]{Obrázku \ref{fig:font}}. 
+Vizuální část aplikace je z~pohledu uživatele velmi důležitá. Řadí se do ní barvy v~aplikaci, ikona aplikace, použité fonty atd. Primární barvou aplikace jsem zvolil tmavě tyrkysovou. Je nastavená jako výchozí barva pro barevné téma a použil jsem ji i pro ikonu aplikace. Ikona aplikace (viz \hyperref[fig:appicon]{Obrázek \ref{fig:appicon}}) byla vytvořena v~nástroji Figma. Byly v~ní použity ikony z~Google Fonts. Jako font aplikace jsem zvolil font \textit{Poppins}, který je podobný doporučenému fontu \textit{Roboto} ze systému Material Design, ale je více zaoblený. Fonty jsou vidět na \hyperref[fig:font]{Obrázku \ref{fig:font}}. 
 
 \begin{figure}
   \centering
@@ -389,11 +390,11 @@ Tvorba aplikace oproti návrhu místy přinese neplánované komplikace, které 
     \caption{Komponenta BottomSheet -- převzato z~\cite{m3}}
     \label{fig:bottomsheet}
   \end{figure}
-  \item \textbf{Odstranění kategorií či měn} přináší navazující problém, jak naložit s~transakcemi, které mají danou měnu nebo kategorii přiřazenou. Existují dvě možná řešení -- navázané transakce přenést pod jinou kategorii/měnu podle volby uživatele nebo navázané transakce odstranit. Z~hlediska pohodlnosti jsem zvolil možnost druhou, že dané transakce se spolu s~vybranou kategorií/měnou smažou.
+  \item \textbf{Odstranění kategorií či měn} přináší navazující problém, jak naložit s~transakcemi, které mají danou měnu nebo kategorii přiřazenou. Existují dvě možná řešení -- navázané transakce přenést pod jinou kategorii/měnu podle volby uživatele nebo navázané transakce odstranit. Kvůli jednodušší implementaci jsem zvolil druhou možnost.
 \end{itemize}
 
 \section{Uživatelská příručka}
-Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systém Android verze 5.0 a vyšší a Windows 10 a vyšší se zárukou bezproblémové funkčnosti podle návodu. Pro operační systémy macOS a Linux je nutné aplikaci nejdříve sestavit a následně nainstalovat (tento postup je ponechán na zdatném uživateli). V návodu jsou uvedeny jen ony dvě platformy z~důvodu testování. 
+Aplikaci Budget Buddy pro správu financí lze nainstalovat na operační systém Android verze 5.0 a vyšší a Windows 10 a vyšší se zárukou bezproblémové funkčnosti podle návodu. Pro operační systémy iOS, macOS a Linux je nutné aplikaci nejdříve sestavit a následně nainstalovat (tento postup je ponechán na zdatném uživateli). V návodu jsou uvedeny jen ony dvě platformy z~důvodu testování. 
 
 \subsection{První spuštění}
 Při prvním spuštění se zobrazí rovnou úvodní obrazovka \textit{Dashboard}. Není nutné se přihlašovat, aplikace je nyní určena pouze pro jednoho uživatele a běží lokálně. Pro první spuštění jsou předpřipravené základní kategorie transakcí a nejběžnější měny (obojí je možno upravit). 
@@ -431,7 +432,7 @@ Vyplněnou transakci je nutné tlačítkem \textit{Save Transaction} uložit jin
 \end{figure}
 
 \subsection{Zobrazení a úprava transakcí}
-Výpis transakcí a jejich úprava se provádí na druhé obrazovce s~názvem \textit{Transactions}. Výpis je proveden v~seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka (viz \hyperref[fig:dashboard-transactions-mobile]{Obrázek \ref{fig:dashboard-transactions-mobile}}). Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit (viz \hyperref[fig:transactions-edit]{Obrázek \ref{fig:transactions-edit}} vlevo), případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby (viz \hyperref[fig:transactions-edit]{Obrázek \ref{fig:transactions-edit}} vpravo). Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k~čemuž slouží prostřední tlačítko v~horní části zobrazující aktuálně zvolené období. Šipky na stranách umožňují přesouvat se o~zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřazené (kategorie, měna, typ atd.). Obrazovka s~výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s~ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Aktivní filtry znázorňuje červený odznak u~tlačítka filtrace.
+Výpis transakcí a jejich úprava se provádí na druhé obrazovce s~názvem \textit{Transactions}. Výpis je proveden v~seznamu, kde je přímo vidět kategorie, měna, částka, typ, datum a případná poznámka (viz \hyperref[fig:dashboard-transactions-mobile]{Obrázek \ref{fig:dashboard-transactions-mobile}}). Po kliknutí na transakci se objeví dialogové okno a je možné všechny parametry transakce upravit (viz \hyperref[fig:transactions-edit]{Obrázek \ref{fig:transactions-edit}} vlevo), případně transakci odstranit. Transakce je možné filtrovat dvěma způsoby (viz \hyperref[fig:transactions-edit]{Obrázek \ref{fig:transactions-edit}} vpravo). Můžeme nechat zobrazit jen transakce ve specifickém období (den, týden, měsíc, rok či libovolný rozsah), k~čemuž slouží prostřední tlačítko v~horní části zobrazující aktuálně zvolené období. Šipky na stranách umožňují přesouvat se o~zvolené období dozadu či dopředu. Dále můžeme vybírat ze všech parametrů, které jsou transakci přiřazené (kategorie, měna, typ atd.). Obrazovka s~výběrem filtrů se otevře při stisknutí tlačítka \textit{Filter} s~ikonou trychtýře. Při použití více filtrů se transakce zobrazí ve výpisu pokud splňuje alespoň jednu podmínku. Zvolené filtry je nutné potvrdit tlačítkem \textit{Apply filters}. Aktivní filtry znázorňuje červený odznak u~tlačítka filtrace.
 
 \begin{figure}
   \centering
@@ -454,7 +455,7 @@ Výpis transakcí a jejich úprava se provádí na druhé obrazovce s~názvem \t
 \subsection{Využití reportů}
 Grafy a důležité číselné údaje se nachází na obrazovce \textit{Reports} (viz \hyperref[fig:reports]{Obrázek \ref{fig:reports}}). Je zde na výběr z~pěti přednastavených možností. Které údaje chce uživatel vidět se dá nastavit tlačítkem \textit{Manage reports} pod posledním reportem. Na výběr je z~pěti možností:
 \begin{itemize}
-  \item \textbf{Most spent categories} -- zobrazí sloupcový graf s~pěti kategoriemi, ve~kterých je největší útrata ve~zvoleném období.
+  \item \textbf{Top categories} -- zobrazí sloupcový graf s~pěti kategoriemi, ve~kterých je největší útrata ve~zvoleném období.
   \item \textbf{Spent during time} -- zobrazí plošný graf s~vývojem útraty v~průběhu daného období. Graf je interaktivní a při najetí pohybu kurzorem v~grafu se zobrazí hodnota pro konkrétní datum.
   \item \textbf{Interesting numbers} -- zobrazí tři buňky se zajímavými hodnotami ze zvoleného období. Konkrétně se jedná o~procento ušetřených peněz z~přijmu, o~průměrnou denní útratu a o~procento transakcí v~jiné měně, než českých korunách. Podle velikosti zařízení jsou buňky řazeny ve sloupci nebo řádku.
   \item \textbf{Category ratio} -- zobrazí dvě buňky s~kruhovými grafy. První zobrazuje poměr kategorií v~příjmech a druhý poměr kategorií ve~výdajích. Při použití na největším zařízení se zobrazí interaktivní legenda.
@@ -477,12 +478,12 @@ Přidávat, mazat i upravovat kategorie je možné v~záložce \textit{Categorie
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{images/categories-editor-large.png}
-  \caption{Obrazovka \textit{Categories editor} na desktopovém zařízení}
+  \caption{Editor kategorií na desktopovém zařízení}
   \label{fig:categories-editor}
 \end{figure}
 
 \subsubsection{Přizpůsobení měn}
-Po kliknutí na kartu \textit{Currency settings} se rozbalí seznam všech měn. V~seznamu je vidět název a zkratka měny. Na pravé straně každé měny je tlačítko \textit{Edit}, které vyvolá dialogové okno pro editaci měny. V~něm je možné zvolit název, směnný kurz a zkratku. Doporučený formát pro zkratku je  ISO~4217 \cite{iso4217}, jelikož zaručuje kompatibilitu s~aktualizací kurzu z~České~národní ~banky. Příklady formátu jsou USD pro dolar, CZK pro Českou korunu nebo EUR pro euro. Aktualizace směnného kurzu se provádí tlačítkem i ikonou šipek v~kruhu. Směnné kurzy jsou čerpány ze stránek České~národní~banky \cite{cnb-kurzy}. Změna kurzu nemá vliv na v~minulosti uložené transakce.
+Po kliknutí na kartu \textit{Currency settings} se rozbalí seznam všech měn. V~seznamu je vidět název a zkratka měny. Na pravé straně každé měny je tlačítko \textit{Edit}, které vyvolá dialogové okno pro editaci měny. V~něm je možné zvolit název, směnný kurz a zkratku. Doporučený formát pro zkratku je  ISO~4217 \cite{iso4217}, jelikož zaručuje kompatibilitu s~aktualizací kurzu z~České~národní ~banky. Příklady formátu jsou USD pro americký dolar, CZK pro českou korunu nebo EUR pro euro. Aktualizace směnného kurzu se provádí tlačítkem i ikonou šipek v~kruhu. Směnné kurzy jsou čerpány ze stránek České~národní~banky \cite{cnb-kurzy}. Změna kurzu nemá vliv na v~minulosti uložené transakce.
 
 \subsubsection{Přizpůsobení vzhledu}
 Vzhled je možno přizpůsobit rozbalením karty \textit{Color theme}. Výběr je ze sedmi barev, které jsou pojmenované i s~náhledem konkrétní barvy. Konkrétní barvy reprezentují jednotlivá barevná témata (jedna barva je základem tématu a z~ní se odvíjí barvy ostatní). Výběr tohoto tématu změní celý nádech aplikace od výrazných barev až po jemné barvy v~pozadí. Změna proběhne ihned a není nutné ji potvrzovat.
@@ -515,15 +516,15 @@ Osobně si myslím, že se nikdy nedá o~softwaru prohlásit, že by nepotřebov
 \end{enumerate}
 
 \begin{kiconclusions}
-Vyvinutá multiplatformní aplikace Budget Buddy umožňuje jednoduchou správu osobních financí. Snažil jsem se o~vylepšení nedostatků existujících aplikací a zjednodušení celého procesu pro uživatele. Multiplatformnost dává uživateli možnost zvolit si oblíbené zařízení pro užívání. Použití systému Material Design jinde než na domovské platformně Android považuji za korektní, jelikož aplikace od společnosti Google jsou velmi rozšířené a tento systém užívají na různých platformách.
+Vyvinutá multiplatformní aplikace Budget Buddy umožňuje jednoduchou správu osobních financí. Snažil jsem se o~vylepšení nedostatků existujících aplikací a~zjednodušení celého procesu pro uživatele. Multiplatformnost dává uživateli možnost zvolit si libovolné zařízení pro užívání. Použití systému Material Design jinde než na domovské platformně Android považuji za korektní, jelikož aplikace od společnosti Google jsou velmi rozšířené a tento systém užívají na různých platformách.
 
 Pro nasazení aplikace do produkce by bylo vhodné umožnit synchronizaci dat mezi zařízeními skrz server. Tím by se vyřešil problém s~přístupem k~datům na různých zařízeních. Tento krok by vyžadoval i zavedení uživatelských účtů a~přihlašování.
 \end{kiconclusions}
 
 \begin{kiconclusions}[english]
-The developed cross-platform application, Budget Buddy, allows for easy management of personal finances. I~aimed to improve the shortcomings of existing applications and simplify the entire process for the user. Cross-platform support gives the user the ability to choose their preferred device for use. The use of the Material Design system on platforms other than the home Android platform Android is considered appropriate, as Google’s applications are widely used across different platforms and utilize this system.
+The developed cross-platform application, Budget Buddy, allows for easy management of personal finances. I~aimed to improve the shortcomings of existing applications and simplify the entire process for the user. Cross-platform support gives the user the ability to choose their preferred device for use. The use of the Material Design system on platforms other than the home Android platform is considered appropriate, as Google’s applications are widely used across different platforms and utilize this system.
 
-For deployment of the application to production, it would be advisable to enable data synchronization between devices through a server. This would solve the issue of accessing data across different devices. This step would also require the introduction of user accounts and login functionality.
+For deployment of the application to production, it would be useful to enable data synchronization between devices through a server. This would solve the issue of accessing data across different devices. This step would also require the introduction of user accounts and login functionality.
 \end{kiconclusions}
 
 \appendix
@@ -533,15 +534,14 @@ Součástí textu práce jsou i elektronická data v~systému Katedry informatik
 \begin{description}
 
   \item[\texttt{src/}] \hfill \\
-    Adresář obsahující soubory pro instalaci na platformy Android a Windows.
-  \item[\texttt{bin/}] \hfill \\
     Adresář obsahující zdrojový kód aplikace. Jde o~celý Flutter projekt.
+  \item[\texttt{bin/}] \hfill \\
+    Adresář obsahující soubory pro instalaci na platformy Android a Windows.
   \item[\texttt{text/}] \hfill \\
     Adresář s~textem práce ve formátu PDF, vytvořený s~použitím
     závazného stylu KI PřF UP v~Olomouci pro závěrečné práce, včetně
     všech (textových) příloh, a~všechny soubory potřebné pro
-    bezproblémové vytvoření PDF dokumentu textu (případně v~ZIP
-    archivu), tj.~zdrojový text textu a příloh, vložené obrázky, apod.
+    bezproblémové vytvoření PDF dokumentu textu, tj.~zdrojový text textu a příloh, vložené obrázky, apod.
   \item[\texttt{README.txt}] \hfill \\
     Textový soubor s~instrukcemi pro instalaci a spuštění aplikace.
 

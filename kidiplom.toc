@@ -6,10 +6,10 @@
 \contentsline {subsection}{\numberline {2.2}Cashew}{9}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Wallet}{10}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Money Manager Ex}{10}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Homebank}{13}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Použité technologie}{13}{section.3}%
+\contentsline {subsection}{\numberline {2.5}Homebank}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Použité technologie}{14}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dart}{14}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Flutter}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Flutter}{14}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Material Design}{15}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}SQLite}{16}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Balíčky}{16}{subsection.3.5}%
@@ -17,18 +17,18 @@
 \contentsline {subsection}{\numberline {4.1}Architektura aplikace}{18}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Uchovávání stavu}{19}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Implementace responzivního designu}{19}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Vizuální část aplikace}{20}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Vizuální část aplikace}{22}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Zajímavosti při tvorbě práce}{22}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Uživatelská příručka}{22}{section.5}%
+\contentsline {section}{\numberline {5}Uživatelská příručka}{23}{section.5}%
 \contentsline {subsection}{\numberline {5.1}První spuštění}{23}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Úvodní obrazovka}{23}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Přidání transakce}{23}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Zobrazení a úprava transakcí}{24}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Využití reportů}{25}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.2}Úvodní obrazovka}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Přidání transakce}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Zobrazení a úprava transakcí}{25}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Využití reportů}{26}{subsection.5.5}%
 \contentsline {subsection}{\numberline {5.6}Nastavení aplikace}{28}{subsection.5.6}%
-\contentsline {subsubsection}{\numberline {5.6.1}Úprava kategorií}{28}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1}Úprava kategorií}{29}{subsubsection.5.6.1}%
 \contentsline {subsubsection}{\numberline {5.6.2}Přizpůsobení měn}{29}{subsubsection.5.6.2}%
-\contentsline {subsubsection}{\numberline {5.6.3}Přizpůsobení vzhledu}{29}{subsubsection.5.6.3}%
+\contentsline {subsubsection}{\numberline {5.6.3}Přizpůsobení vzhledu}{30}{subsubsection.5.6.3}%
 \contentsline {subsection}{\numberline {5.7}Export dat}{30}{subsection.5.7}%
 \contentsline {section}{\numberline {6}Možná rozšíření aplikace}{30}{section.6}%
 \contentsline {section}{Z\'av\v er}{33}{section*.3}%
@@ -39,6 +39,8 @@
 \babel@toc {czech}{}\relax 
 \contentsline {section}{\numberline {A}Obsah elektronických dat}{35}{appendix.A}%
 \contentsline {section}{Literatura}{36}{section*.7}%
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {english}{}\relax 

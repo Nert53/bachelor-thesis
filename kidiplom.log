@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  28 APR 2025 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  1 MAY 2025 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,198 +1348,195 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 48.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [8
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 151.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 151.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 151.
+ [8
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/onemoney1.PNG, id=182, 1183.42125pt x 2422.04875pt>
+<images/onemoney1.PNG, id=188, 1183.42125pt x 2422.04875pt>
 File: images/onemoney1.PNG Graphic file (type png)
 <use images/onemoney1.PNG>
 Package pdftex.def Info: images/onemoney1.PNG  used on input line 171.
 (pdftex.def)             Requested size: 143.32791pt x 293.3312pt.
-<images/onemoney2.PNG, id=183, 1183.42125pt x 2414.01875pt>
+<images/onemoney2.PNG, id=189, 1183.42125pt x 2414.01875pt>
 File: images/onemoney2.PNG Graphic file (type png)
 <use images/onemoney2.PNG>
 Package pdftex.def Info: images/onemoney2.PNG  used on input line 173.
 (pdftex.def)             Requested size: 143.32791pt x 292.3587pt.
-<images/cashew2.PNG, id=189, 1183.42125pt x 2464.20625pt>
+<images/cashew2.PNG, id=195, 1183.42125pt x 2464.20625pt>
 File: images/cashew2.PNG Graphic file (type png)
 <use images/cashew2.PNG>
 Package pdftex.def Info: images/cashew2.PNG  used on input line 183.
 (pdftex.def)             Requested size: 143.32791pt x 298.43684pt.
-<images/cashew1.PNG, id=190, 1183.42125pt x 2428.07124pt>
+<images/cashew1.PNG, id=196, 1183.42125pt x 2428.07124pt>
 File: images/cashew1.PNG Graphic file (type png)
 <use images/cashew1.PNG>
 Package pdftex.def Info: images/cashew1.PNG  used on input line 185.
 (pdftex.def)             Requested size: 143.32791pt x 294.06058pt.
  [9]
-<images/wallet1.PNG, id=199, 1181.41376pt x 2415.0225pt>
+<images/wallet1.PNG, id=205, 1181.41376pt x 2415.0225pt>
 File: images/wallet1.PNG Graphic file (type png)
 <use images/wallet1.PNG>
 Package pdftex.def Info: images/wallet1.PNG  used on input line 195.
 (pdftex.def)             Requested size: 143.32791pt x 292.95932pt.
-<images/wallet2.PNG, id=200, 1183.42125pt x 2443.1275pt>
+<images/wallet2.PNG, id=206, 1183.42125pt x 2443.1275pt>
 File: images/wallet2.PNG Graphic file (type png)
 <use images/wallet2.PNG>
 Package pdftex.def Info: images/wallet2.PNG  used on input line 197.
 (pdftex.def)             Requested size: 143.32791pt x 295.88402pt.
-<images/manager-ex.png, id=204, 1445.4pt x 776.14969pt>
+<images/manager-ex.png, id=210, 1445.4pt x 776.14969pt>
 File: images/manager-ex.png Graphic file (type png)
 <use images/manager-ex.png>
 Package pdftex.def Info: images/manager-ex.png  used on input line 207.
 (pdftex.def)             Requested size: 409.50119pt x 219.89038pt.
-
+ [10 <./images/onemoney1.PNG> <./images/onemoney2.PNG>] [11 <./images/cashew2.P
+NG> <./images/cashew1.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-[10 <./images/onemoney1.PNG> <./images/onemoney2.PNG>] [11 <./images/cashew2.PN
-G> <./images/cashew1.PNG>] [12 <./images/wallet1.PNG> <./images/wallet2.PNG> <.
-/images/manager-ex.png>]
-<images/homebank.png, id=224, 1445.4pt x 777.65532pt>
+<images/homebank.png, id=226, 1445.4pt x 777.65532pt>
 File: images/homebank.png Graphic file (type png)
 <use images/homebank.png>
 Package pdftex.def Info: images/homebank.png  used on input line 217.
 (pdftex.def)             Requested size: 409.50119pt x 220.31694pt.
- [13 <./images/homebank.png>]
+[12 <./images/wallet1.PNG> <./images/wallet2.PNG>] [13 <./images/manager-ex.png
+> <./images/homebank.png>]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 23
 3.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 235.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 235.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 235.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 237.
- [14{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [15]
-<images/skeletonizer.png, id=274, 3117.6475pt x 2490.30376pt>
+ [14{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [15] [16]
+<images/skeletonizer.png, id=291, 3117.6475pt x 2490.30376pt>
 File: images/skeletonizer.png Graphic file (type png)
 <use images/skeletonizer.png>
-Package pdftex.def Info: images/skeletonizer.png  used on input line 278.
+Package pdftex.def Info: images/skeletonizer.png  used on input line 279.
 (pdftex.def)             Requested size: 311.78302pt x 249.04497pt.
- [16]
-<images/snackbar.png, id=289, 678.535pt x 301.125pt>
+<images/snackbar.png, id=296, 678.535pt x 301.125pt>
 File: images/snackbar.png Graphic file (type png)
 <use images/snackbar.png>
-Package pdftex.def Info: images/snackbar.png  used on input line 287.
+Package pdftex.def Info: images/snackbar.png  used on input line 288.
 (pdftex.def)             Requested size: 307.12589pt x 136.29529pt.
- [17 <./images/skeletonizer.png> <./images/snackbar.png>] [18] [19]
-<images/navigation.png, id=323, 1357.07pt x 602.25pt>
+ [17 <./images/skeletonizer.png>] [18 <./images/snackbar.png>] [19]
+<images/navigation.png, id=334, 1357.07pt x 602.25pt>
 File: images/navigation.png Graphic file (type png)
 <use images/navigation.png>
-Package pdftex.def Info: images/navigation.png  used on input line 351.
+Package pdftex.def Info: images/navigation.png  used on input line 352.
 (pdftex.def)             Requested size: 409.50119pt x 181.724pt.
-<images/canonical-layout.png, id=325, 1357.07pt x 602.25pt>
+<images/canonical-layout.png, id=336, 1357.07pt x 602.25pt>
 File: images/canonical-layout.png Graphic file (type png)
 <use images/canonical-layout.png>
-Package pdftex.def Info: images/canonical-layout.png  used on input line 358.
+Package pdftex.def Info: images/canonical-layout.png  used on input line 359.
 (pdftex.def)             Requested size: 409.50119pt x 181.724pt.
-
+ [20] [21 <./images/navigation.png> <./images/canonical-layout.png>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/app-icon.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/app-icon.pdf, id=331, 1027.84pt x 1027.84pt>
+<images/app-icon.pdf, id=371, 1027.84pt x 1027.84pt>
 File: images/app-icon.pdf Graphic file (type pdf)
 <use images/app-icon.pdf>
-Package pdftex.def Info: images/app-icon.pdf  used on input line 368.
+Package pdftex.def Info: images/app-icon.pdf  used on input line 369.
 (pdftex.def)             Requested size: 143.32791pt x 143.31633pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/font-comparision.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/font-comparision.pdf, id=332, 1263.72125pt x 117.43875pt>
+<images/font-comparision.pdf, id=372, 1263.72125pt x 117.43875pt>
 File: images/font-comparision.pdf Graphic file (type pdf)
 <use images/font-comparision.pdf>
-Package pdftex.def Info: images/font-comparision.pdf  used on input line 375.
+Package pdftex.def Info: images/font-comparision.pdf  used on input line 376.
 (pdftex.def)             Requested size: 409.50119pt x 38.05603pt.
-[20] [21 <./images/navigation.png> <./images/canonical-layout.png> <./images/ap
-p-icon.pdf>]
-<images/bottom-sheet.png, id=367, 678.535pt x 519.44063pt>
+<images/bottom-sheet.png, id=376, 678.535pt x 519.44063pt>
 File: images/bottom-sheet.png Graphic file (type png)
 <use images/bottom-sheet.png>
-Package pdftex.def Info: images/bottom-sheet.png  used on input line 388.
+Package pdftex.def Info: images/bottom-sheet.png  used on input line 389.
 (pdftex.def)             Requested size: 286.64958pt x 219.43967pt.
- [22 <./images/font-comparision.pdf>]
-<images/dashboard-large.png, id=495, 1445.4pt x 758.835pt>
+[22 <./images/app-icon.pdf> <./images/font-comparision.pdf>] [23 <./images/bott
+om-sheet.png>]
+<images/dashboard-large.png, id=511, 1445.4pt x 758.835pt>
 File: images/dashboard-large.png Graphic file (type png)
 <use images/dashboard-large.png>
-Package pdftex.def Info: images/dashboard-large.png  used on input line 406.
+Package pdftex.def Info: images/dashboard-large.png  used on input line 407.
 (pdftex.def)             Requested size: 409.50119pt x 214.98497pt.
- [23 <./images/bottom-sheet.png>]
-<images/add-transaction-large.png, id=503, 684.30656pt x 385.44pt>
+ [24 <./images/dashboard-large.png>]
+<images/add-transaction-large.png, id=519, 684.30656pt x 385.44pt>
 File: images/add-transaction-large.png Graphic file (type png)
 <use images/add-transaction-large.png>
 Package pdftex.def Info: images/add-transaction-large.png  used on input line 4
-26.
+27.
 (pdftex.def)             Requested size: 282.55681pt x 159.15475pt.
-<images/add-transaction-mobile.png, id=504, 1084.05pt x 2076.75874pt>
+<images/add-transaction-mobile.png, id=520, 1084.05pt x 2076.75874pt>
 File: images/add-transaction-mobile.png Graphic file (type png)
 <use images/add-transaction-mobile.png>
 Package pdftex.def Info: images/add-transaction-mobile.png  used on input line 
-428.
+429.
 (pdftex.def)             Requested size: 114.65982pt x 219.63469pt.
- [24 <./images/dashboard-large.png>]
-<images/dashboard-mobile.png, id=516, 1084.05pt x 2329.70375pt>
+ [25 <./images/add-transaction-large.png> <./images/add-transaction-mobile.png>
+]
+<images/dashboard-mobile.png, id=533, 1084.05pt x 2312.64pt>
 File: images/dashboard-mobile.png Graphic file (type png)
 <use images/dashboard-mobile.png>
-Package pdftex.def Info: images/dashboard-mobile.png  used on input line 438.
-(pdftex.def)             Requested size: 184.27428pt x 396.00885pt.
-<images/transactions-mobile.png, id=517, 1084.05pt x 2312.64pt>
+Package pdftex.def Info: images/dashboard-mobile.png  used on input line 439.
+(pdftex.def)             Requested size: 184.27428pt x 393.10832pt.
+<images/transactions-mobile.png, id=534, 1084.05pt x 2312.64pt>
 File: images/transactions-mobile.png Graphic file (type png)
 <use images/transactions-mobile.png>
-Package pdftex.def Info: images/transactions-mobile.png  used on input line 440
+Package pdftex.def Info: images/transactions-mobile.png  used on input line 441
 .
 (pdftex.def)             Requested size: 184.27428pt x 393.10832pt.
-<images/edit-transaction-mobile.png, id=518, 1084.05pt x 2321.67375pt>
+<images/edit-transaction-mobile.png, id=535, 1084.05pt x 2321.67375pt>
 File: images/edit-transaction-mobile.png Graphic file (type png)
 <use images/edit-transaction-mobile.png>
 Package pdftex.def Info: images/edit-transaction-mobile.png  used on input line
- 447.
+ 448.
 (pdftex.def)             Requested size: 184.27428pt x 394.64389pt.
-<images/filters-mobile.png, id=519, 1084.05pt x 2325.68875pt>
+<images/filters-mobile.png, id=536, 1084.05pt x 2325.68875pt>
 File: images/filters-mobile.png Graphic file (type png)
 <use images/filters-mobile.png>
-Package pdftex.def Info: images/filters-mobile.png  used on input line 449.
+Package pdftex.def Info: images/filters-mobile.png  used on input line 450.
 (pdftex.def)             Requested size: 184.27428pt x 395.32637pt.
-
-Overfull \hbox (0.67523pt too wide) in paragraph at lines 457--458
-[]\T1/lmr/bx/n/12 Most spent ca-te-go-ries \T1/lmr/m/n/12 -- zob-razí sloup-cov
-ý graf s p¥ti ka-te-go-ri-emi, ve kte-
- []
-
-[25 <./images/add-transaction-large.png> <./images/add-transaction-mobile.png>]
-[26 <./images/dashboard-mobile.png> <./images/transactions-mobile.png>]
-[27 <./images/edit-transaction-mobile.png> <./images/filters-mobile.png>]
-<images/reports-large.png, id=536, 1428.83812pt x 905.63344pt>
+ [26 <./images/dashboard-mobile.png> <./images/transactions-mobile.png>] [27 <.
+/images/edit-transaction-mobile.png> <./images/filters-mobile.png>]
+<images/reports-large.png, id=547, 1428.83812pt x 905.63344pt>
 File: images/reports-large.png Graphic file (type png)
 <use images/reports-large.png>
-Package pdftex.def Info: images/reports-large.png  used on input line 466.
+Package pdftex.def Info: images/reports-large.png  used on input line 467.
 (pdftex.def)             Requested size: 409.50119pt x 259.54536pt.
-
-[28 <./images/reports-large.png>]
-<images/categories-editor-large.png, id=546, 1083.29718pt x 679.03688pt>
+ [28 <./images/reports-large.png>]
+<images/categories-editor-large.png, id=557, 1083.29718pt x 679.03688pt>
 File: images/categories-editor-large.png Graphic file (type png)
 <use images/categories-editor-large.png>
 Package pdftex.def Info: images/categories-editor-large.png  used on input line
- 479.
+ 480.
 (pdftex.def)             Requested size: 409.50119pt x 256.67937pt.
-<images/settings-large.png, id=549, 1215.03937pt x 767.11594pt>
+
+[29 <./images/categories-editor-large.png>]
+<images/settings-large.png, id=567, 1215.03937pt x 767.11594pt>
 File: images/settings-large.png Graphic file (type png)
 <use images/settings-large.png>
-Package pdftex.def Info: images/settings-large.png  used on input line 492.
+Package pdftex.def Info: images/settings-large.png  used on input line 493.
 (pdftex.def)             Requested size: 409.50119pt x 258.53345pt.
- [29 <./images/categories-editor-large.png>]
-<images/export-mobile.png, id=559, 1084.05pt x 2325.68875pt>
+<images/export-mobile.png, id=570, 1084.05pt x 2325.68875pt>
 File: images/export-mobile.png Graphic file (type png)
 <use images/export-mobile.png>
-Package pdftex.def Info: images/export-mobile.png  used on input line 502.
+Package pdftex.def Info: images/export-mobile.png  used on input line 503.
 (pdftex.def)             Requested size: 184.27428pt x 395.32637pt.
+ [30 <./images/settings-large.png>]
+[31 <./images/export-mobile.png>] [32]
+Overfull \hbox (0.84383pt too wide) in paragraph at lines 519--520
+\T1/lmr/m/n/12 osob-ních fi-nancí. Sna-ºil jsem se o vy-lep-²ení ne-do-statk· e
+xis-tu-jí-cích apli-kací a zjed-
+ []
 
-[30 <./images/settings-large.png>] [31 <./images/export-mobile.png>] [32]
 [33
 
 ] [34
@@ -1547,6 +1544,10 @@ Package pdftex.def Info: images/export-mobile.png  used on input line 502.
 ] [35
 
 ]
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1616,13 +1617,13 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
+[36
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[36
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1655,15 +1656,18 @@ This document will not have a glossary.
 [37] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./kidiplom.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'kidiplom.run.xml'.
 \openout1 = `kidiplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30383 strings out of 476025
- 542663 string characters out of 5790017
- 1903388 words of memory out of 5000000
- 50112 multiletter control sequences out of 15000+600000
+ 30388 strings out of 476025
+ 542833 string characters out of 5790017
+ 1904388 words of memory out of 5000000
+ 50113 multiletter control sequences out of 15000+600000
  587610 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  126i,10n,120p,2606b,4442s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1677,10 +1681,10 @@ pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kidiplom.pdf (37 pages, 6854747 bytes).
+Output written on kidiplom.pdf (37 pages, 6856962 bytes).
 PDF statistics:
- 858 PDF objects out of 1000 (max. 8388607)
- 691 compressed objects within 7 object streams
- 161 named destinations out of 1000 (max. 500000)
+ 873 PDF objects out of 1000 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 165 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
